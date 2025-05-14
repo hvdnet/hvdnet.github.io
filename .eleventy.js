@@ -1,8 +1,12 @@
+import markdownIt from "markdown-it";
+import markdownItAttrs from "markdown-it-attrs";
+
 import path from "path";
 import * as sass from "sass";
 
 export default function (eleventyConfig) {
 
+  // SaaS Support
   eleventyConfig.addExtension("scss", {
     outputFileExtension: "css",
 
@@ -25,16 +29,27 @@ export default function (eleventyConfig) {
 
       // Map dependencies for incremental builds
       this.addDependencies(inputPath, result.loadedUrls);
+     
 
       return async (data) => {
         return result.css;
       };
     },
   });
-
   eleventyConfig.addTemplateFormats("scss")
 
+  // Static assets
   eleventyConfig.addPassthroughCopy("src/assets");
+
+
+  // markdown-it
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true,
+  };
+  const md = markdownIt(options).use(markdownItAttrs);
+  eleventyConfig.setLibrary("md", md);
 
   return {
     dir: {
@@ -42,7 +57,7 @@ export default function (eleventyConfig) {
       includes: "_includes",
       output: "dist",
     },
-    markdownTemplateEngine: "njk",
+    markdownTemplateEngine: false, // instead of "njk" for markdown-it to work
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk"
   };

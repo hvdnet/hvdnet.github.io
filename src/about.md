@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: About
+title: HVDNet About
 ---
 
 <h1>About</h1>
