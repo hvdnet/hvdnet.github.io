@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HVDNet About</title>
+    <title>HVDNet API</title>
     <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/slate/bootstrap.min.css" rel="stylesheet" />
     <link href="/assets/css/custom.css" rel="stylesheet" />
   </head>
@@ -46,10 +46,27 @@
 </nav>
 
     <main class="container mt-4">
-      <h1>About</h1>
-<p>This initiative is being lead by <a href="https://linkedin.com/in/pascal" target="_blank">Pascal Heus</a>, Data Lead at Postman and member of the CODATA <a href="https://cdif.codata.org/" target="_blank">Cross Domain Interoperability Framework (CDIF)</a> and <a href="https://codata.org/initiatives/task-groups/drum/" target="_blank">Digital Representation of Units of Measurement (DRUM)</a> working groups.</p>
-<p>The project is made possible by the technical and financial support of <a href="https://postman.com" target="_blank">Postman</a>, collaboration with <a href="https://codata.org" target="_blank">CODATA</a>, and our technology, strategic, and data partners.</p>
-<p>For more information, contact pascal.heus@postman.com  / pascal@codata.org</p> 
+      <h1>HVDNet API</h1>
+<h2>Documentation</h2>
+<ul>
+<li><a href="/resources/api/redoc">Redoc</a></li>
+<li><a href="/resources/api/scalar">Scalar</a></li>
+<li><a href="/resources/api/swagger">Swagger</a></li>
+</ul>
+<h2>Dataset services</h2>
+<p>A fundamental objective of the HVDNet API is to complement existing data API and underlying datasets with standards based metadata to align on FAIR and related best practices.</p>
+<p>The <code>/datasets</code> endpoints achieve this by converting metadata available from the back-end platforms into various specifications, including: ML Croissant, DCAT, DDI-Codebook, DDI-CDI, and <a href="http://schema.org">schema.org</a>.<br>
+This is not always ideal as metadata exposed by the is typically proprietary and sparse. Future versions will add knowledge inference services that will generate new metadata from the data and available<br>
+documentation. The current implementation is experimental, particularly for new or emerging specifications such as DDI-CDI and Croissant.</p>
+<p>In addition, the dataset services include a data-centric Postman Collection generator, which is used to populate public workspaces for various data publishers.</p>
+<p>A markdown generator is also included to produce both human and AI friendly documentation.</p>
+<p>At this time, these features are being implemented for the following platforms and public API:</p>
+<ul>
+<li><a href="https://www.tylertech.com/solutions/transformative-technology/data-insights" target="_blank">Socrata / Data Insights</a></li>
+<li><a href="https://www.richdataservices.com" target="_blank">MTNA Rich Data Service</a></li>
+<li><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank">U.S. Census Bureau API</a></li>
+</ul>
+<p>The <a href="https://www.highvaluedata.net/playground/datasets">Playground</a> web application to explore these services and their outputs.</p>
 
     </main>
     <footer class="footer bg-dark text-light py-4 mt-5">
