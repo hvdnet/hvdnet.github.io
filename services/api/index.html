@@ -24,6 +24,7 @@
           <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
             <li><a class="dropdown-item" href="/services/api/">API</a></li>
             <li><a class="dropdown-item" href="/services/apps/">Web Applications</a></li>
+            <li><a class="dropdown-item" href="/services/hosting/">Dataset Hosting</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -47,17 +48,48 @@
 
     <main class="container mt-4">
       <h1>HVDNet API</h1>
-<h2>Documentation</h2>
+<p>Our API is central to all our services.</p>
+<p>Its core objective is to streamline dataset discovery, access, and use through standards-based metadata, ensuring full alignment with FAIR principles and related best practices. It achieves this by applying a crucial standardization layer on top of existing APIs from various platforms and public services,</p>
+<p>A range of useful utility services are also being implemented to support the creation and use of machine actionable data and metadata.</p>
+<p>You can use our <a href="https://www.highvaluedata.net/playground" target="_blank">Playground</a> web application to explore/experiment with the API.</p>
+<p>Consult the documentation below for more information:</p>
 <ul>
 <li><a href="/resources/api/redoc">Redoc</a></li>
 <li><a href="/resources/api/scalar">Scalar</a></li>
 <li><a href="/resources/api/swagger">Swagger</a></li>
 </ul>
-<h2>Dataset services</h2>
-<p>A fundamental objective of the HVDNet API is to complement existing data API and underlying datasets with standards based metadata to align on FAIR and related best practices.</p>
-<p>The <code>/datasets</code> endpoints achieve this by converting metadata available from the back-end platforms into various specifications, including: ML Croissant, DCAT, DDI-Codebook, DDI-CDI, and <a href="http://schema.org">schema.org</a>.<br>
-This is not always ideal as metadata exposed by the is typically proprietary and sparse. Future versions will add knowledge inference services that will generate new metadata from the data and available<br>
-documentation. The current implementation is experimental, particularly for new or emerging specifications such as DDI-CDI and Croissant.</p>
+<h2 class="mt-4">Resource Identifiers</h2>
+<p>Uniquely identifying resources is always a challenge. While these may in some cases exists (e.g. DOI), this is not generally available for most high-value datasets and related entities.</p>
+<p>For the HVDNet API, we are using the following platform/service dependent schemes to identify servers, catalogs, and datasets:</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th>Platform</th>
+<th>Scheme</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MTNA RDS</td>
+<td><code>mtnards:&lt;server_id&gt;:&lt;catalog_id&gt;:&lt;dataset_id&gt;</code></td>
+<td><code>mtnards:rds.highvaluedata.net:us_anes:anes1948</code></td>
+</tr>
+<tr>
+<td>Socrata</td>
+<td><code>socrata:&lt;server_id&gt;:&lt;dataset_id&gt;</code></td>
+<td><code>socrata:data.calgary.ca:iahh-g8bj</code></td>
+</tr>
+<tr>
+<td>U.S. Census Bureau</td>
+<td><code>uscensus:api.census.gov:&lt;dataset_id&gt;</code></td>
+<td><code>uscensus:api.census.gov:&lt;dataset_id&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<div class="mt-4"/>
+<h2 class="mt-4">Datasets services</h2>
+<p>The <code>/datasets</code> endpoints generates standardized metadata based on the information available from the back-end platforms. This is not always ideal as metadata exposed by the is typically proprietary and sparse. Future versions will add knowledge inference services that will generate new metadata from the data and available documentation. The current implementation is experimental, particularly for new or emerging specifications such as DDI-CDI and Croissant.</p>
 <p>In addition, the dataset services include a data-centric Postman Collection generator, which is used to populate public workspaces for various data publishers.</p>
 <p>A markdown generator is also included to produce both human and AI friendly documentation.</p>
 <p>At this time, these features are being implemented for the following platforms and public API:</p>
@@ -71,7 +103,7 @@ documentation. The current implementation is experimental, particularly for new 
     </main>
     <footer class="footer bg-dark text-light py-4 mt-5">
   <div class="container text-center">
-    <p class="mb-0">&copy; 2025 High-Value Data Network. Built with Eleventy and Bootswatch.</p>
+    <p class="mb-0">&copy; 2025 High-Value Data Network.</p>
   </div>
 </footer>
 
