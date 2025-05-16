@@ -60,7 +60,6 @@ The following platforms and public APIs are currently actively being integrated 
 
 Our pipeline includes APIs from the <a href="https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information" target="_blank"> World Bank</a>, and other custodians.
 
-
 On the data cataloging side, we anticipate integration with:
 <ul>
 <li><a href="https://dataverse.org/" target="_blank">Dataverse</a></li>
@@ -69,7 +68,7 @@ On the data cataloging side, we anticipate integration with:
 </ul>
 
 <p>
-Many other options are available when it comes to providng access to data over APIs, such as <a href="https://www.dreamfactory.com/" target="_blank">Dreamfactory</a>,
+Many other options are available when it comes to providing access to data over APIs, such as <a href="https://www.dreamfactory.com/" target="_blank">Dreamfactory</a>,
  <a href="https://redivis.com/" target="_blank">Redivis</a>, or <a href="https://www.opendatasoft.com/" target="_blank">OpenDataSoft</a>.
  <a href="https://www.graphql.org/" target="_blank">GraphQL</a> further presents promising options, with several open source and commercial solutions available. 
 </p>
@@ -80,7 +79,21 @@ Many other options are available when it comes to providng access to data over A
 <details>
 <summary>What is Postman?</summary>
 <div class="card  p-2 rounded-2">
-ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis augue et turpis sagittis sodales. Proin consectetur odio sed erat egestas finibus eu vitae nunc. Fusce quis orci eu ex ornare commodo a a dui. Pellentesque lectus lacus, sollicitudin sed dolor vitae, accumsan pellentesque nulla.
+Postman stands as the industry's leading API platform, trusted by over 40 million developers worldwide. Founded in 2014, Postman has experienced remarkable growth, expanding to over 700 employees across the US, India, and remote locations, achieving a valuation of $5.6 billion.
+
+At its core, Postman provides a comprehensive set of tools designed to streamline the entire API lifecycle. This includes robust capabilities for API documentation, seamless collaboration among teams, rigorous testing, continuous monitoring, and the orchestration of complex API workflows, increasingly augmented by advanced AI features.
+
+Postman offers flexible plans to suit various needs, from a free tier for individual developers to Team and Enterprise plans for larger organizations.
+
+Critically, Postman is engineered to make APIs **FAIR (Findable, Accessible, Interoperable, and Reusable)**, embodying this commitment through its platform design and features. It serves as a powerful metadata and collaboration hub for APIs:
+
+* **Findable:** APIs become easily discoverable through features like the **Postman Discovery Network**, allowing developers to quickly locate and understand available APIs.
+* **Accessible:** Postman facilitates access through organized **Workspaces and Collections**, comprehensive **API documentation**, and direct interaction with APIs within the platform.
+* **Interoperable:** For teams and enterprises, Postman promotes interoperability through collaborative features, **Flows** for chaining requests, support for **API standards**, and robust **governance** capabilities that ensure consistency across an organization's API landscape.
+* **Reusable:** The platform encourages reusability by allowing developers to easily **fork** collections, integrate with version control systems like **GitHub**, and leverage a wide array of other integrations to incorporate APIs seamlessly into new projects.
+
+By unifying the API development experience, Postman empowers developers and organizations to build, manage, and consume APIs more efficiently and effectively, aligning with the principles of open, well-managed API ecosystems.
+
 </div>
 </details>
 

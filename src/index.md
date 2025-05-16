@@ -104,7 +104,7 @@ Our strategy is built upon the following pillars:
 
 <div class="row">
   <div class="col-md-6">
-    <div class="card text-white bg-primary mb-3">
+    <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body">
         <h5 class="card-title">Standards & Best Practices</h5>
         <p class="card-text">
@@ -113,7 +113,7 @@ Our strategy is built upon the following pillars:
             <li><a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank">W3C Data Cataloguing Vocabulary</a></li>
             <li><a href="https://ddialliance.org/ddi-codebook" target="_blank">DDI Codebook</a></li>
             <li><a href="https://ddialliance.org/ddi-cdi" target="_blank">DDI Cross-Domain Integration (CDI)</a></li>
-            <li><a href="" target="_blank">MLCommons Croissant</a></li>
+            <li><a href="https://mlcommons.org/working-groups/data/croissant/" target="_blank">MLCommons Croissant</a></li>
             <li><a href="https://www.w3.org/2004/02/skos/" target="_blank">Simple Knowledge Organization System (SKOS)</a></li>
             <li><a href="https://www.schema.org" target="_blank">schema.org</a></li>
           </ul>
@@ -122,10 +122,19 @@ Our strategy is built upon the following pillars:
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card text-white bg-primary mb-3">
+    <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body">
         <h5 class="card-title">Partnerships</h5>
-        <p class="card-text">Some quick example text to build on the card title.</p>
+        <p class="card-text">
+          Our key strategic, technology, and data partners include:
+          <ul>
+            <li><a href="https://www.postman.com" target="_blank">Postman</a></li>
+            <li><a href="https://www.codata.org" target="_blank">CODATA</a></li>
+            <li><a href="https://www.ddialliance.org" target="_blank">DDI Alliance</a></li>
+            <li><a href="https://www.mtna.us" target="_blank">Metadata Technology North America (MTNA)</a></li>
+            <li><a href="https://www.dreamfactory.com/" target="_blank">Dreamfactory</a></li>
+          </ul>
+        </p>
       </div>
     </div>
   </div>
