@@ -3,6 +3,10 @@ layout: layout.njk
 title: HVDNet API
 ---
 
+# Postman Workspaces
+
+ The following Postman workspaces contain data-centric collections and related resources that have been generated for selected open data portal and public services. 
+
 <div class="row">
   {% for server in hvdnet_servers %}
   {% if server.postman and server.postman.workspace %}
