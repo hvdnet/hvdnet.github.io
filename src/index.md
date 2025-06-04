@@ -87,10 +87,10 @@ title: HVDNet Home
         <p class="card-text">
         <ul>
         <li>Tweak support for DDI-CDI and Croissant specifications</li>
-        <li>Add support for schema.org and Frictionless specifications</li>
+        <li>Add support for schema.org and Frictionless data package specifications</li>
         <li>Enhance Postman collection generators</li>
         <li>Add self-hosted pilot datasets</li>
-        <li><insert your suggestion></li>
+        <li>Strengthen cloud infrastructure</li>
         </ul>
         </p>
       </div>
@@ -147,11 +147,11 @@ Our strategy is built upon the following pillars:
         <p class="card-text">As the collaborative platform to bring data and metadata APIs together in FAIR data-centric collections.</p>
       </div>
       <div class="card-footer bg-transparent text-center">
-        <a href="/services"
+        <a href="/services/postman_catalog"
           target="_blank"
           rel="noopener noreferrer"
           class="btn btn-primary btn-sm">
-          Explore Collections
+          Browse Catalog
         </a>
       </div>
     </div>
