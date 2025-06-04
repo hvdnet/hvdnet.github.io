@@ -3,6 +3,7 @@ layout: layout.njk
 title: HVDNet Home
 ---
 
+<!-- HERO -->
 <div class="p-5 mb-4 bg-primary rounded-5 text-white" style="background-image: url('/assets/img/hvdnet_hero_bg.jpg');">
   <div class="container-fluid py-5">
     <h1 class="display-5 fw-bold">Welcome to the High-Value Data Network</h1>
@@ -12,11 +13,12 @@ title: HVDNet Home
   </div>
 </div>
 
+<!-- INTRO -->
 <div class="row mb-4">
   <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
-        <h4 class="card-title">Key objectives</h5>
+        <h4 class="card-title">Our Vision</h5>
         <ul>
           <li>Unleash machine actionable high-value data</li>
           <li>Empower human users and digital agents to discover, access, and use data</li>
@@ -44,6 +46,61 @@ title: HVDNet Home
     </div>
   </div>
 </div>
+
+<!-- WHAT? -->
+
+<div class="row mb-4">
+  <div class="col-md-4 d-flex">
+    <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
+      <div class="card-body flex-grow-1">
+        <h5 class="card-title">What to do here?</h5>
+        <p class="card-text">
+        <ul>
+        <li><a href="/services/api">Use our APIs</a> to access standards based metadata for popular high-value datasets</li>
+        <li>... or visit our <a href="https://www.highvaluedata.net/playground">Playground</a> webapp to explore in your browser</li>
+        <li>Browse our catalog of data-centric Postman workspaces</li>
+        <li>Share your thoughts, feedback, suggestion, or contact us for collaboration</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 d-flex">
+    <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
+      <div class="card-body flex-grow-1">
+        <h5 class="card-title">What's new?</h5>
+        <p class="card-text">Everything. We're just getting started...
+        <ul>
+        <li>Published initial version of this website</li>
+        <li>Deployed alpha released of API services</li>
+        <li>Implemented wrappers for Socrata and Rich Data Services platforms</li>
+        <li>Seeded Postman Workspaces for selected data repositories</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 d-flex">
+    <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
+      <div class="card-body flex-grow-1">
+        <h5 class="card-title">What's coming up?</h5>
+        <p class="card-text">
+        <ul>
+        <li>Tweak support for DDI-CDI and Croissant specifications</li>
+        <li>Add support for schema.org and Frictionless specifications</li>
+        <li>Enhance Postman collection generators</li>
+        <li>Add self-hosted pilot datasets</li>
+        <li><insert your suggestion></li>
+        </ul>
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- PILLARS -->
 
 
 ## Pillars
@@ -102,22 +159,32 @@ Our strategy is built upon the following pillars:
   </div>
 </div>
 
+<!-- STANDARDS -->
+
 <div class="row">
   <div class="col-md-6">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body">
         <h5 class="card-title">Standards & Best Practices</h5>
         <p class="card-text">
-          Guided by the <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR principles</a> and <a href="https://cdif.codata.org" target="_blank">Cross-Domain Interoperability Framework (CDIF)</a>, we leverage the following domain specifications :
+          Our work is guided by the <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR principles</a> and the <a href="https://cdif.codata.org" target="_blank">Cross-Domain Interoperability Framework (CDIF)</a> and leverages related domains standards, including:
           <ul>
             <li><a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank">W3C Data Cataloguing Vocabulary</a></li>
-            <li><a href="https://ddialliance.org/ddi-codebook" target="_blank">DDI Codebook</a></li>
-            <li><a href="https://ddialliance.org/ddi-cdi" target="_blank">DDI Cross-Domain Integration (CDI)</a></li>
+            <li><a href="https://ddialliance.org/ddi-codebook" target="_blank">DDI Codebook</a> and <a href="https://ddialliance.org/ddi-cdi" target="_blank">DDI Cross-Domain Integration (CDI)</a></li>
+            <li><a href="https://datapackage.org/" target="_blank">Frictionless Data Package v2</a></li>
             <li><a href="https://mlcommons.org/working-groups/data/croissant/" target="_blank">MLCommons Croissant</a></li>
             <li><a href="https://www.w3.org/2004/02/skos/" target="_blank">Simple Knowledge Organization System (SKOS)</a></li>
             <li><a href="https://www.schema.org" target="_blank">schema.org</a></li>
           </ul>
         </p>
+      </div>
+      <div class="card-footer bg-transparent text-center">
+        <a href="resources/standards"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary btn-sm">
+          Learn More
+        </a>
       </div>
     </div>
   </div>
@@ -126,7 +193,7 @@ Our strategy is built upon the following pillars:
       <div class="card-body">
         <h5 class="card-title">Partnerships</h5>
         <p class="card-text">
-          Our key strategic, technology, and data partners include:
+          This project is made possible with the support of our key strategic, technology, and data partners, including:
           <ul>
             <li><a href="https://www.postman.com" target="_blank">Postman</a></li>
             <li><a href="https://www.codata.org" target="_blank">CODATA</a></li>

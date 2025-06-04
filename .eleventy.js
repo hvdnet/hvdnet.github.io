@@ -41,6 +41,18 @@ export default function (eleventyConfig) {
   // Static assets
   eleventyConfig.addPassthroughCopy("src/assets");
 
+  //toISOString filter
+  // Converts a date string to ISO format
+  // Example: {{ "2023-10-01" | toISOString }}  
+  // Output: "2023-10-01T00:00:00.000Z"
+  const toISODate = (dateString) => {
+    const date = new Date(dateString);
+    const year = date.getUTCFullYear();
+    const month = String(date.getUTCMonth() + 1).padStart(2, '0');
+    const day = String(date.getUTCDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  };
+  eleventyConfig.addFilter('toISODate', toISODate);
 
   // markdown-it
   let options = {
@@ -57,7 +69,7 @@ export default function (eleventyConfig) {
       includes: "_includes",
       output: "dist",
     },
-    markdownTemplateEngine: false, // instead of "njk" for markdown-it to work
+    markdownTemplateEngine: "njk", // enables Nunjucks in markdown files while using markdown-it
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk"
   };
