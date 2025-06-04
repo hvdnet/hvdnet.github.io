@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HVDNet Standards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/slate/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-warning text-dark text-center py-1 small fw-semibold">
+  ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. ⚠️ 
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">HVDNet</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+            <li><a class="dropdown-item" href="/services/api/">API</a></li>
+            <li><a class="dropdown-item" href="/services/apps/">Web Applications</a></li>
+            <li><a class="dropdown-item" href="/services/postman_catalog/">Postman Catalog</a></li>
+            <li><a class="dropdown-item" href="/services/hosting/">Dataset Hosting</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+            <li><a class="dropdown-item" href="/resources/developers/">Developers</a></li>
+            <li><a class="dropdown-item" href="/resources/partners/">Partners</a></li>
+            <li><a class="dropdown-item" href="/resources/data-custodians/">Data Custodians</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/resources/faq/">FAQ</a></li>
+            <li><a class="dropdown-item" href="/resources/references/">References</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <main class="container mt-4">
+      <h1>Standards and Best Practices</h1>
+<h2>Guiding Principles</h2>
+<p>Machine-actionable metadata is essential for enabling data scientists, developers, APIs, and AI systems to efficiently discover, access, and utilize data resources. As the volume and complexity of data continue to grow, ensuring that metadata is both human- and machine-readable becomes critical for supporting automation, interoperability, and advanced analytics.</p>
+<p>Our project is guided by the <a href="https://www.go-fair.org/fair-principles/">FAIR data principles</a> - emphasizing Findability, Accessibility, Interoperability, and Reusability — which provide a framework for making data and metadata more useful and actionable across diverse platforms and communities. In addition, we align with the <a href="https://cdif.codata.org">CODATA cross-domain integration framework (CDIF)</a> recommendations, which emphasize the harmonization of metadata standards and practices to facilitate seamless data exchange and integration across scientific and technical domains. By adopting these principles, we aim to foster a robust data ecosystem that supports innovation, collaboration, and reproducibility.</p>
+<h2>Domain Standards</h2>
+<p>Our project leverages the FAIR and CDIF standards as foundational frameworks for metadata management and data interoperability. By implementing these standards, we ensure that our metadata is structured, discoverable, and reusable across domains.  This combination supports robust data sharing, integration, and automation within our ecosystem.</p>
+<p>A brief overview of the specifications are provided below. Consult their respective home page and related resources for more information.</p>
+<h3>W3C DCAT</h3>
+<p>The <a href="https://www.w3.org/TR/vocab-dcat/">W3C Data Catalog Vocabulary (DCAT)</a> is a standard for describing datasets and data catalogs using RDF. DCAT enables interoperability between data catalogs published on the web, making it easier to discover, access, and reuse datasets across organizations and domains. It provides a flexible model for representing metadata about datasets, distributions, and catalog structures.</p>
+<p>Several widely adopted profiles extend DCAT to meet regional or domain-specific requirements. Notable examples include <a href="https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/dcat-ap">DCAT-AP</a> (Application Profile for data portals in Europe), <a href="https://resources.data.gov/resources/dcat-us/">DCAT-US</a> (the US federal government profile), and other national or sectoral profiles. These profiles tailor DCAT to specific policy, legal, or technical contexts, promoting harmonized data sharing and interoperability at scale.</p>
+<h3>DDI Codebook</h3>
+<p>The <a href="https://ddialliance.org/Specification/DDI-Codebook/">DDI Codebook</a> is an international standard for documenting social science datasets. It provides a structured XML-based format to describe study-level metadata, including methodology, data collection, variables, and file structure. The DDI Codebook enhances data sharing, discovery, and reuse by enabling consistent, detailed documentation across research projects and repositories.</p>
+<h3>DDI Cross Domain Integration (DDI-CDI)</h3>
+<p>The <a href="https://ddialliance.org/Specification/DDI-CDI/">DDI Cross Domain Integration (DDI-CDI)</a> specification is designed to support the integration and interoperability of data across different domains and formats. DDI-CDI provides a flexible, model-driven approach for describing complex datasets, relationships, and provenance, enabling seamless data exchange between diverse systems. It facilitates the harmonization of metadata standards, making it easier to combine, analyze, and reuse data from multiple sources in research and enterprise environments.</p>
+<h3>Frictionless Data Package (v2)</h3>
+<p>The <a href="https://specs.frictionlessdata.io/data-package/">Frictionless Data Package</a> specification (version 2) defines a simple, extensible format for packaging and describing datasets. A Data Package consists of a <code>datapackage.json</code> metadata file and associated data resources (such as CSV files). Version 2 introduces enhanced support for resource schemas, improved validation, and better interoperability with other standards. The specification enables clear documentation of data structure, provenance, and licensing, making it easier to share, validate, and reuse datasets across platforms and tools.</p>
+<h3>MLCommons Croissant</h3>
+<p><a href="https://mlcommons.org/croissant/">MLCommons Croissant</a> is an open specification for describing machine learning datasets in a standardized, machine-readable format. It enables dataset creators to provide rich metadata, including data structure, licensing, and usage instructions, facilitating dataset discovery, interoperability, and reproducibility. Croissant leverages existing standards like <a href="http://schema.org">schema.org</a> and supports integration with data catalogs and ML pipelines, making it easier for practitioners to find, understand, and use datasets across diverse platforms.</p>
+<h3>schema-org</h3>
+<p><a href="https://schema.org/">schema.org</a> offers standardized vocabularies for describing structured data on the web, including statistical datasets and variables. Using <a href="http://schema.org">schema.org</a> types such as <code>Dataset</code>, <code>StatisticalVariable</code>, and related properties, organizations can annotate their data resources to improve discoverability and interoperability. This enables search engines and data consumers to better understand, index, and integrate statistical information, supporting richer search experiences and data-driven applications.</p>
+<h3>SDMX</h3>
+<p>The <a href="https://sdmx.org/">Statistical Data and Metadata eXchange (SDMX)</a> is an international standard for exchanging and sharing statistical data and metadata among organizations. SDMX provides a common framework and set of XML and JSON formats for describing, transmitting, and disseminating statistical information. It supports efficient data integration, harmonization, and automation, making it widely used by national statistical offices, central banks, and international agencies for reporting and analysis.</p>
+<h3>W3C SKOS</h3>
+<p>The <a href="https://www.w3.org/TR/skos-reference/">W3C Simple Knowledge Organization System (SKOS)</a> is a standard for representing knowledge organization systems such as thesauri, classification schemes, and taxonomies using RDF. SKOS provides a simple, flexible model for expressing concepts, labels, relationships, and hierarchies, making it easier to publish, share, and link controlled vocabularies on the web. By enabling consistent representation and interoperability of knowledge structures, SKOS supports improved data discovery, integration, and semantic search across diverse domains.</p>
+<h3>DDI XKOS</h3>
+<p>The <a href="https://ddialliance.org/Specification/XKOS/">DDI XKOS</a> specification extends the W3C SKOS standard to better support the representation of statistical classifications and related structures. XKOS introduces additional concepts and properties for describing hierarchical relationships, classification levels, and correspondences between classifications. This enables more precise modeling and interoperability of statistical and social science classifications, supporting improved data integration, analysis, and reuse across organizations and domains.</p>
+<h2>Technology Standards</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, eget facilisis quam sapien eu erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+    </main>
+    <footer class="footer bg-dark text-light py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-0">&copy; 2025 High-Value Data Network. Last updated on 2025-06-04.
+    </p>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
