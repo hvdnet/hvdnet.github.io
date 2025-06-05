@@ -40,6 +40,7 @@ export default function (eleventyConfig) {
 
   // Static assets
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/img");
 
   //toISOString filter
   // Converts a date string to ISO format

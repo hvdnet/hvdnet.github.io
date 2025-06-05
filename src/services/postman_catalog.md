@@ -14,7 +14,10 @@ title: HVDNet API
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card">
         <div class="card-header">
-          <h5 class="card-title mb-0">{{ server.name }}</h5>
+          <h5 class="card-title mb-0">
+          {% if server.platform == "socrata" %}<img src="/img/socrata-icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />{% elseif server.platform == "mtnards" %}<img src="/img/RDS-Icon-2023.png" alt="MTNARDS" style="height: 24px; width: auto; display: inline-block; vertical-align: middle;" />{% endif %}
+          {{ server.name }}
+          </h5>
         </div>
         <div class="card-body">
           <p class="card-text">{{ server.description }}</p>
@@ -30,3 +33,13 @@ title: HVDNet API
   {% endfor %}
 </div>
 
+<!--
+        <div class="card-header d-flex align-items-center" style="gap: 0.5rem;">
+          {% if server.platform == "socrata" %}
+            <img src="/img/socrata-icon.png" alt="Socrata" style="height: 24px; width: auto; display: inline-block; vertical-align: middle;" />
+          {% elseif server.platform == "mtnards" %}
+            <img src="/img/RDS-Icon-2023.png" alt="MTNARDS" style="height: 24px; width: auto; display: inline-block; vertical-align: middle;" />
+          {% endif %}
+          <h5 class="card-title mb-0 align-middle" style="display: inline-block; vertical-align: middle;">{{ server.name }}</h5>
+        </div>
+-->

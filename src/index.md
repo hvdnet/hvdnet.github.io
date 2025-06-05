@@ -58,7 +58,7 @@ title: HVDNet Home
         <ul>
         <li><a href="/services/api">Use our APIs</a> to access standards based metadata for popular high-value datasets</li>
         <li>... or visit our <a href="https://www.highvaluedata.net/playground">Playground</a> webapp to explore in your browser</li>
-        <li>Browse our catalog of data-centric Postman workspaces</li>
+        <li>Browse our <a href="/services/api">catalog</a> of data-centric Postman workspaces</li>
         <li>Share your thoughts, feedback, suggestion, or contact us for collaboration</li>
         </ul>
         </p>
@@ -98,7 +98,6 @@ title: HVDNet Home
     </div>
   </div>
 </div>
-
 
 <!-- PILLARS -->
 
@@ -148,7 +147,6 @@ Our strategy is built upon the following pillars:
       </div>
       <div class="card-footer bg-transparent text-center">
         <a href="/services/postman_catalog"
-          target="_blank"
           rel="noopener noreferrer"
           class="btn btn-primary btn-sm">
           Browse Catalog
@@ -180,7 +178,6 @@ Our strategy is built upon the following pillars:
       </div>
       <div class="card-footer bg-transparent text-center">
         <a href="resources/standards"
-          target="_blank"
           rel="noopener noreferrer"
           class="btn btn-primary btn-sm">
           Learn More
@@ -202,6 +199,13 @@ Our strategy is built upon the following pillars:
             <li><a href="https://www.dreamfactory.com/" target="_blank">Dreamfactory</a></li>
           </ul>
         </p>
+      </div>
+      <div class="card-footer bg-transparent text-center">
+        <a href="resources/partnerships"
+          rel="noopener noreferrer"
+          class="btn btn-primary btn-sm">
+          Explore Partnership
+        </a>
       </div>
     </div>
   </div>
