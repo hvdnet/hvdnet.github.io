@@ -201,7 +201,7 @@ Our strategy is built upon the following pillars:
         </p>
       </div>
       <div class="card-footer bg-transparent text-center">
-        <a href="resources/partnerships"
+        <a href="resources/partners"
           rel="noopener noreferrer"
           class="btn btn-primary btn-sm">
           Explore Partnership

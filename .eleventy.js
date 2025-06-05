@@ -35,17 +35,15 @@ export default function (eleventyConfig) {
         return result.css;
       };
     },
-  });
+  }); 
   eleventyConfig.addTemplateFormats("scss")
 
   // Static assets
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/img");
 
-  //toISOString filter
-  // Converts a date string to ISO format
-  // Example: {{ "2023-10-01" | toISOString }}  
-  // Output: "2023-10-01T00:00:00.000Z"
+  // toISODate filter
+  // example: {{ page.date | toISODate }}
   const toISODate = (dateString) => {
     const date = new Date(dateString);
     const year = date.getUTCFullYear();
@@ -64,6 +62,7 @@ export default function (eleventyConfig) {
   const md = markdownIt(options).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", md);
 
+  
   return {
     dir: {
       input: "src",

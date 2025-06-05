@@ -5,7 +5,7 @@ title: HVDNet API
 
 # Postman Workspaces
 
- The following Postman workspaces contain data-centric collections and related resources that have been generated for selected open data portal and public services. 
+ The following Postman workspaces contain *data-centric collections* and related resources that have been generated for selected open data portal and public services. If you are not already a Postman user, it's quick and easy to sign up for a free account.
 
 <div class="row">
   {% for server in hvdnet_servers %}

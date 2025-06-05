@@ -5,13 +5,11 @@ title: HVDNet API
 
 # HVDNet API
 
-Our API is central to all our services. 
+Our API serves as the foundation for our vision and services, focusing on simplifying dataset discovery, access, and utilization through standards-based metadata. By enforcing a robust standardization layer over diverse APIs from multiple platforms and public data services, it ensures alignment on FAIR principles and related best practices.
 
-Its core objective is to streamline dataset discovery, access, and use through standards-based metadata, ensuring full alignment with FAIR principles and related best practices. It achieves this by applying a crucial standardization layer on top of existing APIs from various platforms and public services, 
+We are also developing a suite of utility services to facilitate the creation and use of machine-actionable data and metadata.
 
-A range of useful utility services are also being implemented to support the creation and use of machine actionable data and metadata.
-
-You can use our [Playground](https://www.highvaluedata.net/playground){target="_blank"} web application to explore/experiment with the API.
+Explore and experiment with the API using our [Playground](https://www.highvaluedata.net/playground){target="_blank"} web application.
 
 Consult the documentation below for more information:
 
@@ -49,7 +47,6 @@ At this time, these features are being implemented for the following platforms a
 - [MTNA Rich Data Service](https://www.richdataservices.com){target="_blank"}
 - [U.S. Census Bureau API](https://www.census.gov/data/developers/data-sets.html){target="_blank"}
 
-The [Playground](https://www.highvaluedata.net/playground/datasets) web application to explore these services and their outputs.
 
 
 
