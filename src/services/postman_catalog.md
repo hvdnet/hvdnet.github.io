@@ -15,7 +15,7 @@ title: HVDNet API
       <div class="card">
         <div class="card-header">
           <h5 class="card-title mb-0">
-          {% if server.platform == "socrata" %}<img src="/img/socrata-icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />{% elseif server.platform == "mtnards" %}<img src="/img/RDS-Icon-2023.png" alt="MTNARDS" style="height: 24px; width: auto; display: inline-block; vertical-align: middle;" />{% endif %}
+          {% if server.platform == "socrata" %}<img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />{% elseif server.platform == "mtnards" %}<img src="/img/mtnards_icon.png" alt="MTNARDS" style="height: 24px; width: auto; display: inline-block; vertical-align: middle;" />{% endif %}
           {{ server.name }}
           </h5>
         </div>

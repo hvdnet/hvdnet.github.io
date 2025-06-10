@@ -26,8 +26,8 @@ title: HVDNet Services
         <p class="card-text">Search catalog of HVDnet data-centric collections available in Postman public workspaces.</p>
       </div>
       <div class="card-footer bg-primary text-center">
-        <a href="#" target="_blank"rel="noopener noreferrer"class="btn btn-primary btn-sm">
-          Coming Soon
+        <a href="/services/postman_catalog" class="btn btn-primary btn-sm">
+          Browse
         </a>
       </div>
     </div>
