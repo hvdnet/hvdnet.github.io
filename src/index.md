@@ -57,9 +57,9 @@ title: HVDNet Home
         <p class="card-text">
         <ul>
         <li><a href="/services/api">Use our APIs</a> to access standards based metadata for popular high-value datasets</li>
-        <li>... or visit our <a href="https://www.highvaluedata.net/playground">Playground</a> webapp to explore in your browser</li>
+        <li>... or visit our <a href="https://www.highvaluedata.net/playground" target="_blank">Playground</a> webapp to explore in your browser</li>
         <li>Browse our <a href="/services/api">catalog</a> of data-centric Postman workspaces</li>
-        <li>Share your thoughts, feedback, suggestion, or contact us for collaboration</li>
+        <li>Share your thoughts, feedback, suggestion, or contact us for <a href="/resources/partners">collaboration</a></li>
         </ul>
         </p>
       </div>

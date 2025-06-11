@@ -31,13 +31,7 @@ ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis aug
 This project is closely aligned on global standards and best practices supported and endorsed by national and international high-value data producers, custodians and user communities.
 Our works is guided by the FAIR data principles and of the CODATA Cross-Domain Interoperability Framework
 
-Domain specifications that we are currently working with include:
-- The W3C Data Cataloguing (DCAT) standard and related profiles, such as DCAT-AP and DCAT-US
-- The DDI-Codebook and DDI-CDI (Cross-Domain Integration) specifications from the DDI Alliance
-- MLCommons Croissant
-- ODRL
-- PROV-O
-- schema.org
+See [Standard](/resources/standards) for a list of specifications that we are currently working with.
 
 </div>
 </details>
