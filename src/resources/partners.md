@@ -41,7 +41,7 @@ Technology partners are private sector companies or open source initiatives that
 Data partners are high-value data custodians who share our vision and are committed to modernizing their infrastructure and making their data FAIR (Findable, Accessible, Interoperable, and Reusable). These partners include data producers, data archives, government agencies, and international organizations. They play a crucial role by providing access to valuable data and documentation, and often serve as early adopters of our tools, platforms, recommended technologies, and best practices.
 
 <div class="d-flex align-items-center gap-3">
-    <a href="https://www.icpsr.umich.edu/web/pages/NACJD" target="_blank" rel="noopener">
+    <a href="https://www.icpsr.umich.edu/web/pages/NACJD/index.html" target="_blank" rel="noopener">
         <img src="/img/nacjd_logo_bordered.png" alt="NACJD" height="60">
     </a>
     <a href="https://www.europeansocialsurvey.org" target="_blank" rel="noopener">
