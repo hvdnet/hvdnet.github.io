@@ -53,6 +53,7 @@
 <h2 class="mt-4">Domain Standards</h2>
 <p>Our project leverages the FAIR and CDIF standards as foundational frameworks for metadata management and data interoperability. By implementing these standards, we ensure that our metadata is structured, discoverable, and reusable across domains.  This combination supports robust data sharing, integration, and automation within our ecosystem.</p>
 <p>A brief overview of the specifications are provided below. Consult their respective home page and related resources for more information.</p>
+<p>Note that you of course do not need to use all of these standards in every project. Instead, select the standard(s) that best fit your specific use case, data type, or interoperability requirements.</p>
 <table>
 <thead>
 <tr>
@@ -90,6 +91,10 @@
 <td>Capture and represent provenance of data and processes for transparency, reproducibility, and auditability in data workflows.</td>
 </tr>
 <tr>
+<td><strong>RO-Crate</strong></td>
+<td>Package research data, software, workflows, and metadata into a portable archive to support reproducibility, sharing, and FAIR research outputs.</td>
+</tr>
+<tr>
 <td><strong>schema-org</strong></td>
 <td>Annotate datasets for improved discoverability and interoperability on the web, enhancing indexing and integration with search engines.</td>
 </tr>
@@ -107,7 +112,6 @@
 </tr>
 </tbody>
 </table>
-<h3 class="mt-4">DCAT</h3>
 <p>The <a href="https://www.w3.org/TR/vocab-dcat/">W3C Data Catalog Vocabulary (DCAT)</a> is a standard for describing datasets and data catalogs using RDF. DCAT enables interoperability between data catalogs published on the web, making it easier to discover, access, and reuse datasets across organizations and domains. It provides a flexible model for representing metadata about datasets, distributions, and catalog structures.</p>
 <p>Several widely adopted profiles extend DCAT to meet regional or domain-specific requirements. Notable examples include <a href="https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/dcat-ap">DCAT-AP</a> (Application Profile for data portals in Europe), <a href="https://resources.data.gov/resources/dcat-us/">DCAT-US</a> (the US federal government profile), and other national or sectoral profiles. These profiles tailor DCAT to specific policy, legal, or technical contexts, promoting harmonized data sharing and interoperability at scale.</p>
 <p><em>Use DCAT when you need to describe datasets and data catalogs to enable their discovery, access, and interoperability—especially when publishing data on the web or integrating with open data portals. DCAT is ideal for organizations aiming to make their datasets findable and reusable across institutional, national, or international boundaries, and when aligning with open data or FAIR data initiatives.</em></p>
@@ -126,6 +130,9 @@
 <h3 class="mt-4">ODRL</h3>
 <p>The <a href="https://www.w3.org/TR/odrl-model/">Open Digital Rights Language (ODRL)</a> is a W3C standard for expressing policies related to the usage, rights, and obligations associated with digital content and services. ODRL provides a flexible, machine-readable framework for specifying permissions, prohibitions, and duties, enabling organizations to clearly define how data and resources can be accessed, shared, or reused. By supporting interoperability and automation of rights management, ODRL helps ensure compliance with licensing, legal, and policy requirements across diverse digital ecosystems.</p>
 <p><em>Use ODRL when you need to specify, communicate, or automate policies regarding the rights, permissions, and obligations for accessing or using digital resources. It is especially useful for managing licensing, data sharing agreements, and compliance with legal or organizational requirements in digital content and data ecosystems.</em></p>
+<h3>RO-Crate</h3>
+<p>The <a href="https://www.researchobject.org/ro-crate/">RO-Crate</a> specification provides a lightweight, JSON-LD-based format for packaging research data, software, workflows, and metadata into a single, portable archive. RO-Crate enables researchers to bundle all relevant digital objects and their contextual metadata, supporting reproducibility, sharing, and reuse of research outputs. It is widely used for publishing FAIR research objects and facilitating interoperability across repositories and platforms.</p>
+<p><em>Use RO-Crate when you need to package and describe research data, code, and workflows together with rich metadata, ensuring that research outputs are portable, reproducible, and easily shared or published in accordance with FAIR principles.</em></p>
 <h3 class="mt-4">PROV-O</h3>
 <p>The <a href="https://www.w3.org/TR/prov-o/">W3C PROV-O</a> (Provenance Ontology) is a standard for representing provenance information using RDF and OWL. PROV-O enables the description of the origins, history, and transformations of data and resources, capturing how entities, activities, and agents are related. By providing a structured model for provenance, PROV-O supports transparency, reproducibility, and trust in data workflows, making it easier to track data lineage and support auditability across systems.</p>
 <p><em>Use PROV-O when you need to capture, represent, or communicate the provenance of data, resources, or processes. It is especially valuable for projects that require transparency, reproducibility, or auditability, such as scientific research, data pipelines, or regulatory reporting. PROV-O is ideal for documenting data lineage, tracking transformations, and supporting trust in data by making its origins and history explicit.</em></p>
