@@ -16,6 +16,8 @@ Our project leverages the FAIR and CDIF standards as foundational frameworks for
 
 A brief overview of the specifications are provided below. Consult their respective home page and related resources for more information.
 
+Note that you of course do not need to use all of these standards in every project. Instead, select the standard(s) that best fit your specific use case, data type, or interoperability requirements.
+
 | Standard         | Description / Recommended Use |
 |------------------|------------------------------|
 | **DCAT**         | Describe datasets and data catalogs for discovery, access, and interoperability, especially for open data portals and FAIR data initiatives. |
@@ -25,12 +27,11 @@ A brief overview of the specifications are provided below. Consult their respect
 | **MLCommons Croissant** | Describe machine learning datasets with rich, standardized metadata for discoverability, interoperability, and integration with ML pipelines. |
 | **ODRL**         | Specify and automate policies for rights, permissions, and obligations regarding digital resources, supporting licensing and compliance. |
 | **PROV-O**       | Capture and represent provenance of data and processes for transparency, reproducibility, and auditability in data workflows. |
+| **RO-Crate**     | Package research data, software, workflows, and metadata into a portable archive to support reproducibility, sharing, and FAIR research outputs. |
 | **schema-org**   | Annotate datasets for improved discoverability and interoperability on the web, enhancing indexing and integration with search engines. |
 | **SDMX**         | Exchange and integrate statistical data and metadata between organizations, especially for official statistics and international reporting. |
 | **SKOS**         | Represent and share controlled vocabularies, taxonomies, and classification schemes in a machine-readable way for semantic search and integration. |
 | **XKOS**         | Model complex statistical classifications and mappings between classification systems, supporting detailed analysis and integration in statistics and social sciences. |
-
-### DCAT{.mt-4}
 
 The [W3C Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat/) is a standard for describing datasets and data catalogs using RDF. DCAT enables interoperability between data catalogs published on the web, making it easier to discover, access, and reuse datasets across organizations and domains. It provides a flexible model for representing metadata about datasets, distributions, and catalog structures.
 
@@ -67,6 +68,12 @@ _Use the Croissant specification when you need to describe machine learning data
 The [Open Digital Rights Language (ODRL)](https://www.w3.org/TR/odrl-model/) is a W3C standard for expressing policies related to the usage, rights, and obligations associated with digital content and services. ODRL provides a flexible, machine-readable framework for specifying permissions, prohibitions, and duties, enabling organizations to clearly define how data and resources can be accessed, shared, or reused. By supporting interoperability and automation of rights management, ODRL helps ensure compliance with licensing, legal, and policy requirements across diverse digital ecosystems.
 
 _Use ODRL when you need to specify, communicate, or automate policies regarding the rights, permissions, and obligations for accessing or using digital resources. It is especially useful for managing licensing, data sharing agreements, and compliance with legal or organizational requirements in digital content and data ecosystems._
+
+### RO-Crate
+
+The [RO-Crate](https://www.researchobject.org/ro-crate/) specification provides a lightweight, JSON-LD-based format for packaging research data, software, workflows, and metadata into a single, portable archive. RO-Crate enables researchers to bundle all relevant digital objects and their contextual metadata, supporting reproducibility, sharing, and reuse of research outputs. It is widely used for publishing FAIR research objects and facilitating interoperability across repositories and platforms.
+
+_Use RO-Crate when you need to package and describe research data, code, and workflows together with rich metadata, ensuring that research outputs are portable, reproducible, and easily shared or published in accordance with FAIR principles._
 
 ### PROV-O{.mt-4}
 
