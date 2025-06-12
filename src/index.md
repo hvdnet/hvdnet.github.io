@@ -167,7 +167,7 @@ Our strategy is built upon the following pillars:
         <p class="card-text">
           Our work is guided by the <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR principles</a> and the <a href="https://cdif.codata.org" target="_blank">Cross-Domain Interoperability Framework (CDIF)</a> and leverages related domains standards, including:
           <ul>
-            <li><a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank">W3C Data Cataloguing Vocabulary</a></li>
+            <li><a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank">W3C Data Catalog Vocabulary</a></li>
             <li><a href="https://ddialliance.org/ddi-codebook" target="_blank">DDI Codebook</a> and <a href="https://ddialliance.org/ddi-cdi" target="_blank">DDI Cross-Domain Integration (CDI)</a></li>
             <li><a href="https://datapackage.org/" target="_blank">Frictionless Data Package v2</a></li>
             <li><a href="https://mlcommons.org/working-groups/data/croissant/" target="_blank">MLCommons Croissant</a></li>
