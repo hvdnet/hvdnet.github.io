@@ -33,6 +33,8 @@ Note that you of course do not need to use all of these standards in every proje
 | **SKOS**         | Represent and share controlled vocabularies, taxonomies, and classification schemes in a machine-readable way for semantic search and integration. |
 | **XKOS**         | Model complex statistical classifications and mappings between classification systems, supporting detailed analysis and integration in statistics and social sciences. |
 
+### DCAT{.mt-4}
+
 The [W3C Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat/) is a standard for describing datasets and data catalogs using RDF. DCAT enables interoperability between data catalogs published on the web, making it easier to discover, access, and reuse datasets across organizations and domains. It provides a flexible model for representing metadata about datasets, distributions, and catalog structures.
 
 Several widely adopted profiles extend DCAT to meet regional or domain-specific requirements. Notable examples include [DCAT-AP](https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/dcat-ap) (Application Profile for data portals in Europe), [DCAT-US](https://resources.data.gov/resources/dcat-us/) (the US federal government profile), and other national or sectoral profiles. These profiles tailor DCAT to specific policy, legal, or technical contexts, promoting harmonized data sharing and interoperability at scale.
