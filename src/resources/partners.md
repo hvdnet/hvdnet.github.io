@@ -21,9 +21,6 @@ Partnerships are vital to the success of this project. If you are interested in 
 Strategic partners are large public or private sector organizations, or standard-setting agencies and initiatives, that play a pivotal role in advancing our mission. They provide in-kind or financial support, assist with outreach and advocacy, help organize events, and collaborate on joint projects to drive meaningful impact.
 
 <div class="d-flex align-items-center gap-3 mb-4">
-    <a href="https://www.postman.com" target="_blank" rel="noopener">
-        <img src="/img/postman_logo.png" alt="Postman" width="250"  class="me-4">
-    </a>
     <a href="https://www.codata.org" target="_blank" rel="noopener">
         <img src="/img/codata_logo.png" alt="CODATA" height="70" class="me-4">
     </a>
@@ -73,6 +70,9 @@ Technology partners are private sector companies or open source initiatives that
     <a href="https://www.dreamfactory.com/" target="_blank" rel="noopener">
         <img src="/img/dreamfactory_logo_orange.png" alt="Dreamfactory" width="250">
     </a>
+    <a href="https://www.postman.com" target="_blank" rel="noopener">
+        <img src="/img/postman_logo.png" alt="Postman" width="250"  class="me-4">
+    </a>
 </div>
 
 Partner benefits:
@@ -90,5 +90,6 @@ We are proud to engage with a vibrant ecosystem of communities, including data u
 We actively collaborate with the following groups and initiatives:
 - [CODATA Cross Domain Interoperability Framework (CDIF)](https://cdif.codata.org/)
 - [CODATA Digital Representation of Units of Measurement (DRUM)](https://cdif.codata.org/)
-- [DDI Developers Group](https://groups.google.com/g/ddi-developers){}
+- [DDI Developers Group](https://groups.google.com/g/ddi-developers)
 - [MLCommons Croissant](https://mlcommons.org/working-groups/data/croissant/)
+

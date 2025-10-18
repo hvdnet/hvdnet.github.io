@@ -72,7 +72,7 @@ title: HVDNet Home
         <p class="card-text">Everything. We're just getting started...
         <ul>
         <li>Published initial version of this website</li>
-        <li>Deployed alpha released of API services</li>
+        <li>Deployed alpha released of API services in development environment</li>
         <li>Implemented wrappers for Socrata and Rich Data Services platforms</li>
         <li>Seeded Postman Workspaces for selected data repositories</li>
         </ul>
@@ -86,11 +86,11 @@ title: HVDNet Home
         <h5 class="card-title">What's coming up?</h5>
         <p class="card-text">
         <ul>
+        <li>Deployment of public APIs and services in the CODATA cloud environment</li>
         <li>Tweak support for DDI-CDI and Croissant specifications</li>
         <li>Add support for schema.org and Frictionless data package specifications</li>
         <li>Enhance Postman collection generators</li>
         <li>Add self-hosted pilot datasets</li>
-        <li>Strengthen cloud infrastructure</li>
         </ul>
         </p>
       </div>
@@ -107,7 +107,7 @@ title: HVDNet Home
 Our strategy is built upon the following pillars:
 
 <div class="row mb-4">
-  <div class="col-md-4 d-flex">
+  <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
         <h5 class="card-title">Data Artifex</h5>
@@ -123,7 +123,7 @@ Our strategy is built upon the following pillars:
       </div>
     </div>
   </div>
-  <div class="col-md-4 d-flex">
+  <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
         <h5 class="card-title">High-Value Data Network</h5>
@@ -133,28 +133,13 @@ Our strategy is built upon the following pillars:
         <a href="/services"
           target="_blank"
           rel="noopener noreferrer"
-          class="btn btn-primary btn-sm">
-          Explore Services
+          class="btn btn-primary btn-sm disabled">
+          Coming Soon
         </a>
       </div>
     </div>
   </div>
-  <div class="col-md-4 d-flex">
-    <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
-      <div class="card-body flex-grow-1">
-        <h5 class="card-title">Postman</h5>
-        <p class="card-text">As the collaborative platform to bring data and metadata APIs together in FAIR data-centric collections.</p>
-      </div>
-      <div class="card-footer bg-transparent text-center">
-        <a href="/services/postman_catalog"
-          rel="noopener noreferrer"
-          class="btn btn-primary btn-sm">
-          Browse Catalog
-        </a>
-      </div>
-    </div>
-    </div>
-  </div>
+
 </div>
 
 <!-- STANDARDS -->
