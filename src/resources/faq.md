@@ -10,7 +10,7 @@ title: HVDNet FAQ
 <details>
 <summary>What is the status of this project?</summary>
 <div class="card  p-2 rounded-2">
-ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis augue et turpis sagittis sodales. Proin consectetur odio sed erat egestas finibus eu vitae nunc. Fusce quis orci eu ex ornare commodo a a dui. Pellentesque lectus lacus, sollicitudin sed dolor vitae, accumsan pellentesque nulla.
+We’re in early development. The website is in an initial (alpha) release, core metadata/API services are being prototyped, and a first wave of data‑centric Postman workspaces has been published for selected repositories. Expect iterative updates to content, API coverage, and infrastructure over the coming weeks.
 </div>
 </details>
 
@@ -19,7 +19,7 @@ ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis aug
 <details>
 <summary>What is FAIR?</summary>
 <div class="card  p-2 rounded-2">
-ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis augue et turpis sagittis sodales. Proin consectetur odio sed erat egestas finibus eu vitae nunc. Fusce quis orci eu ex ornare commodo a a dui. Pellentesque lectus lacus, sollicitudin sed dolor vitae, accumsan pellentesque nulla.
+FAIR is a set of guiding principles that make data and digital knowledge more useful to people and machines: Findable (rich metadata, persistent identifiers), Accessible (standard, open protocols with clear access rules), Interoperable (shared vocabularies, formats, and schemas), and Reusable (clear licenses, provenance, and community standards). In practice, FAIR means publishing machine‑actionable metadata and well‑documented APIs so datasets can be reliably discovered, accessed, integrated, and reused across tools, domains, and workflows.
 </div>
 </details>
 
@@ -28,10 +28,9 @@ ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis aug
 <summary>Which domain standards/specifications are recommended?</summary>
 <div class="card  p-2 rounded-2">
 
-This project is closely aligned on global standards and best practices supported and endorsed by national and international high-value data producers, custodians and user communities.
-Our works is guided by the FAIR data principles and of the CODATA Cross-Domain Interoperability Framework
+This project aligns with global standards and best practices endorsed by high‑value data producers, custodians, and user communities. Our work is guided by the FAIR principles and CODATA’s Cross‑Domain Interoperability Framework (CDIF).
 
-See [Standard](/resources/standards) for a list of specifications that we are currently working with.
+See our overview of [Standards & Best Practices](/resources/standards/) for the specifications we currently support and prioritize.
 
 </div>
 </details>
@@ -41,18 +40,18 @@ See [Standard](/resources/standards) for a list of specifications that we are cu
 <h3 class="mt-4">Technologies</h3>
 
 <details>
-<summary>Which data API platforms and public services and are supported?</summary>
+<summary>Which data API platforms and public services are supported?</summary>
 
 <div class="card  p-2 rounded-2">
 
 The following platforms and public APIs are currently actively being integrated with:
 <ul>
-<li><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank">U.S. Census Bureau API</a>: providing access to key demographic and economic data for the United States</li>
-<li><a href="https://www.socrata.com" target="_blank">Socrata / Data Insights</a>; a cloud based open data platform popular major cities and other agencies in North America</li>
-<li><a href="https://www.richdataservices.com" target="_blank">MTNA Rich Data Services</a>: a modern API platform providing concurrent access to data and metadata and equipped with robust web based user interfaces.</li>
+<li><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank">U.S. Census Bureau API</a>: access to key demographic and economic indicators for the United States</li>
+<li><a href="https://www.socrata.com" target="_blank">Socrata / Data Insights</a>: a cloud‑based open data platform widely used by major cities and public agencies in North America</li>
+<li><a href="https://www.richdataservices.com" target="_blank">MTNA Rich Data Services</a>: a modern platform providing integrated access to data and metadata, with robust web‑based user interfaces</li>
 </ul>
 
-Our pipeline includes APIs from the <a href="https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information" target="_blank"> World Bank</a>, and other custodians.
+Our pipeline includes APIs from the <a href="https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information" target="_blank">World Bank</a> and other custodians.
 
 On the data cataloging side, we anticipate integration with:
 <ul>
@@ -62,9 +61,7 @@ On the data cataloging side, we anticipate integration with:
 </ul>
 
 <p>
-Many other options are available when it comes to providing access to data over APIs, such as <a href="https://www.dreamfactory.com/" target="_blank">Dreamfactory</a>,
- <a href="https://redivis.com/" target="_blank">Redivis</a>, or <a href="https://www.opendatasoft.com/" target="_blank">OpenDataSoft</a>.
- <a href="https://www.graphql.org/" target="_blank">GraphQL</a> further presents promising options, with several open source and commercial solutions available. 
+Other options for providing API access to data include <a href="https://www.dreamfactory.com/" target="_blank">DreamFactory</a>, <a href="https://redivis.com/" target="_blank">Redivis</a>, and <a href="https://www.opendatasoft.com/" target="_blank">OpenDataSoft</a>. <a href="https://www.graphql.org/" target="_blank">GraphQL</a> also presents promising patterns with a range of open‑source and commercial solutions.
 </p>
 
 </div>
