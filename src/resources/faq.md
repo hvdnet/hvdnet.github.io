@@ -10,7 +10,7 @@ title: HVDNet FAQ
 <details>
 <summary>What is the status of this project?</summary>
 <div class="card  p-2 rounded-2">
-We’re in early development. The website is in an initial (alpha) release, core metadata/API services are being prototyped, and a first wave of data‑centric Postman workspaces has been published for selected repositories. Expect iterative updates to content, API coverage, and infrastructure over the coming weeks.
+We’re in early development. The website is in an initial (alpha) release, core metadata/API services are being prototyped and to be released for early adopters by end of year, along with a first wave of data‑centric Postman workspaces. Expect iterative updates to content, API coverage, and infrastructure over the coming weeks.
 </div>
 </details>
 
