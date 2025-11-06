@@ -64,6 +64,9 @@ Partner benefits:
 Technology partners are private sector companies or open source initiatives that contribute technologies, platforms, or infrastructure essential to advancing our project. Their support enables innovation, scalability, and the integration of cutting-edge solutions.
 
 <div class="d-flex align-items-center gap-3 mb-4">
+    <a href="https://www.dathere.us" target="_blank" rel="noopener">
+        <img src="/img/dathere_logo.png" alt="datHere" height="60" style="margin-right: 2rem;">
+    </a>
     <a href="https://www.mtna.us" target="_blank" rel="noopener">
         <img src="/img/mtna_logo.png" alt="MTNA" height="60" style="margin-right: 2rem;">
     </a>

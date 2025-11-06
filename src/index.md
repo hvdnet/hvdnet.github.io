@@ -178,11 +178,12 @@ Our strategy is built upon the following pillars:
         <p class="card-text">
           This project is made possible with the support of our key strategic, technology, and data partners, including:
           <ul>
-            <li><a href="https://www.postman.com" target="_blank">Postman</a></li>
             <li><a href="https://www.codata.org" target="_blank">CODATA</a></li>
             <li><a href="https://www.ddialliance.org" target="_blank">DDI Alliance</a></li>
-            <li><a href="https://www.mtna.us" target="_blank">Metadata Technology North America (MTNA)</a></li>
+            <li><a href="https://www.dathere.com/" target="_blank">datHere</a></li>
             <li><a href="https://www.dreamfactory.com/" target="_blank">Dreamfactory</a></li>
+            <li><a href="https://www.mtna.us" target="_blank">Metadata Technology North America (MTNA)</a></li>
+            <li><a href="https://www.postman.com" target="_blank">Postman</a></li>
           </ul>
         </p>
       </div>
