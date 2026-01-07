@@ -46,22 +46,22 @@ See our overview of [Standards & Best Practices](/resources/standards/) for the 
 
 The following platforms and public APIs are currently actively being integrated with:
 <ul>
-<li><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank">U.S. Census Bureau API</a>: access to key demographic and economic indicators for the United States</li>
-<li><a href="https://www.socrata.com" target="_blank">Socrata / Data Insights</a>: a cloud‑based open data platform widely used by major cities and public agencies in North America</li>
-<li><a href="https://www.richdataservices.com" target="_blank">MTNA Rich Data Services</a>: a modern platform providing integrated access to data and metadata, with robust web‑based user interfaces</li>
+<li><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau API</a>: access to key demographic and economic indicators for the United States</li>
+<li><a href="https://www.socrata.com" target="_blank" rel="noopener noreferrer">Socrata / Data Insights</a>: a cloud‑based open data platform widely used by major cities and public agencies in North America</li>
+<li><a href="https://www.richdataservices.com" target="_blank" rel="noopener noreferrer">MTNA Rich Data Services</a>: a modern platform providing integrated access to data and metadata, with robust web‑based user interfaces</li>
 </ul>
 
-Our pipeline includes APIs from the <a href="https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information" target="_blank">World Bank</a> and other custodians.
+Our pipeline includes APIs from the <a href="https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information" target="_blank" rel="noopener noreferrer">World Bank</a> and other custodians.
 
 On the data cataloging side, we anticipate integration with:
 <ul>
-<li><a href="https://dataverse.org/" target="_blank">Dataverse</a></li>
-<li><a href="https://ckan.org/" target="_blank">CKAN</a></li>
-<li><a href="https://nada.ihsn.org/" target="_blank">IHSN NADA</a></li>
+<li><a href="https://dataverse.org/" target="_blank" rel="noopener noreferrer">Dataverse</a></li>
+<li><a href="https://ckan.org/" target="_blank" rel="noopener noreferrer">CKAN</a></li>
+<li><a href="https://nada.ihsn.org/" target="_blank" rel="noopener noreferrer">IHSN NADA</a></li>
 </ul>
 
 <p>
-Other options for providing API access to data include <a href="https://www.dreamfactory.com/" target="_blank">DreamFactory</a>, <a href="https://redivis.com/" target="_blank">Redivis</a>, and <a href="https://www.opendatasoft.com/" target="_blank">OpenDataSoft</a>. <a href="https://www.graphql.org/" target="_blank">GraphQL</a> also presents promising patterns with a range of open‑source and commercial solutions.
+Other options for providing API access to data include <a href="https://www.dreamfactory.com/" target="_blank" rel="noopener noreferrer">DreamFactory</a>, <a href="https://redivis.com/" target="_blank" rel="noopener noreferrer">Redivis</a>, and <a href="https://www.opendatasoft.com/" target="_blank" rel="noopener noreferrer">OpenDataSoft</a>. <a href="https://www.graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> also presents promising patterns with a range of open‑source and commercial solutions.
 </p>
 
 </div>

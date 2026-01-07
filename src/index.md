@@ -8,7 +8,7 @@ title: HVDNet Home
   <div class="container-fluid py-5">
     <h1 class="display-5 fw-bold">Welcome to the High-Value Data Network</h1>
     <p class="col-md-8 fs-4">
-    We’re building a future where <b>high-value data</b> is equally discoverable, accessible, and usable by both humans and machines. To make this possible, we bring together data management platforms, modern APIs, and open source tools—unified by metadata standards and best practices grounded in the <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR principles</a> and related initiatives.
+    We’re building a future where <b>high-value data</b> is equally discoverable, accessible, and usable by both humans and machines. To make this possible, we bring together data management platforms, modern APIs, and open source tools—unified by metadata standards and best practices grounded in the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> and related initiatives.
     </p>
   </div>
 </div>
@@ -57,7 +57,7 @@ title: HVDNet Home
         <p class="card-text">
         <ul>
         <li><a href="/services/api">Use our APIs</a> to access standards based metadata for popular high-value datasets</li>
-        <li>... or visit our <a href="https://www.highvaluedata.net/playground" target="_blank">Playground</a> webapp to explore in your browser</li>
+        <li>... or visit our <a href="https://www.highvaluedata.net/playground" target="_blank" rel="noopener noreferrer">Playground</a> webapp to explore in your browser</li>
         <li>Browse our <a href="/services/api">catalog</a> of data-centric Postman workspaces</li>
         <li>Share your thoughts, feedback, suggestion, or contact us for <a href="/resources/partners">collaboration</a></li>
         </ul>
@@ -150,15 +150,15 @@ Our strategy is built upon the following pillars:
       <div class="card-body">
         <h5 class="card-title">Standards & Best Practices</h5>
         <p class="card-text">
-          Our work is guided by the <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR principles</a> and the <a href="https://cdif.codata.org" target="_blank">Cross-Domain Interoperability Framework (CDIF)</a> and leverages related domains standards, including:
+          Our work is guided by the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> and the <a href="https://cdif.codata.org" target="_blank" rel="noopener noreferrer">Cross-Domain Interoperability Framework (CDIF)</a> and leverages related domains standards, including:
           <ul>
-            <li><a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank">W3C Data Catalog Vocabulary</a></li>
-            <li><a href="https://ddialliance.org/ddi-codebook" target="_blank">DDI Codebook</a> and <a href="https://ddialliance.org/ddi-cdi" target="_blank">DDI Cross-Domain Integration (CDI)</a></li>
-            <li><a href="https://datapackage.org/" target="_blank">Frictionless Data Package v2</a></li>
-            <li><a href="https://mlcommons.org/working-groups/data/croissant/" target="_blank">MLCommons Croissant</a></li>
-            <li><a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crate</a></li>
-            <li><a href="https://www.w3.org/2004/02/skos/" target="_blank">Simple Knowledge Organization System (SKOS)</a></li>
-            <li><a href="https://www.schema.org" target="_blank">schema.org</a></li>
+            <li><a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank" rel="noopener noreferrer">W3C Data Catalog Vocabulary</a></li>
+            <li><a href="https://ddialliance.org/ddi-codebook" target="_blank" rel="noopener noreferrer">DDI Codebook</a> and <a href="https://ddialliance.org/ddi-cdi" target="_blank" rel="noopener noreferrer">DDI Cross-Domain Integration (CDI)</a></li>
+            <li><a href="https://datapackage.org/" target="_blank" rel="noopener noreferrer">Frictionless Data Package v2</a></li>
+            <li><a href="https://mlcommons.org/working-groups/data/croissant/" target="_blank" rel="noopener noreferrer">MLCommons Croissant</a></li>
+            <li><a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreferrer">RO-Crate</a></li>
+            <li><a href="https://www.w3.org/2004/02/skos/" target="_blank" rel="noopener noreferrer">Simple Knowledge Organization System (SKOS)</a></li>
+            <li><a href="https://www.schema.org" target="_blank" rel="noopener noreferrer">schema.org</a></li>
           </ul>
         </p>
       </div>
@@ -178,12 +178,12 @@ Our strategy is built upon the following pillars:
         <p class="card-text">
           This project is made possible with the support of our key strategic, technology, and data partners, including:
           <ul>
-            <li><a href="https://www.codata.org" target="_blank">CODATA</a></li>
-            <li><a href="https://www.ddialliance.org" target="_blank">DDI Alliance</a></li>
-            <li><a href="https://www.dathere.com/" target="_blank">datHere</a></li>
-            <li><a href="https://www.dreamfactory.com/" target="_blank">Dreamfactory</a></li>
-            <li><a href="https://www.mtna.us" target="_blank">Metadata Technology North America (MTNA)</a></li>
-            <li><a href="https://www.postman.com" target="_blank">Postman</a></li>
+            <li><a href="https://www.codata.org" target="_blank" rel="noopener noreferrer">CODATA</a></li>
+            <li><a href="https://www.ddialliance.org" target="_blank" rel="noopener noreferrer">DDI Alliance</a></li>
+            <li><a href="https://www.dathere.com/" target="_blank" rel="noopener noreferrer">datHere</a></li>
+            <li><a href="https://www.dreamfactory.com/" target="_blank" rel="noopener noreferrer">Dreamfactory</a></li>
+            <li><a href="https://www.mtna.us" target="_blank" rel="noopener noreferrer">Metadata Technology North America (MTNA)</a></li>
+            <li><a href="https://www.postman.com" target="_blank" rel="noopener noreferrer">Postman</a></li>
           </ul>
         </p>
       </div>

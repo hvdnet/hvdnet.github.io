@@ -9,7 +9,7 @@ Our API serves as the foundation for our vision and services, focusing on simpli
 
 We are also developing a suite of utility services to facilitate the creation and use of machine-actionable data and metadata.
 
-Explore and experiment with the API using our [Playground](https://www.highvaluedata.net/playground){target="_blank"} web application.
+Explore and experiment with the API using our [Playground](https://www.highvaluedata.net/playground){target="_blank" rel="noopener noreferrer"} web application.
 
 Consult the documentation below for more information:
 
@@ -43,9 +43,9 @@ In addition, the dataset services include a data-centric Postman Collection gene
 A markdown generator is also included to produce both human and AI friendly documentation.
 
 At this time, these features are being implemented for the following platforms and public API:
-- [Socrata / Data Insights](https://www.tylertech.com/solutions/transformative-technology/data-insights){target="_blank"}
-- [MTNA Rich Data Service](https://www.richdataservices.com){target="_blank"}
-- [U.S. Census Bureau API](https://www.census.gov/data/developers/data-sets.html){target="_blank"}
+- [Socrata / Data Insights](https://www.tylertech.com/solutions/transformative-technology/data-insights){target="_blank" rel="noopener noreferrer"}
+- [MTNA Rich Data Service](https://www.richdataservices.com){target="_blank" rel="noopener noreferrer"}
+- [U.S. Census Bureau API](https://www.census.gov/data/developers/data-sets.html){target="_blank" rel="noopener noreferrer"}
 
 
 
