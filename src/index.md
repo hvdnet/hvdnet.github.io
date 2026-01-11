@@ -30,7 +30,7 @@ title: HVDNet Home
           <li>Make both data and API FAIR</li>
           <li>Reduce data and code wrangling</li>
         </ul>
-        <p>We aim to achieve this by complementing existing data platforms with standards-based metadata driven open source tools and APIs, facilitate collaboration between technology and data professionals, and foster an AI-ready ecosystem.</p>
+        <p>We aim to achieve this by complementing existing data platforms with standards-based metadata driven open source tools and APIs, facilitating collaboration between technology and data professionals, and fostering an AI-ready data ecosystem.</p>
       </div>
     </div>
   </div>
@@ -108,7 +108,7 @@ title: HVDNet Home
 Our strategy is built upon the following pillars:
 
 <div class="row mb-4">
-  <div class="col-md-6 d-flex">
+  <div class="col-md-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
         <h5 class="card-title">Data Artifex</h5>
@@ -124,14 +124,30 @@ Our strategy is built upon the following pillars:
       </div>
     </div>
   </div>
-  <div class="col-md-6 d-flex">
+  <div class="col-md-4 d-flex">
+    <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
+      <div class="card-body flex-grow-1">
+        <h5 class="card-title">Data & Machine Intelligence</h5>
+        <p class="card-text">Bringing together machine actionable data, artificial intelligence, open tools, open standards, and communtities.</p>
+      </div>
+      <div class="card-footer bg-transparent text-center">
+        <a href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary btn-sm disabled">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
         <h5 class="card-title">High-Value Data Network</h5>
         <p class="card-text">Hosted public services and tools to complement public data APIs with standards-based metadata, facilitate data users' common tasks, or integrate with AI.</p>
       </div>
       <div class="card-footer bg-transparent text-center">
-        <a href="/services"
+        <a href="#"
           target="_blank"
           rel="noopener noreferrer"
           class="btn btn-primary btn-sm disabled">
