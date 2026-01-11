@@ -1,0 +1,264 @@
+// ============================================
+// Utility Classes - Bootstrap Replacements
+// ============================================
+
+// Container
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+}
+
+.container-fluid {
+    width: 100%;
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+}
+
+// Row and Column
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--space-3) * -1);
+    margin-right: calc(var(--space-3) * -1);
+}
+
+[class*="col-"] {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+}
+
+.col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    @media (min-width: 768px) {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    @media (min-width: 768px) {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    @media (min-width: 768px) {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}
+
+// Display utilities
+.d-flex {
+    display: flex !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.gap-3 {
+    gap: var(--space-4) !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+// Spacing utilities
+.mt-3 {
+    margin-top: var(--space-4) !important;
+}
+
+.mt-4 {
+    margin-top: var(--space-6) !important;
+}
+
+.mt-5 {
+    margin-top: var(--space-8) !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-3 {
+    margin-bottom: var(--space-4) !important;
+}
+
+.mb-4 {
+    margin-bottom: var(--space-6) !important;
+}
+
+.me-4 {
+    margin-right: var(--space-6) !important;
+}
+
+.p-5 {
+    padding: var(--space-10) !important;
+}
+
+.py-1 {
+    padding-top: var(--space-1) !important;
+    padding-bottom: var(--space-1) !important;
+}
+
+.py-4 {
+    padding-top: var(--space-6) !important;
+    padding-bottom: var(--space-6) !important;
+}
+
+.py-5 {
+    padding-top: var(--space-8) !important;
+    padding-bottom: var(--space-8) !important;
+}
+
+// Border radius
+.rounded-5 {
+    border-radius: var(--radius-2xl) !important;
+}
+
+// Text utilities
+.text-center {
+    text-align: center !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-dark {
+    color: var(--color-text-primary) !important;
+}
+
+.text-light {
+    color: var(--color-text-secondary) !important;
+}
+
+.text-muted {
+    color: var(--color-text-muted) !important;
+}
+
+.small {
+    font-size: var(--text-sm) !important;
+}
+
+.fw-bold {
+    font-weight: var(--font-bold) !important;
+}
+
+.fw-semibold {
+    font-weight: var(--font-semibold) !important;
+}
+
+// Background utilities
+.bg-primary {
+    background-color: var(--color-accent-primary) !important;
+}
+
+.bg-dark {
+    background-color: var(--color-bg-secondary) !important;
+}
+
+// Navbar basics
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: var(--space-4) 0;
+}
+
+.navbar-expand-lg {
+    @media (min-width: 992px) {
+        .navbar-collapse {
+            display: flex !important;
+            flex-basis: auto;
+        }
+    }
+}
+
+.navbar-collapse {
+    @media (max-width: 991px) {
+        display: none;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: var(--space-2);
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    margin-top: var(--space-2);
+    list-style: none;
+    padding: var(--space-2);
+    display: none;
+    z-index: var(--z-dropdown);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-divider {
+    height: 0;
+    margin: var(--space-2) 0;
+    overflow: hidden;
+    border-top: 1px solid var(--color-border-subtle);
+}
+
+// Main
+main {
+    min-height: calc(100vh - 400px);
+}

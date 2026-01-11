@@ -1,5 +1,49 @@
+// ============================================
+// HVDNet Custom Styles
+// Modern Design System
+// ============================================
 
+// Design System Foundation (must be first for @use)
+@use 'variables';
+@use 'mixins';
+@use 'base';
+@use 'components';
+@use 'utilities';
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+// Additional custom styles
 details {
-    margin-top:1em;
+    margin-top: 1em;
+    color: var(--color-text-secondary);
+
+    summary {
+        cursor: pointer;
+        font-weight: var(--font-semibold);
+        color: var(--color-text-primary);
+        padding: var(--space-3);
+        border-radius: var(--radius-md);
+        transition: background var(--transition-fast);
+
+        &:hover {
+            background: var(--color-surface);
+        }
+    }
 }
 
+// Smooth scrolling behavior
+html {
+    scroll-behavior: smooth;
+}
+
+// Selection styling
+::selection {
+    background: var(--color-accent-primary);
+    color: white;
+}
+
+::-moz-selection {
+    background: var(--color-accent-primary);
+    color: white;
+}

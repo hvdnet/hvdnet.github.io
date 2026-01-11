@@ -4,24 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HVDNet API</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/slate/bootstrap.min.css" rel="stylesheet" />
-    <link href="/assets/css/custom.css" rel="stylesheet" />
+    <!-- Using only our custom design system -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-grid.min.css" />
+    <link href="/assets/scss/custom.css" rel="stylesheet" />
   </head>
   <body>
     <div class="bg-warning text-dark text-center py-1 small fw-semibold">
   ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20(/services/postman_catalog/)" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
 </div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">HVDNet</a>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+    <a class="navbar-brand" href="/">
+      <img src="/img/hvdnet_logo.png" alt="HVDNet" class="navbar-logo">
+      <span>HVDNet</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link " href="/">
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
         <!-- Services section temporarily disabled -->
         
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Resources
+          <a class="nav-link dropdown-toggle " href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="nav-text">Resources</span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
             <li><a class="dropdown-item" href="/resources/partners/">Partners</a></li>
@@ -30,7 +41,11 @@
             <li><a class="dropdown-item" href="/resources/faq/">FAQ</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+        <li class="nav-item">
+          <a class="nav-link " href="/about/">
+            <span class="nav-text">About</span>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
@@ -41,98 +56,88 @@
 <p>The following Postman workspaces contain <em>data-centric collections</em> and related resources that have been generated for selected open data portal and public services. If you are not already a Postman user, it's quick and easy to sign up for a free account.</p>
 <p><strong>⚠️ Note:</strong> The Postman workspaces listed below are not yet publicly accessible.</p>
 <div class="row">
-  <div class="col-md-4 mb-4">
+  <div class="col-md-4 mb-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title mb-0">
-          <img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />
-          Calgary Open Data
-          </h5>
-        </div>
-        <div class="card-body">
-          <p class="card-text">The official open data portal for the City of Calgary, providing public access to datasets to support transparency, innovation, and community engagement.</p>
-        </div>
-        <div class="card-footer bg-transparent border-top-0">
-          <a href="https://www.postman.com/workspace/37739b8d-a7fd-4a2f-aa8e-883ce652a78e" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
-          <a href="https://data.calgary.ca" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
-        </div>
+      <div class="card-header">
+        <h5 class="card-title mb-0">
+        <img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />
+        Calgary Open Data
+        </h5>
+      </div>
+      <div class="card-body flex-grow-1">
+        <p class="card-text">The official open data portal for the City of Calgary, providing public access to datasets to support transparency, innovation, and community engagement.</p>
+      </div>
+      <div class="card-footer bg-transparent border-top-0">
+        <a href="https://www.postman.com/workspace/37739b8d-a7fd-4a2f-aa8e-883ce652a78e" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
+        <a href="https://data.calgary.ca" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
       </div>
     </div>
   </div>
-  <div class="col-md-4 mb-4">
+  <div class="col-md-4 mb-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title mb-0">
-          <img src="/img/mtnards_icon.png" alt="MTNARDS" style="height: 24px; width: auto; display: inline-block; vertical-align: middle;" />
-          HVDNet Rich Data Services
-          </h5>
-        </div>
-        <div class="card-body">
-          <p class="card-text">The official data portal for the High-Value Data Network, providing access to a curated collection of high-value datasets and services to support research, analysis, and data-driven decision making.</p>
-        </div>
-        <div class="card-footer bg-transparent border-top-0">
-          <a href="https://www.postman.com/workspace/8fffad25-8c83-4f7e-a5ea-691cd4f81277" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
-          <a href="https://rds.highvaluedata.net" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
-        </div>
+      <div class="card-header">
+        <h5 class="card-title mb-0">
+        <img src="/img/mtnards_icon.png" alt="MTNARDS" style="height: 24px; width: auto; display: inline-block; vertical-align: middle;" />
+        HVDNet Rich Data Services
+        </h5>
+      </div>
+      <div class="card-body flex-grow-1">
+        <p class="card-text">The official data portal for the High-Value Data Network, providing access to a curated collection of high-value datasets and services to support research, analysis, and data-driven decision making.</p>
+      </div>
+      <div class="card-footer bg-transparent border-top-0">
+        <a href="https://www.postman.com/workspace/8fffad25-8c83-4f7e-a5ea-691cd4f81277" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
+        <a href="https://rds.highvaluedata.net" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
       </div>
     </div>
   </div>
-  <div class="col-md-4 mb-4">
+  <div class="col-md-4 mb-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title mb-0">
-          <img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />
-          Los Angeles Open Data Portal
-          </h5>
-        </div>
-        <div class="card-body">
-          <p class="card-text">The official open data portal for the City of Los Angeles, providing public access to datasets from city departments to promote transparency, innovation, and civic engagement.</p>
-        </div>
-        <div class="card-footer bg-transparent border-top-0">
-          <a href="https://www.postman.com/workspace/1e118583-cb8c-4f82-83d9-9c4dcb46b0c1" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
-          <a href="https://data.lacity.org" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
-        </div>
+      <div class="card-header">
+        <h5 class="card-title mb-0">
+        <img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />
+        Los Angeles Open Data Portal
+        </h5>
+      </div>
+      <div class="card-body flex-grow-1">
+        <p class="card-text">The official open data portal for the City of Los Angeles, providing public access to datasets from city departments to promote transparency, innovation, and civic engagement.</p>
+      </div>
+      <div class="card-footer bg-transparent border-top-0">
+        <a href="https://www.postman.com/workspace/1e118583-cb8c-4f82-83d9-9c4dcb46b0c1" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
+        <a href="https://data.lacity.org" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
       </div>
     </div>
   </div>
-  <div class="col-md-4 mb-4">
+  <div class="col-md-4 mb-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title mb-0">
-          <img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />
-          New York City OpenData
-          </h5>
-        </div>
-        <div class="card-body">
-          <p class="card-text">The official open data portal for New York City, providing public access to datasets from city agencies and organizations to promote transparency, innovation, and civic engagement.</p>
-        </div>
-        <div class="card-footer bg-transparent border-top-0">
-          <a href="https://www.postman.com/workspace/5af816f6-57e3-48d9-bfb6-4851ff5f79cc" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
-          <a href="https://data.cityofnewyork.us" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
-        </div>
+      <div class="card-header">
+        <h5 class="card-title mb-0">
+        <img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />
+        New York City OpenData
+        </h5>
+      </div>
+      <div class="card-body flex-grow-1">
+        <p class="card-text">The official open data portal for New York City, providing public access to datasets from city agencies and organizations to promote transparency, innovation, and civic engagement.</p>
+      </div>
+      <div class="card-footer bg-transparent border-top-0">
+        <a href="https://www.postman.com/workspace/5af816f6-57e3-48d9-bfb6-4851ff5f79cc" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
+        <a href="https://data.cityofnewyork.us" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
       </div>
     </div>
   </div>
-  <div class="col-md-4 mb-4">
+  <div class="col-md-4 mb-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title mb-0">
-          <img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />
-          San Francisco Open Data
-          </h5>
-        </div>
-        <div class="card-body">
-          <p class="card-text">The official open data portal for the City and County of San Francisco, providing public access to datasets from city departments to promote transparency, innovation, and community engagement.</p>
-        </div>
-        <div class="card-footer bg-transparent border-top-0">
-          <a href="https://www.postman.com/workspace/f23ce5c7-a6fb-40e4-9fe3-9fa1538680f5" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
-          <a href="https://data.sfgov.org" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
-        </div>
+      <div class="card-header">
+        <h5 class="card-title mb-0">
+        <img src="/img/socrata_icon.png" alt="Socrata" style="height: 20px; width: auto; display: inline-block; vertical-align: middle;" />
+        San Francisco Open Data
+        </h5>
+      </div>
+      <div class="card-body flex-grow-1">
+        <p class="card-text">The official open data portal for the City and County of San Francisco, providing public access to datasets from city departments to promote transparency, innovation, and community engagement.</p>
+      </div>
+      <div class="card-footer bg-transparent border-top-0">
+        <a href="https://www.postman.com/workspace/f23ce5c7-a6fb-40e4-9fe3-9fa1538680f5" class="btn btn-sm btn-primary" target="_blank" rel="noopener">View Workspace</a>
+        <a href="https://data.sfgov.org" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Visit Portal</a>
       </div>
     </div>
   </div>
@@ -144,10 +149,10 @@
         </div>
 -->
     </main>
-    <footer class="footer bg-dark text-light py-4 mt-5">
-  <div class="container text-center">
-    <p class="mb-0">&copy; 2025 High-Value Data Network. Last updated on 2026-01-10.
-    </p>
+    <footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 High-Value Data Network</p>
+    <p class="text-muted">Last updated: 2026-01-11</p>
   </div>
 </footer>
 
