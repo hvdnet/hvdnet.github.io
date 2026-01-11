@@ -30,7 +30,7 @@ title: HVDNet Home
           <li>Make both data and API FAIR</li>
           <li>Reduce data and code wrangling</li>
         </ul>
-        <p>We aim to achieve this by complementing existing data platforms with standards-based metadata APIs —- integrated through the Postman environment -— to create FAIR Open Data APIs, support collaboration between developers and data scientists, and foster an AI-ready ecosystem.</p>
+        <p>We aim to achieve this by complementing existing data platforms with standards-based metadata driven open source tools and APIs, facilitate collaboration between technology and data professionals, and foster an AI-ready ecosystem.</p>
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@ title: HVDNet Home
 </div>
 
 <!-- WHAT? -->
-
+<!--
 <div class="row mb-4">
   <div class="col-md-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
@@ -98,6 +98,7 @@ title: HVDNet Home
     </div>
   </div>
 </div>
+-->
 
 <!-- PILLARS -->
 
@@ -145,15 +146,15 @@ Our strategy is built upon the following pillars:
 <!-- STANDARDS -->
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
-      <div class="card-body">
+      <div class="card-body flex-grow-1">
         <h5 class="card-title">Standards & Best Practices</h5>
         <p class="card-text">
           Our work is guided by the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> and the <a href="https://cdif.codata.org" target="_blank" rel="noopener noreferrer">Cross-Domain Interoperability Framework (CDIF)</a> and leverages related domains standards, including:
           <ul>
             <li><a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank" rel="noopener noreferrer">W3C Data Catalog Vocabulary</a></li>
-            <li><a href="https://ddialliance.org/ddi-codebook" target="_blank" rel="noopener noreferrer">DDI Codebook</a> and <a href="https://ddialliance.org/ddi-cdi" target="_blank" rel="noopener noreferrer">DDI Cross-Domain Integration (CDI)</a></li>
+            <li><a href="https://ddialliance.org/ddi-codebook" target="_blank" rel="noopener noreferrer">DDI Codebook</a> / <a href="https://ddialliance.org/ddi-cdi" target="_blank" rel="noopener noreferrer">DDI Cross-Domain Integration (CDI)</a></li>
             <li><a href="https://datapackage.org/" target="_blank" rel="noopener noreferrer">Frictionless Data Package v2</a></li>
             <li><a href="https://mlcommons.org/working-groups/data/croissant/" target="_blank" rel="noopener noreferrer">MLCommons Croissant</a></li>
             <li><a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreferrer">RO-Crate</a></li>
@@ -171,16 +172,16 @@ Our strategy is built upon the following pillars:
       </div>
     </div>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
-      <div class="card-body">
+      <div class="card-body flex-grow-1">
         <h5 class="card-title">Partnerships</h5>
         <p class="card-text">
           This project is made possible with the support of our key strategic, technology, and data partners, including:
           <ul>
             <li><a href="https://www.codata.org" target="_blank" rel="noopener noreferrer">CODATA</a></li>
+            <li><a href="https://www.dathere.com/" target="_blank" rel="noopener noreferrer">datHere</a> / <a href="https://qsv.dathere.com/" target="_blank" rel="noopener noreferrer">QSV</a></li>
             <li><a href="https://www.ddialliance.org" target="_blank" rel="noopener noreferrer">DDI Alliance</a></li>
-            <li><a href="https://www.dathere.com/" target="_blank" rel="noopener noreferrer">datHere</a></li>
             <li><a href="https://www.dreamfactory.com/" target="_blank" rel="noopener noreferrer">Dreamfactory</a></li>
             <li><a href="https://www.mtna.us" target="_blank" rel="noopener noreferrer">Metadata Technology North America (MTNA)</a></li>
             <li><a href="https://www.postman.com" target="_blank" rel="noopener noreferrer">Postman</a></li>

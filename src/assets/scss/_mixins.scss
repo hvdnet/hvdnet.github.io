@@ -1,0 +1,72 @@
+// ============================================
+// Mixins - Reusable SCSS Patterns
+// ============================================
+
+// Glassmorphism Effect
+@mixin glass($opacity: 0.05, $blur: 10px) {
+    background: rgba(255, 255, 255, $opacity);
+    backdrop-filter: blur($blur);
+    border: 1px solid var(--glass-border);
+}
+
+// Card Hover Effect
+@mixin card-hover {
+    transition: all var(--transition-base);
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-xl), var(--shadow-glow);
+    }
+}
+
+// Smooth Transitions
+@mixin transition($properties...) {
+    transition-property: $properties;
+    transition-duration: var(--transition-base);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Gradient Text
+@mixin gradient-text($from, $to) {
+    background: linear-gradient(135deg, $from, $to);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+// Focus Ring
+@mixin focus-ring {
+    &:focus-visible {
+        outline: 2px solid var(--color-accent-primary);
+        outline-offset: 2px;
+    }
+}
+
+// Responsive Typography
+@mixin fluid-type($min-size, $max-size, $min-width: 320px, $max-width: 1200px) {
+    font-size: clamp(#{$min-size}, calc(#{$min-size} + (#{strip-unit($max-size)} - #{strip-unit($min-size)}) * ((100vw - #{$min-width}) / (#{strip-unit($max-width)} - #{strip-unit($min-width)}))), #{$max-size});
+}
+
+// Helper function to strip units
+@function strip-unit($number) {
+    @if type-of($number)=='number' and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+
+    @return $number;
+}
+
+// Truncate Text
+@mixin truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// Line Clamp
+@mixin line-clamp($lines) {
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

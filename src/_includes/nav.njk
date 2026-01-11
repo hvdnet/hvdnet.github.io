@@ -1,18 +1,28 @@
 <div class="bg-warning text-dark text-center py-1 small fw-semibold">
   ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20({{page.url}})" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
 </div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">HVDNet</a>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+    <a class="navbar-brand" href="/">
+      <img src="/img/hvdnet_logo.png" alt="HVDNet" class="navbar-logo">
+      <span>HVDNet</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="/">
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
         <!-- Services section temporarily disabled -->
         {# <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services
+          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="nav-text">Services</span>
           </a>
-          <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+          <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
             <li><a class="dropdown-item" href="/services/api/">API</a></li>
             <li><a class="dropdown-item" href="/services/apps/">Web Applications</a></li>
             <li><a class="dropdown-item" href="/services/postman_catalog/">Postman Catalog</a></li>
@@ -20,8 +30,8 @@
           </ul>
         </li> #}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Resources
+          <a class="nav-link dropdown-toggle {% if '/resources/' in page.url %}active{% endif %}" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="nav-text">Resources</span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
             <li><a class="dropdown-item" href="/resources/partners/">Partners</a></li>
@@ -30,7 +40,11 @@
             <li><a class="dropdown-item" href="/resources/faq/">FAQ</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+        <li class="nav-item">
+          <a class="nav-link {% if '/about/' in page.url %}active{% endif %}" href="/about/">
+            <span class="nav-text">About</span>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
