@@ -30,7 +30,9 @@ title: HVDNet Home
           <li>Make both data and API FAIR</li>
           <li>Reduce data and code wrangling</li>
         </ul>
+        <!--
         <p>We aim to achieve this by complementing existing data platforms with standards-based metadata driven open source tools and APIs, facilitating collaboration between technology and data professionals, and fostering an AI-ready data ecosystem.</p>
+        -->
       </div>
     </div>
   </div>
@@ -128,7 +130,7 @@ Our strategy is built upon the following pillars:
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
         <h5 class="card-title">Data & Machine Intelligence</h5>
-        <p class="card-text">Bringing together machine actionable data, artificial intelligence, open tools, open standards, and communtities.</p>
+        <p class="card-text">A strategc approach bringing together machine actionable data, artificial intelligence, open tools, and open standards, in coordination with technology and data professionals.</p>
       </div>
       <div class="card-footer bg-transparent text-center">
         <a href="#"
