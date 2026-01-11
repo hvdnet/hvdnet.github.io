@@ -21,8 +21,8 @@ title: HVDNet Home
         <h4 class="card-title">Our Vision</h5>
         <ul>
           <li>Unleash machine actionable high-value data</li>
+          <li>Build an open tools ecosystem that unifies data and metadata</li>
           <li>Empower human users and digital agents to discover, access, and use data</li>
-          <li>Integrate data and metadata into a unified ecosystem</li>
           <li>Encourage the adoption of open standards and best practices</li>
           <li>Advance the rollout of well-documented, data-centric APIs</li>
           <li>Support data custodians in building modern infrastructure and publishing digital knowledge</li>
