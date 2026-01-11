@@ -43,7 +43,6 @@ title: HVDNet Home
         <p class="card-text">High-value data refers to datasets that, when made openly accessible and reusable, generate significant benefits for society, the economy, and the environment. They have a high potential to drive innovation, improve public services, increase transparency, inform evidence-based decision-making, and empower citizens. </p>
         <p>Subjects include demographics, economic indicators, infrastructure, public services, environment, and government operations. Thousands of organizations and millions of individuals across sectors and borders rely on high-value data for decision-making, research, analysis, and numerous other purposes.</p>
         <p>High-value datasets are often complex and require comprehensive documentation for discovery and use. Therefore, the availability of machine-actionable digital documentation (a.k.a.metadata) is critical.</p>
-        <button class="btn btn-primary btn-sm" type="button">Learn More</button>
       </div>
     </div>
   </div>
