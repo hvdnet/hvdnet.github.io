@@ -129,7 +129,7 @@ Our strategy is built upon the following pillars:
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
         <h5 class="card-title">Data & Machine Intelligence</h5>
-        <p class="card-text">A strategc approach bringing together machine actionable data, artificial intelligence, open tools, and open standards, in coordination with technology and data professionals.</p>
+        <p class="card-text">A strategic approach bringing together machine actionable data, artificial intelligence, open tools, and open standards, in coordination with technology and data professionals.</p>
       </div>
       <div class="card-footer bg-transparent text-center">
         <a href="#"
