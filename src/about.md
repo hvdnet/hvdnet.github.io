@@ -18,6 +18,6 @@ title: HVDNet About
 <p>Our work is grounded in the FAIR ecosystem and related initiatives, including CODATA’s CDIF and DRUM efforts. We champion interoperable, machine‑actionable metadata and well‑documented, data‑centric APIs. See our overview of <a href="/resources/standards">Standards & Best Practices</a>.</p>
 
 <h2>Get in touch</h2>
-<p>We welcome feedback, collaboration, and partnerships. Reach us at <a href="mailto:pascal@codata.org">pascal@codata.org</a>.</p>
+<p>We welcome feedback, collaboration, and partnerships. Reach us at <a href="mailto:info@highvaludate.net">info@highvaludate.net</a>.</p>
 
 
