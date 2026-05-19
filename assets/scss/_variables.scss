@@ -3,19 +3,19 @@
 // ============================================
 
 :root {
-  // Base Colors - Modern Dark Theme
-  --color-bg-primary: #0a0e1a;
-  --color-bg-secondary: #141821;
-  --color-bg-tertiary: #1a1f2e;
+  // Base Colors - Modern Dark Theme (Subtle Green Noir)
+  --color-bg-primary: #0a100d;
+  --color-bg-secondary: #121815;
+  --color-bg-tertiary: #1a201d;
 
   // Surface Colors (for cards, containers)
-  --color-surface: rgba(255, 255, 255, 0.05);
-  --color-surface-hover: rgba(255, 255, 255, 0.08);
+  --color-surface: rgba(255, 255, 255, 0.04);
+  --color-surface-hover: rgba(255, 255, 255, 0.07);
 
-  // Accent Colors - Professional Blue palette
-  --color-accent-primary: #2563eb; // Royal Blue
-  --color-accent-secondary: #0ea5e9; // Sky Blue
-  --color-accent-tertiary: #06b6d4; // Cyan
+  // Accent Colors - Sharp Amber/Gold palette
+  --color-accent-primary: #f59e0b; // Amber
+  --color-accent-secondary: #fbbf24; // Yellow
+  --color-accent-tertiary: #fbbf24; // Yellow-bright
 
   // Text Colors
   --color-text-primary: #f8fafc;
@@ -48,8 +48,8 @@
 
 :root {
   // Font Families
-  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-heading: 'DM Sans', var(--font-primary);
+  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Space Grotesk', var(--font-primary);
 
   // Font Sizes
   --text-xs: 0.75rem; // 12px
@@ -108,11 +108,11 @@
 // ============================================
 
 :root {
-  --radius-sm: 0.25rem; // 4px
-  --radius-md: 0.5rem; // 8px
-  --radius-lg: 0.75rem; // 12px
-  --radius-xl: 1rem; // 16px
-  --radius-2xl: 1.5rem; // 24px
+  --radius-sm: 1px; // Sharp
+  --radius-md: 2px; // Very slight
+  --radius-lg: 4px; // Moderate
+  --radius-xl: 6px; // Subdued
+  --radius-2xl: 8px; // Maximum
   --radius-full: 9999px;
 }
 
