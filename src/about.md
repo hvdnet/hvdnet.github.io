@@ -1,6 +1,7 @@
 ---
 layout: layout.njk
-title: HVDNet About
+title: About HVDNet
+description: Learn more about the High-Value Data Network initiative and our mission to advance FAIR data standards.
 ---
 
 <h1>About</h1>
@@ -9,6 +10,8 @@ title: HVDNet About
 
 <h2>Leadership</h2>
 <p>This initiative is led by <a href="https://linkedin.com/in/pascal" target="_blank" rel="noopener noreferrer">Pascal Heus</a>, freelancer, open‑source developer, and member of the CODATA <a href="https://cdif.codata.org/" target="_blank" rel="noopener noreferrer">Cross Domain Interoperability Framework (CDIF)</a> and <a href="https://codata.org/initiatives/task-groups/drum/" target="_blank" rel="noopener noreferrer">Digital Representation of Units of Measurement (DRUM)</a> working groups.</p>
+<p>
+</>
 
 <h2>Support & Partnerships</h2>
 <p>The project is supported by <a href="https://codata.org" target="_blank" rel="noopener noreferrer">CODATA</a> and a growing network of technology, strategic, and data partners. We are grateful to <a href="https://postman.com" target="_blank" rel="noopener noreferrer">Postman</a> for its support during our inception phase.</p>

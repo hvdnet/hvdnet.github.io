@@ -1,6 +1,7 @@
 ---
 layout: layout.njk
 title: HVDNet Home
+description: Welcome to the High-Value Data Network. We unify data and metadata through open standards and FAIR principles for humans and machines.
 ---
 
 <!-- HERO -->
