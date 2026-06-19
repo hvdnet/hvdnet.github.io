@@ -20,7 +20,7 @@ Partnerships are vital to the success of this project. If you are interested in 
 
 Strategic partners are large public or private sector organizations, or standard-setting agencies and initiatives, that play a pivotal role in advancing our mission. They provide in-kind or financial support, assist with outreach and advocacy, help organize events, and collaborate on joint projects to drive meaningful impact.
 
-<div class="d-flex align-items-center gap-3 mb-4">
+<div class="partner-logos-row mb-4">
     <a href="https://www.codata.org" target="_blank" rel="noopener">
         <img src="/img/codata_logo.png" alt="CODATA" height="70" class="me-4">
     </a>
@@ -43,7 +43,7 @@ Data partners are high-value data custodians who share our vision and are commit
 
 Out Data partner play a crucial role by providing access to valuable data and documentation, and often serve as early adopters of our open source tools, recommended technologies, and best practices.
 
-<div class="d-flex align-items-center gap-3 mb-4">
+<div class="partner-logos-row mb-4">
     <a href="https://www.icpsr.umich.edu/web/pages/NACJD/index.html" target="_blank" rel="noopener">
         <img src="/img/nacjd_logo_bordered.png" alt="NACJD" height="60">
     </a>
@@ -63,7 +63,7 @@ Partner benefits:
 
 Technology partners are private sector companies or open source initiatives that contribute technologies, platforms, or infrastructure essential to advancing our project. Their support enables innovation, scalability, and the integration of cutting-edge solutions.
 
-<div class="d-flex align-items-center gap-3 mb-4">
+<div class="partner-logos-row mb-4">
     <a href="https://www.dathere.us" target="_blank" rel="noopener">
         <img src="/img/dathere_logo.png" alt="datHere" height="60" style="margin-right: 2rem;">
     </a>
@@ -72,9 +72,6 @@ Technology partners are private sector companies or open source initiatives that
     </a>
     <a href="https://www.dreamfactory.com/" target="_blank" rel="noopener">
         <img src="/img/dreamfactory_logo_orange.png" alt="Dreamfactory" width="250">
-    </a>
-    <a href="https://www.postman.com" target="_blank" rel="noopener">
-        <img src="/img/postman_logo.png" alt="Postman" width="250"  class="me-4">
     </a>
 </div>
 

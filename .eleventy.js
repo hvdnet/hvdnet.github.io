@@ -3,6 +3,7 @@ import markdownItAttrs from "markdown-it-attrs";
 
 import path from "path";
 import * as sass from "sass";
+import yaml from "js-yaml";
 
 export default function (eleventyConfig) {
 
@@ -37,6 +38,9 @@ export default function (eleventyConfig) {
     },
   }); 
   eleventyConfig.addTemplateFormats("scss")
+
+  // YAML Data Support
+  eleventyConfig.addDataExtension("yaml,yml", (contents) => yaml.load(contents));
 
   // Static assets
   eleventyConfig.addPassthroughCopy("src/assets");

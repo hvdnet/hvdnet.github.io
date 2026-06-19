@@ -1,8 +1,7 @@
 // ============================================
 // HVDNet Custom Styles
-// Modern Design System
-// ============================================
-
+// Modernized Design System
+// Force rebuild: 2026-06-19T15:40:00
 // Design System Foundation (must be first for @use)
 @use 'variables';
 @use 'mixins';
@@ -11,7 +10,7 @@
 @use 'utilities';
 
 // Import Google Fonts (Modern & High-Tech)
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
 
 // Additional custom styles
 details {

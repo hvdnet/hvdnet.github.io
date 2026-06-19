@@ -14,11 +14,11 @@ description: Learn more about the High-Value Data Network initiative and our mis
 </>
 
 <h2>Support & Partnerships</h2>
-<p>The project is supported by <a href="https://codata.org" target="_blank" rel="noopener noreferrer">CODATA</a> and a growing network of technology, strategic, and data partners. We are grateful to <a href="https://postman.com" target="_blank" rel="noopener noreferrer">Postman</a> for its support during our inception phase.</p>
-<p>You can learn more about our collaborators on the <a href="/resources/partners">Partners</a> page.</p>
+<p>The project is supported by <a href="https://codata.org" target="_blank" rel="noopener noreferrer">CODATA</a> and a growing network of technology, strategic, and data partners.</p>
+<p>You can learn more about our collaborators on the <a href="/about/partners/">Partners</a> page.</p>
 
 <h2>Community & Standards</h2>
-<p>Our work is grounded in the FAIR ecosystem and related initiatives, including CODATA’s CDIF and DRUM efforts. We champion interoperable, machine‑actionable metadata and well‑documented, data‑centric APIs. See our overview of <a href="/resources/standards">Standards & Best Practices</a>.</p>
+<p>Our work is grounded in the FAIR ecosystem and related initiatives, including CODATA’s CDIF and DRUM efforts. We champion interoperable, machine‑actionable metadata and well‑documented, data‑centric APIs. See our overview of <a href="/about/standards/">Standards & Best Practices</a>.</p>
 
 <h2>Get in touch</h2>
 <p>We welcome feedback, collaboration, and partnerships. Reach us at <a href="mailto:info@highvaluedata.net">info@highvaluedata.net</a>.</p>

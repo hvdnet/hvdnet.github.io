@@ -20,7 +20,63 @@
     <!-- Using only our custom design system -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="/assets/scss/custom.css" rel="stylesheet" />
+    <link href="/assets/scss/custom.css?v=1.0.1" rel="stylesheet" />
+    <script>
+      (function() {
+        // SVG data-pattern + atmospheric gradient layers per theme
+        const THEMES = {
+          'forest-amber': {
+            bg: [
+              "url('/assets/img/pattern-forest-amber.svg')",
+              'radial-gradient(ellipse 110% 50% at 50% -5%, rgba(129,230,185,0.22), transparent 65%)',
+              'radial-gradient(ellipse 60% 40% at 8% 55%, rgba(16,185,129,0.12), transparent)',
+              'linear-gradient(165deg, #0c1a0f 0%, #050a06 55%, #020302 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'cobalt-wave': {
+            bg: [
+              "url('/assets/img/pattern-cobalt-wave.svg')",
+              'radial-gradient(ellipse 120% 55% at 50% -10%, rgba(6,182,212,0.38), transparent 65%)',
+              'radial-gradient(ellipse 65% 45% at 90% 40%, rgba(59,130,246,0.22), transparent)',
+              'linear-gradient(155deg, #060d20 0%, #030610 55%, #010208 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'carbon-steel': {
+            bg: [
+              "url('/assets/img/pattern-carbon-steel.svg')",
+              'radial-gradient(ellipse 100% 45% at 65% -5%, rgba(226,232,240,0.14), transparent 60%)',
+              'radial-gradient(ellipse 55% 40% at 5% 45%, rgba(148,163,184,0.07), transparent)',
+              'linear-gradient(170deg, #1a1a20 0%, #0c0c10 50%, #050507 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'cyber-coral': {
+            bg: [
+              "url('/assets/img/pattern-cyber-coral.svg')",
+              'radial-gradient(ellipse 110% 50% at 50% -5%, rgba(245,158,11,0.25), transparent 70%)',
+              'radial-gradient(ellipse 60% 40% at 10% 50%, rgba(251,191,36,0.06), transparent)',
+              'linear-gradient(180deg, #090806 0%, #050403 60%, #020201 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          }
+        };
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          const t = THEMES[theme] || THEMES['cobalt-wave'];
+          document.documentElement.style.background = t.bg;
+          document.documentElement.style.backgroundSize = t.size;
+          document.documentElement.style.backgroundAttachment = 'fixed';
+          document.documentElement.style.minHeight = '100vh';
+          if (document.body) document.body.style.background = 'transparent';
+        }
+        applyTheme(localStorage.getItem('theme') || 'cobalt-wave');
+        document.addEventListener('DOMContentLoaded', function() {
+          if (document.body) document.body.style.background = 'transparent';
+        });
+      })();
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEQNE7LT68"></script>
     <script>
@@ -37,5 +93,79 @@
     </main>
     {% include "footer.njk" %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Mirror of head THEMES for DOMContentLoaded re-application
+        const THEMES = {
+          'forest-amber': {
+            bg: [
+              "url('/assets/img/pattern-forest-amber.svg')",
+              'radial-gradient(ellipse 110% 50% at 50% -5%, rgba(129,230,185,0.22), transparent 65%)',
+              'radial-gradient(ellipse 60% 40% at 8% 55%, rgba(16,185,129,0.12), transparent)',
+              'linear-gradient(165deg, #0c1a0f 0%, #050a06 55%, #020302 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'cobalt-wave': {
+            bg: [
+              "url('/assets/img/pattern-cobalt-wave.svg')",
+              'radial-gradient(ellipse 120% 55% at 50% -10%, rgba(6,182,212,0.38), transparent 65%)',
+              'radial-gradient(ellipse 65% 45% at 90% 40%, rgba(59,130,246,0.22), transparent)',
+              'linear-gradient(155deg, #060d20 0%, #030610 55%, #010208 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'carbon-steel': {
+            bg: [
+              "url('/assets/img/pattern-carbon-steel.svg')",
+              'radial-gradient(ellipse 100% 45% at 65% -5%, rgba(226,232,240,0.14), transparent 60%)',
+              'radial-gradient(ellipse 55% 40% at 5% 45%, rgba(148,163,184,0.07), transparent)',
+              'linear-gradient(170deg, #1a1a20 0%, #0c0c10 50%, #050507 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'cyber-coral': {
+            bg: [
+              "url('/assets/img/pattern-cyber-coral.svg')",
+              'radial-gradient(ellipse 110% 50% at 50% -5%, rgba(245,158,11,0.25), transparent 70%)',
+              'radial-gradient(ellipse 60% 40% at 10% 50%, rgba(251,191,36,0.06), transparent)',
+              'linear-gradient(180deg, #090806 0%, #050403 60%, #020201 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          }
+        };
+
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          const t = THEMES[theme] || THEMES['cobalt-wave'];
+          document.documentElement.style.background = t.bg;
+          document.documentElement.style.backgroundSize = t.size;
+          document.documentElement.style.backgroundAttachment = 'fixed';
+          document.documentElement.style.minHeight = '100vh';
+          document.body.style.background = 'transparent';
+        }
+
+        const themeButtons = document.querySelectorAll('[data-theme-value]');
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'cobalt-wave';
+        applyTheme(currentTheme);
+
+        const updateDropdownState = (theme) => {
+          themeButtons.forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-theme-value') === theme);
+          });
+        };
+        updateDropdownState(currentTheme);
+
+        themeButtons.forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const selectedTheme = btn.getAttribute('data-theme-value');
+            localStorage.setItem('theme', selectedTheme);
+            applyTheme(selectedTheme);
+            updateDropdownState(selectedTheme);
+          });
+        });
+      });
+    </script>
   </body>
 </html>

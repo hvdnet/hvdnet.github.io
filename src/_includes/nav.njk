@@ -2,7 +2,7 @@
   ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20({{page.url}})" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="/">
       <img src="/img/hvdnet_logo.png" alt="HVDNet" class="navbar-logo">
       <span>HVDNet</span>
@@ -29,29 +29,53 @@
             <li><a class="dropdown-item" href="/services/hosting/">Dataset Hosting</a></li>
           </ul>
         </li> #}
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {% if '/resources/' in page.url %}active{% endif %}" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="nav-text">Resources</span>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-            <li><a class="dropdown-item" href="/resources/partners/">Partners</a></li>
-            <li><a class="dropdown-item" href="/resources/standards/">Standards</a></li>
-          </ul>
-        </li>
         <li class="nav-item">
-          <a class="nav-link {% if '/about/' in page.url %}active{% endif %}" href="/about/">
+          <a class="nav-link {% if '/services/' in page.url %}active{% endif %}" href="/services/">
+            <span class="nav-text">Services</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle {% if '/about/' in page.url %}active{% endif %}" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <span class="nav-text">About</span>
           </a>
+          <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <li><a class="dropdown-item" href="/about/">About HVDNet</a></li>
+            <li><a class="dropdown-item" href="/about/partners/">Partners</a></li>
+            <li><a class="dropdown-item" href="/about/standards/">Standards</a></li>
+          </ul>
         </li>
         <li class="nav-item ms-lg-2">
           <a class="nav-link" href="https://discord.gg/x3RtjCH2" target="_blank" rel="noopener noreferrer" title="Discord">
             <i class="bi bi-discord"></i>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.youtube.com/channel/UCIZJ1-lL8EmPJNCIHVspf8A" target="_blank" rel="noopener noreferrer" title="YouTube">
-            <i class="bi bi-youtube"></i>
+        <li class="nav-item dropdown ms-lg-2">
+          <a class="nav-link dropdown-toggle" href="#" id="themeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Select Theme">
+            <i class="bi bi-palette"></i>
+            <span class="nav-text d-lg-none ms-2">Select Theme</span>
           </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown">
+            <li>
+              <button class="dropdown-item d-flex align-items-center gap-2" data-theme-value="cobalt-wave" style="background: none; border: none; width: 100%; text-align: left;">
+                <i class="bi bi-droplet-fill text-info"></i> Cobalt Wave
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item d-flex align-items-center gap-2" data-theme-value="forest-amber" style="background: none; border: none; width: 100%; text-align: left;">
+                <i class="bi bi-trees-fill text-success"></i> Forest Amber
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item d-flex align-items-center gap-2" data-theme-value="carbon-steel" style="background: none; border: none; width: 100%; text-align: left;">
+                <i class="bi bi-circle-half" style="color: var(--color-accent-primary);"></i> Carbon Steel
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item d-flex align-items-center gap-2" data-theme-value="cyber-coral" style="background: none; border: none; width: 100%; text-align: left;">
+                <i class="bi bi-cpu" style="color: #f59e0b;"></i> Cyber Coral
+              </button>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>

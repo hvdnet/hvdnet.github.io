@@ -1,0 +1,55 @@
+# HVDNet Services
+# Bootstrap icons: https://icons.getbootstrap.com/
+#
+- name: Fundamental Physical Constants
+  description: >
+    A semantic gateway to the physical fundamental constants. Collaborative effort with the CODATA Digital Representation of Units of Measurement (DRUM) Task Group.
+  tags:
+    - CODATA
+    - DRUM
+    - API
+    - SI
+  url: https://api.codata.org/drum/constants/
+  github: https://github.com/codata/drum-constants-api
+  icon: bi-rulers
+
+- name: HVDNet File Manager
+  description: >
+    Web based application and API to manage your project files in the High-Value Data Network environment.
+    To be used with our APIs and other FAIRification services.
+    Contact support@highvaluedata.net to get a free account.
+  tags:
+    - Application
+    - Storage
+    - Sharing
+  url: https://files.highvaluedata.net
+  icon: bi-folder
+
+- name: FAIR Proxy API
+  description: >
+    API services to proxy and transform popular public platforms metadata into FAIR compliant standards.
+    Initial support focuses on Socrata (a.k.a. Data Insights), used by many city and state governments in North America.
+  tags:
+    - API
+    - FAIRification
+    - Socrata
+    - DCAT
+    - DDI
+    - Croissant
+  coming_soon: true
+  icon: bi-cloud-arrow-down-fill
+
+- name: Rich Data Services
+  description: >
+    A public instance of Rich Data Services hosted by the HVDN.
+    Provides access to public high-value datasets and their metadata.
+    For showcasing or demo purposes.
+    Sponsored by Metadata Technology North America.
+  tags:
+    - API
+    - Data
+    - Metadata
+    - FAIR
+    - DDI-C
+  coming_soon: true
+  icon: bi-bar-chart-line
