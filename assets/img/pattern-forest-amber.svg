@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Forest Amber: Topographic contour / density map aesthetic -->
+
+  <!-- Cluster A: left-center (primary focus) -->
+  <ellipse cx="380" cy="340" rx="340" ry="220" fill="none" stroke="rgba(245,158,11,0.11)" stroke-width="1"/>
+  <ellipse cx="380" cy="340" rx="275" ry="178" fill="none" stroke="rgba(245,158,11,0.12)" stroke-width="1"/>
+  <ellipse cx="380" cy="340" rx="210" ry="136" fill="none" stroke="rgba(245,158,11,0.13)" stroke-width="1.2"/>
+  <ellipse cx="380" cy="340" rx="148" ry="96" fill="none" stroke="rgba(245,158,11,0.15)" stroke-width="1.2"/>
+  <ellipse cx="380" cy="340" rx="90" ry="58" fill="none" stroke="rgba(245,158,11,0.16)" stroke-width="1.4"/>
+  <ellipse cx="380" cy="340" rx="44" ry="28" fill="none" stroke="rgba(245,158,11,0.18)" stroke-width="1.4"/>
+  <ellipse cx="380" cy="340" rx="16" ry="10" fill="none" stroke="rgba(245,158,11,0.20)" stroke-width="1.5"/>
+
+  <!-- Cluster B: upper-right -->
+  <ellipse cx="1180" cy="200" rx="280" ry="160" fill="none" stroke="rgba(245,158,11,0.09)" stroke-width="1"/>
+  <ellipse cx="1180" cy="200" rx="218" ry="124" fill="none" stroke="rgba(245,158,11,0.10)" stroke-width="1"/>
+  <ellipse cx="1180" cy="200" rx="158" ry="90" fill="none" stroke="rgba(245,158,11,0.11)" stroke-width="1.1"/>
+  <ellipse cx="1180" cy="200" rx="100" ry="57" fill="none" stroke="rgba(245,158,11,0.12)" stroke-width="1.2"/>
+  <ellipse cx="1180" cy="200" rx="52" ry="30" fill="none" stroke="rgba(245,158,11,0.14)" stroke-width="1.3"/>
+  <ellipse cx="1180" cy="200" rx="20" ry="11" fill="none" stroke="rgba(245,158,11,0.16)" stroke-width="1.4"/>
+
+  <!-- Cluster C: lower-right -->
+  <ellipse cx="1580" cy="820" rx="300" ry="180" fill="none" stroke="rgba(16,185,129,0.08)" stroke-width="1"/>
+  <ellipse cx="1580" cy="820" rx="235" ry="141" fill="none" stroke="rgba(16,185,129,0.09)" stroke-width="1"/>
+  <ellipse cx="1580" cy="820" rx="170" ry="102" fill="none" stroke="rgba(16,185,129,0.10)" stroke-width="1.1"/>
+  <ellipse cx="1580" cy="820" rx="108" ry="65" fill="none" stroke="rgba(16,185,129,0.11)" stroke-width="1.2"/>
+  <ellipse cx="1580" cy="820" rx="56" ry="34" fill="none" stroke="rgba(16,185,129,0.12)" stroke-width="1.3"/>
+  <ellipse cx="1580" cy="820" rx="22" ry="13" fill="none" stroke="rgba(16,185,129,0.14)" stroke-width="1.4"/>
+
+  <!-- Cluster D: lower-left edge (partial) -->
+  <ellipse cx="80" cy="960" rx="220" ry="130" fill="none" stroke="rgba(245,158,11,0.07)" stroke-width="1"/>
+  <ellipse cx="80" cy="960" rx="160" ry="95" fill="none" stroke="rgba(245,158,11,0.08)" stroke-width="1"/>
+  <ellipse cx="80" cy="960" rx="100" ry="60" fill="none" stroke="rgba(245,158,11,0.09)" stroke-width="1"/>
+  <ellipse cx="80" cy="960" rx="50" ry="30" fill="none" stroke="rgba(245,158,11,0.10)" stroke-width="1"/>
+
+  <!-- Cluster E: upper-left small -->
+  <ellipse cx="820" cy="620" rx="200" ry="120" fill="none" stroke="rgba(245,158,11,0.07)" stroke-width="1"/>
+  <ellipse cx="820" cy="620" rx="148" ry="89" fill="none" stroke="rgba(245,158,11,0.08)" stroke-width="1"/>
+  <ellipse cx="820" cy="620" rx="96" ry="58" fill="none" stroke="rgba(245,158,11,0.09)" stroke-width="1"/>
+  <ellipse cx="820" cy="620" rx="48" ry="29" fill="none" stroke="rgba(245,158,11,0.10)" stroke-width="1"/>
+  <ellipse cx="820" cy="620" rx="18" ry="11" fill="none" stroke="rgba(245,158,11,0.12)" stroke-width="1.2"/>
+
+  <!-- Cluster F: far right mid -->
+  <ellipse cx="1820" cy="480" rx="180" ry="110" fill="none" stroke="rgba(180,83,9,0.07)" stroke-width="1"/>
+  <ellipse cx="1820" cy="480" rx="128" ry="78" fill="none" stroke="rgba(180,83,9,0.08)" stroke-width="1"/>
+  <ellipse cx="1820" cy="480" rx="78" ry="48" fill="none" stroke="rgba(180,83,9,0.09)" stroke-width="1"/>
+  <ellipse cx="1820" cy="480" rx="36" ry="22" fill="none" stroke="rgba(180,83,9,0.10)" stroke-width="1"/>
+
+  <!-- Tick marks on contours (scientific style) -->
+  <g stroke="rgba(245,158,11,0.18)" stroke-width="1">
+    <!-- Ticks on cluster A -->
+    <line x1="720" y1="340" x2="728" y2="340"/>
+    <line x1="40" y1="340" x2="32" y2="340"/>
+    <line x1="380" y1="120" x2="380" y2="112"/>
+    <line x1="380" y1="560" x2="380" y2="568"/>
+    <!-- Ticks on cluster B -->
+    <line x1="1460" y1="200" x2="1468" y2="200"/>
+    <line x1="900" y1="200" x2="892" y2="200"/>
+    <line x1="1180" y1="40" x2="1180" y2="32"/>
+    <line x1="1180" y1="360" x2="1180" y2="368"/>
+  </g>
+
+  <!-- Faint label-like dashes (mimicking contour labels) -->
+  <g fill="rgba(245,158,11,0.10)" font-family="monospace" font-size="9">
+    <text x="724" y="338">·</text>
+    <text x="508" y="276">·</text>
+    <text x="248" y="276">·</text>
+  </g>
+</svg>

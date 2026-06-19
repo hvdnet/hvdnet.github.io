@@ -245,6 +245,11 @@
     padding: var(--space-2);
     display: none;
     z-index: var(--z-dropdown);
+
+    &.dropdown-menu-end {
+        left: auto !important;
+        right: 0 !important;
+    }
 }
 
 .dropdown:hover .dropdown-menu {

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Cyber Coral: Telemetry Signal Waves & Heartbeat Traces (Orange/Gold Palette) -->
+
+  <!-- Wave 1: Warm Gold-White Telemetry Wave (Sine-like) -->
+  <path d="M 0,220 C 180,120 320,320 500,220 C 680,120 820,320 1000,220 C 1180,120 1320,320 1500,220 C 1680,120 1820,320 1920,220" fill="none" stroke="rgba(255, 251, 235, 0.07)" stroke-width="2" />
+  <!-- Wave 1 Nodes -->
+  <circle cx="250" cy="220" r="3.5" fill="rgba(255, 251, 235, 0.2)" />
+  <circle cx="750" cy="220" r="3.5" fill="rgba(255, 251, 235, 0.2)" />
+  <circle cx="1250" cy="220" r="3.5" fill="rgba(255, 251, 235, 0.2)" />
+  <circle cx="1750" cy="220" r="3.5" fill="rgba(255, 251, 235, 0.2)" />
+
+  <!-- Wave 2: Vibrant Amber/Orange Telemetry Signal (Shifted Phase) -->
+  <path d="M 0,440 C 200,560 360,320 540,440 C 720,560 880,320 1060,440 C 1240,560 1400,320 1580,440 C 1760,560 1920,320 1920,440" fill="none" stroke="rgba(245, 158, 11, 0.08)" stroke-width="2" />
+  <!-- Wave 2 Nodes -->
+  <circle cx="450" cy="440" r="3.5" fill="rgba(245, 158, 11, 0.25)" />
+  <circle cx="970" cy="440" r="3.5" fill="rgba(245, 158, 11, 0.25)" />
+  <circle cx="1490" cy="440" r="3.5" fill="rgba(245, 158, 11, 0.25)" />
+
+  <!-- Wave 3: ECG / Heartbeat Spikes (Gold) -->
+  <path d="M 0,660 L 300,660 L 320,620 L 340,730 L 360,640 L 380,660 L 680,660 L 700,620 L 720,730 L 740,640 L 760,660 L 1160,660 L 1180,620 L 1200,730 L 1220,640 L 1240,660 L 1540,660 L 1560,620 L 1580,730 L 1600,640 L 1620,660 L 1920,660" fill="none" stroke="rgba(251, 191, 36, 0.06)" stroke-width="1.5" />
+  <!-- Wave 3 Peak Markings -->
+  <circle cx="340" cy="730" r="2.5" fill="rgba(251, 191, 36, 0.2)" />
+  <circle cx="720" cy="730" r="2.5" fill="rgba(251, 191, 36, 0.2)" />
+  <circle cx="1200" cy="730" r="2.5" fill="rgba(251, 191, 36, 0.2)" />
+  <circle cx="1580" cy="730" r="2.5" fill="rgba(251, 191, 36, 0.2)" />
+
+  <!-- Grid Telemetry Channels -->
+  <line x1="100" y1="0" x2="100" y2="1080" stroke="rgba(255, 251, 235, 0.03)" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="500" y1="0" x2="500" y2="1080" stroke="rgba(255, 251, 235, 0.03)" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="900" y1="0" x2="900" y2="1080" stroke="rgba(255, 251, 235, 0.03)" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="1300" y1="0" x2="1300" y2="1080" stroke="rgba(255, 251, 235, 0.03)" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="1700" y1="0" x2="1700" y2="1080" stroke="rgba(255, 251, 235, 0.03)" stroke-width="1" stroke-dasharray="8,8" />
+
+  <!-- Binary Matrix Signals (small numbers or bits on side) -->
+  <g fill="rgba(255, 251, 235, 0.05)" font-family="monospace" font-size="11">
+    <text x="120" y="80">01001000</text>
+    <text x="120" y="100">01010110</text>
+    <text x="120" y="120">01000100</text>
+    <text x="920" y="80">SYS_OK: 1</text>
+    <text x="920" y="100">PULSE: 72</text>
+    <text x="1320" y="800">01001110</text>
+    <text x="1320" y="820">01000101</text>
+    <text x="1320" y="840">01010100</text>
+  </g>
+</svg>

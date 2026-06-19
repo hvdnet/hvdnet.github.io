@@ -20,7 +20,63 @@
     <!-- Using only our custom design system -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="/assets/scss/custom.css" rel="stylesheet" />
+    <link href="/assets/scss/custom.css?v=1.0.1" rel="stylesheet" />
+    <script>
+      (function() {
+        // SVG data-pattern + atmospheric gradient layers per theme
+        const THEMES = {
+          'forest-amber': {
+            bg: [
+              "url('/assets/img/pattern-forest-amber.svg')",
+              'radial-gradient(ellipse 110% 50% at 50% -5%, rgba(129,230,185,0.22), transparent 65%)',
+              'radial-gradient(ellipse 60% 40% at 8% 55%, rgba(16,185,129,0.12), transparent)',
+              'linear-gradient(165deg, #0c1a0f 0%, #050a06 55%, #020302 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'cobalt-wave': {
+            bg: [
+              "url('/assets/img/pattern-cobalt-wave.svg')",
+              'radial-gradient(ellipse 120% 55% at 50% -10%, rgba(6,182,212,0.38), transparent 65%)',
+              'radial-gradient(ellipse 65% 45% at 90% 40%, rgba(59,130,246,0.22), transparent)',
+              'linear-gradient(155deg, #060d20 0%, #030610 55%, #010208 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'carbon-steel': {
+            bg: [
+              "url('/assets/img/pattern-carbon-steel.svg')",
+              'radial-gradient(ellipse 100% 45% at 65% -5%, rgba(226,232,240,0.14), transparent 60%)',
+              'radial-gradient(ellipse 55% 40% at 5% 45%, rgba(148,163,184,0.07), transparent)',
+              'linear-gradient(170deg, #1a1a20 0%, #0c0c10 50%, #050507 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'cyber-coral': {
+            bg: [
+              "url('/assets/img/pattern-cyber-coral.svg')",
+              'radial-gradient(ellipse 110% 50% at 50% -5%, rgba(245,158,11,0.25), transparent 70%)',
+              'radial-gradient(ellipse 60% 40% at 10% 50%, rgba(251,191,36,0.06), transparent)',
+              'linear-gradient(180deg, #090806 0%, #050403 60%, #020201 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          }
+        };
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          const t = THEMES[theme] || THEMES['cobalt-wave'];
+          document.documentElement.style.background = t.bg;
+          document.documentElement.style.backgroundSize = t.size;
+          document.documentElement.style.backgroundAttachment = 'fixed';
+          document.documentElement.style.minHeight = '100vh';
+          if (document.body) document.body.style.background = 'transparent';
+        }
+        applyTheme(localStorage.getItem('theme') || 'cobalt-wave');
+        document.addEventListener('DOMContentLoaded', function() {
+          if (document.body) document.body.style.background = 'transparent';
+        });
+      })();
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEQNE7LT68"></script>
     <script>
@@ -35,7 +91,7 @@
   ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20(/resources/platforms/)" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="/">
       <img src="/img/hvdnet_logo.png" alt="HVDNet" class="navbar-logo">
       <span>HVDNet</span>
@@ -52,29 +108,53 @@
         </li>
         <!-- Services section temporarily disabled -->
         
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="nav-text">Resources</span>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-            <li><a class="dropdown-item" href="/resources/partners/">Partners</a></li>
-            <li><a class="dropdown-item" href="/resources/standards/">Standards</a></li>
-          </ul>
-        </li>
         <li class="nav-item">
-          <a class="nav-link " href="/about/">
+          <a class="nav-link " href="/services/">
+            <span class="nav-text">Services</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <span class="nav-text">About</span>
           </a>
+          <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <li><a class="dropdown-item" href="/about/">About HVDNet</a></li>
+            <li><a class="dropdown-item" href="/about/partners/">Partners</a></li>
+            <li><a class="dropdown-item" href="/about/standards/">Standards</a></li>
+          </ul>
         </li>
         <li class="nav-item ms-lg-2">
           <a class="nav-link" href="https://discord.gg/x3RtjCH2" target="_blank" rel="noopener noreferrer" title="Discord">
             <i class="bi bi-discord"></i>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.youtube.com/channel/UCIZJ1-lL8EmPJNCIHVspf8A" target="_blank" rel="noopener noreferrer" title="YouTube">
-            <i class="bi bi-youtube"></i>
+        <li class="nav-item dropdown ms-lg-2">
+          <a class="nav-link dropdown-toggle" href="#" id="themeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Select Theme">
+            <i class="bi bi-palette"></i>
+            <span class="nav-text d-lg-none ms-2">Select Theme</span>
           </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown">
+            <li>
+              <button class="dropdown-item d-flex align-items-center gap-2" data-theme-value="cobalt-wave" style="background: none; border: none; width: 100%; text-align: left;">
+                <i class="bi bi-droplet-fill text-info"></i> Cobalt Wave
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item d-flex align-items-center gap-2" data-theme-value="forest-amber" style="background: none; border: none; width: 100%; text-align: left;">
+                <i class="bi bi-trees-fill text-success"></i> Forest Amber
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item d-flex align-items-center gap-2" data-theme-value="carbon-steel" style="background: none; border: none; width: 100%; text-align: left;">
+                <i class="bi bi-circle-half" style="color: var(--color-accent-primary);"></i> Carbon Steel
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item d-flex align-items-center gap-2" data-theme-value="cyber-coral" style="background: none; border: none; width: 100%; text-align: left;">
+                <i class="bi bi-cpu" style="color: #f59e0b;"></i> Cyber Coral
+              </button>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
@@ -92,10 +172,84 @@
     <footer class="footer">
   <div class="container">
     <p>&copy; 2025 High-Value Data Network</p>
-    <p class="text-muted">Last updated: 2026-05-19</p>
+    <p class="text-muted">Last updated: 2026-06-19</p>
   </div>
 </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Mirror of head THEMES for DOMContentLoaded re-application
+        const THEMES = {
+          'forest-amber': {
+            bg: [
+              "url('/assets/img/pattern-forest-amber.svg')",
+              'radial-gradient(ellipse 110% 50% at 50% -5%, rgba(129,230,185,0.22), transparent 65%)',
+              'radial-gradient(ellipse 60% 40% at 8% 55%, rgba(16,185,129,0.12), transparent)',
+              'linear-gradient(165deg, #0c1a0f 0%, #050a06 55%, #020302 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'cobalt-wave': {
+            bg: [
+              "url('/assets/img/pattern-cobalt-wave.svg')",
+              'radial-gradient(ellipse 120% 55% at 50% -10%, rgba(6,182,212,0.38), transparent 65%)',
+              'radial-gradient(ellipse 65% 45% at 90% 40%, rgba(59,130,246,0.22), transparent)',
+              'linear-gradient(155deg, #060d20 0%, #030610 55%, #010208 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'carbon-steel': {
+            bg: [
+              "url('/assets/img/pattern-carbon-steel.svg')",
+              'radial-gradient(ellipse 100% 45% at 65% -5%, rgba(226,232,240,0.14), transparent 60%)',
+              'radial-gradient(ellipse 55% 40% at 5% 45%, rgba(148,163,184,0.07), transparent)',
+              'linear-gradient(170deg, #1a1a20 0%, #0c0c10 50%, #050507 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          },
+          'cyber-coral': {
+            bg: [
+              "url('/assets/img/pattern-cyber-coral.svg')",
+              'radial-gradient(ellipse 110% 50% at 50% -5%, rgba(245,158,11,0.25), transparent 70%)',
+              'radial-gradient(ellipse 60% 40% at 10% 50%, rgba(251,191,36,0.06), transparent)',
+              'linear-gradient(180deg, #090806 0%, #050403 60%, #020201 100%)'
+            ].join(', '),
+            size: 'cover, 100% 100%, 100% 100%, 100% 100%'
+          }
+        };
+
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          const t = THEMES[theme] || THEMES['cobalt-wave'];
+          document.documentElement.style.background = t.bg;
+          document.documentElement.style.backgroundSize = t.size;
+          document.documentElement.style.backgroundAttachment = 'fixed';
+          document.documentElement.style.minHeight = '100vh';
+          document.body.style.background = 'transparent';
+        }
+
+        const themeButtons = document.querySelectorAll('[data-theme-value]');
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'cobalt-wave';
+        applyTheme(currentTheme);
+
+        const updateDropdownState = (theme) => {
+          themeButtons.forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-theme-value') === theme);
+          });
+        };
+        updateDropdownState(currentTheme);
+
+        themeButtons.forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const selectedTheme = btn.getAttribute('data-theme-value');
+            localStorage.setItem('theme', selectedTheme);
+            applyTheme(selectedTheme);
+            updateDropdownState(selectedTheme);
+          });
+        });
+      });
+    </script>
   </body>
 </html>

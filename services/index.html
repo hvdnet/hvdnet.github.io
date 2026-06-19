@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HVDNet API</title>
+    <title>HVDNet Services</title>
     <meta name="description" content="Making high-value data equally discoverable, accessible, and usable by humans and machines through FAIR principles and open standards." />
     <meta name="author" content="Pascal Heus" />
     <meta name="keywords" content="FAIR data, open standards, metadata, high-value data, data management, API, research data, interoperability" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.highvaluedata.net/services/api/" />
-    <meta property="og:title" content="HVDNet API" />
+    <meta property="og:url" content="https://www.highvaluedata.net/services/" />
+    <meta property="og:title" content="HVDNet Services" />
     <meta property="og:description" content="Making high-value data equally discoverable, accessible, and usable by humans and machines through FAIR principles and open standards." />
     <meta property="og:image" content="https://www.highvaluedata.net/assets/img/hvdnet_hero_bg.jpg" />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.highvaluedata.net/services/api/" />
+    <link rel="canonical" href="https://www.highvaluedata.net/services/" />
     <!-- Using only our custom design system -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -88,7 +88,7 @@
   </head>
   <body>
     <div class="bg-warning text-dark text-center py-1 small fw-semibold">
-  ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20(/services/api/)" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
+  ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20(/services/)" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
@@ -162,56 +162,160 @@
 </nav>
 
     <main class="container mt-4 main-content-area">
-      <h1>HVDNet API</h1>
-<p>Our API serves as the foundation for our vision and services, focusing on simplifying dataset discovery, access, and utilization through standards-based metadata. By enforcing a robust standardization layer over diverse APIs from multiple platforms and public data services, it ensures alignment on FAIR principles and related best practices.</p>
-<p>We are also developing a suite of utility services to facilitate the creation and use of machine-actionable data and metadata.</p>
-<p>Explore and experiment with the API using our <a href="https://www.highvaluedata.net/playground" target="_blank" rel="noopener noreferrer">Playground</a> web application.</p>
-<p>Consult the documentation below for more information:</p>
-<ul>
-<li><a href="/resources/api/redoc">Redoc</a></li>
-<li><a href="/resources/api/scalar">Scalar</a></li>
-<li><a href="/resources/api/swagger">Swagger</a></li>
-</ul>
-<h2 class="mt-4">Resource Identifiers</h2>
-<p>Uniquely identifying resources is always a challenge. While these may in some cases exists (e.g. DOI), this is not generally available for most high-value datasets and related entities.</p>
-<p>For the HVDNet API, we are using the following platform/service dependent schemes to identify servers, catalogs, and datasets:</p>
-<table class="table table-sm">
-<thead>
-<tr>
-<th>Platform</th>
-<th>Scheme</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MTNA RDS</td>
-<td><code>mtnards:&lt;server_id&gt;:&lt;catalog_id&gt;:&lt;dataset_id&gt;</code></td>
-<td><code>mtnards:rds.highvaluedata.net:us_anes:anes1948</code></td>
-</tr>
-<tr>
-<td>Socrata</td>
-<td><code>socrata:&lt;server_id&gt;:&lt;dataset_id&gt;</code></td>
-<td><code>socrata:data.calgary.ca:iahh-g8bj</code></td>
-</tr>
-<tr>
-<td>U.S. Census Bureau</td>
-<td><code>uscensus:api.census.gov:&lt;dataset_id&gt;</code></td>
-<td><code>uscensus:api.census.gov:&lt;dataset_id&gt;</code></td>
-</tr>
-</tbody>
-</table>
-<div class="mt-4"/>
-<h2 class="mt-4">Datasets services</h2>
-<p>The <code>/datasets</code> endpoints generates standardized metadata based on the information available from the back-end platforms. This is not always ideal as metadata exposed by the is typically proprietary and sparse. Future versions will add knowledge inference services that will generate new metadata from the data and available documentation. The current implementation is experimental, particularly for new or emerging specifications such as DDI-CDI and Croissant.</p>
-<p>In addition, the dataset services include a data-centric Postman Collection generator, which is used to populate public workspaces for various data publishers.</p>
-<p>A markdown generator is also included to produce both human and AI friendly documentation.</p>
-<p>At this time, these features are being implemented for the following platforms and public API:</p>
-<ul>
-<li><a href="https://www.tylertech.com/solutions/transformative-technology/data-insights" target="_blank" rel="noopener noreferrer">Socrata / Data Insights</a></li>
-<li><a href="https://www.richdataservices.com" target="_blank" rel="noopener noreferrer">MTNA Rich Data Service</a></li>
-<li><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau API</a></li>
-</ul>
+      
+<h1 class="mb-2">Services</h1>
+
+<p class="text-muted mb-4" style="font-size: var(--text-base);">Applications and APIs for data discovery, transformation, and integration.</p>
+
+<div class="row g-3">
+  
+  <div class="col-md-4">
+    <div onclick="if(!event.target.closest('.app-card-action-link')){ window.open('https://api.codata.org/drum/constants/', '_blank'); }" class="app-card" style="cursor: pointer;">
+      <div class="app-card-header">
+        <div class="d-flex align-items-center gap-3">
+          <div class="app-card-icon">
+            <i class="bi bi-rulers"></i>
+          </div>
+          <div class="app-card-name">
+            Fundamental Physical Constants
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          
+            
+              <a href="https://github.com/codata/drum-constants-api" target="_blank" rel="noopener noreferrer" class="app-card-action-link" title="GitHub Repository">
+                <i class="bi bi-github"></i>
+              </a>
+            
+            <a href="https://api.codata.org/drum/constants/" target="_blank" rel="noopener noreferrer" class="app-card-action-link" title="Visit Service">
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+          
+        </div>
+      </div>
+      <div class="app-card-desc">A semantic gateway to the physical fundamental constants. Collaborative effort with the CODATA Digital Representation of Units of Measurement (DRUM) Task Group.
+</div>
+      <div class="app-card-tags">
+        
+          <span class="app-card-tag">CODATA</span>
+        
+          <span class="app-card-tag">DRUM</span>
+        
+          <span class="app-card-tag">API</span>
+        
+          <span class="app-card-tag">SI</span>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div onclick="if(!event.target.closest('.app-card-action-link')){ window.open('https://files.highvaluedata.net', '_blank'); }" class="app-card" style="cursor: pointer;">
+      <div class="app-card-header">
+        <div class="d-flex align-items-center gap-3">
+          <div class="app-card-icon">
+            <i class="bi bi-folder"></i>
+          </div>
+          <div class="app-card-name">
+            HVDNet File Manager
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          
+            
+            <a href="https://files.highvaluedata.net" target="_blank" rel="noopener noreferrer" class="app-card-action-link" title="Visit Service">
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+          
+        </div>
+      </div>
+      <div class="app-card-desc">Web based application and API to manage your project files in the High-Value Data Network environment. To be used with our APIs and other FAIRification services. Contact support@highvaluedata.net to get a free account.
+</div>
+      <div class="app-card-tags">
+        
+          <span class="app-card-tag">Application</span>
+        
+          <span class="app-card-tag">Storage</span>
+        
+          <span class="app-card-tag">Sharing</span>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div class="app-card app-card-coming-soon">
+      <div class="app-card-header">
+        <div class="d-flex align-items-center gap-3">
+          <div class="app-card-icon">
+            <i class="bi bi-cloud-arrow-down-fill"></i>
+          </div>
+          <div class="app-card-name">
+            FAIR Proxy API
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          
+            <span class="badge bg-secondary badge-coming-soon" style="font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 4px 8px; background-color: rgba(255, 255, 255, 0.15) !important; color: var(--color-text-secondary) !important; border: 1px solid rgba(255, 255, 255, 0.2);">Coming Soon</span>
+          
+        </div>
+      </div>
+      <div class="app-card-desc">API services to proxy and transform popular public platforms metadata into FAIR compliant standards. Initial support focuses on Socrata (a.k.a. Data Insights), used by many city and state governments in North America.
+</div>
+      <div class="app-card-tags">
+        
+          <span class="app-card-tag">API</span>
+        
+          <span class="app-card-tag">FAIRification</span>
+        
+          <span class="app-card-tag">Socrata</span>
+        
+          <span class="app-card-tag">DCAT</span>
+        
+          <span class="app-card-tag">DDI</span>
+        
+          <span class="app-card-tag">Croissant</span>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div class="app-card app-card-coming-soon">
+      <div class="app-card-header">
+        <div class="d-flex align-items-center gap-3">
+          <div class="app-card-icon">
+            <i class="bi bi-bar-chart-line"></i>
+          </div>
+          <div class="app-card-name">
+            Rich Data Services
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          
+            <span class="badge bg-secondary badge-coming-soon" style="font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 4px 8px; background-color: rgba(255, 255, 255, 0.15) !important; color: var(--color-text-secondary) !important; border: 1px solid rgba(255, 255, 255, 0.2);">Coming Soon</span>
+          
+        </div>
+      </div>
+      <div class="app-card-desc">A public instance of Rich Data Services hosted by the HVDN. Provides access to public high-value datasets and their metadata. For showcasing or demo purposes. Sponsored by Metadata Technology North America.
+</div>
+      <div class="app-card-tags">
+        
+          <span class="app-card-tag">API</span>
+        
+          <span class="app-card-tag">Data</span>
+        
+          <span class="app-card-tag">Metadata</span>
+        
+          <span class="app-card-tag">FAIR</span>
+        
+          <span class="app-card-tag">DDI-C</span>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
 
     </main>
     <footer class="footer">

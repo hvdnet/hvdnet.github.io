@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HVDNet API</title>
+    <title>HVDNet Partners</title>
     <meta name="description" content="Making high-value data equally discoverable, accessible, and usable by humans and machines through FAIR principles and open standards." />
     <meta name="author" content="Pascal Heus" />
     <meta name="keywords" content="FAIR data, open standards, metadata, high-value data, data management, API, research data, interoperability" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.highvaluedata.net/services/api/" />
-    <meta property="og:title" content="HVDNet API" />
+    <meta property="og:url" content="https://www.highvaluedata.net/about/partners/" />
+    <meta property="og:title" content="HVDNet Partners" />
     <meta property="og:description" content="Making high-value data equally discoverable, accessible, and usable by humans and machines through FAIR principles and open standards." />
     <meta property="og:image" content="https://www.highvaluedata.net/assets/img/hvdnet_hero_bg.jpg" />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.highvaluedata.net/services/api/" />
+    <link rel="canonical" href="https://www.highvaluedata.net/about/partners/" />
     <!-- Using only our custom design system -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -88,7 +88,7 @@
   </head>
   <body>
     <div class="bg-warning text-dark text-center py-1 small fw-semibold">
-  ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20(/services/api/)" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
+  ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20(/about/partners/)" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
@@ -109,12 +109,12 @@
         <!-- Services section temporarily disabled -->
         
         <li class="nav-item">
-          <a class="nav-link active" href="/services/">
+          <a class="nav-link " href="/services/">
             <span class="nav-text">Services</span>
           </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle " href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <span class="nav-text">About</span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -162,55 +162,84 @@
 </nav>
 
     <main class="container mt-4 main-content-area">
-      <h1>HVDNet API</h1>
-<p>Our API serves as the foundation for our vision and services, focusing on simplifying dataset discovery, access, and utilization through standards-based metadata. By enforcing a robust standardization layer over diverse APIs from multiple platforms and public data services, it ensures alignment on FAIR principles and related best practices.</p>
-<p>We are also developing a suite of utility services to facilitate the creation and use of machine-actionable data and metadata.</p>
-<p>Explore and experiment with the API using our <a href="https://www.highvaluedata.net/playground" target="_blank" rel="noopener noreferrer">Playground</a> web application.</p>
-<p>Consult the documentation below for more information:</p>
+      <h1>Partners</h1>
+<p>Our work is inherently collaborative, relying on the engagement of stakeholders from diverse sectors and communities.</p>
+<p>We welcome a wide range of partners, each playing a unique role:</p>
 <ul>
-<li><a href="/resources/api/redoc">Redoc</a></li>
-<li><a href="/resources/api/scalar">Scalar</a></li>
-<li><a href="/resources/api/swagger">Swagger</a></li>
+<li><strong>Strategic Partners:</strong> Organizations, companies, or standard-setting bodies that provide support, advocacy, and help drive our mission forward.</li>
+<li><strong>Data Partners:</strong> Data custodians and producers looking to modernize their infrastructure and make their datasets FAIR, increasing accessibility and impact.</li>
+<li><strong>Technology Partners:</strong> Companies or open source initiatives that contribute essential technologies, platforms, or infrastructure to enable innovation and integration.</li>
+<li><strong>Communities:</strong> Networks of data users, researchers, developers, and advocates who foster collaboration, share expertise, and advance data-driven solutions.</li>
 </ul>
-<h2 class="mt-4">Resource Identifiers</h2>
-<p>Uniquely identifying resources is always a challenge. While these may in some cases exists (e.g. DOI), this is not generally available for most high-value datasets and related entities.</p>
-<p>For the HVDNet API, we are using the following platform/service dependent schemes to identify servers, catalogs, and datasets:</p>
-<table class="table table-sm">
-<thead>
-<tr>
-<th>Platform</th>
-<th>Scheme</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MTNA RDS</td>
-<td><code>mtnards:&lt;server_id&gt;:&lt;catalog_id&gt;:&lt;dataset_id&gt;</code></td>
-<td><code>mtnards:rds.highvaluedata.net:us_anes:anes1948</code></td>
-</tr>
-<tr>
-<td>Socrata</td>
-<td><code>socrata:&lt;server_id&gt;:&lt;dataset_id&gt;</code></td>
-<td><code>socrata:data.calgary.ca:iahh-g8bj</code></td>
-</tr>
-<tr>
-<td>U.S. Census Bureau</td>
-<td><code>uscensus:api.census.gov:&lt;dataset_id&gt;</code></td>
-<td><code>uscensus:api.census.gov:&lt;dataset_id&gt;</code></td>
-</tr>
-</tbody>
-</table>
-<div class="mt-4"/>
-<h2 class="mt-4">Datasets services</h2>
-<p>The <code>/datasets</code> endpoints generates standardized metadata based on the information available from the back-end platforms. This is not always ideal as metadata exposed by the is typically proprietary and sparse. Future versions will add knowledge inference services that will generate new metadata from the data and available documentation. The current implementation is experimental, particularly for new or emerging specifications such as DDI-CDI and Croissant.</p>
-<p>In addition, the dataset services include a data-centric Postman Collection generator, which is used to populate public workspaces for various data publishers.</p>
-<p>A markdown generator is also included to produce both human and AI friendly documentation.</p>
-<p>At this time, these features are being implemented for the following platforms and public API:</p>
+<p>Partnerships are vital to the success of this project. If you are interested in becoming a partner, please contact us. The process is straightforward and informal, and comes with perks and benefits.</p>
+<h2 class="mt-4" strategic="">Strategic Partners</h2>
+<p>Strategic partners are large public or private sector organizations, or standard-setting agencies and initiatives, that play a pivotal role in advancing our mission. They provide in-kind or financial support, assist with outreach and advocacy, help organize events, and collaborate on joint projects to drive meaningful impact.</p>
+<div class="partner-logos-row mb-4">
+    <a href="https://www.codata.org" target="_blank" rel="noopener">
+        <img src="/img/codata_logo.png" alt="CODATA" height="70" class="me-4">
+    </a>
+    <a href="https://www.ddialliance.org" target="_blank" rel="noopener">
+        <img src="/img/ddi_logo.png" alt="DDI Alliance" height="60"  class="me-4">
+    </a>
+</div>
+<p>Partner benefits:</p>
 <ul>
-<li><a href="https://www.tylertech.com/solutions/transformative-technology/data-insights" target="_blank" rel="noopener noreferrer">Socrata / Data Insights</a></li>
-<li><a href="https://www.richdataservices.com" target="_blank" rel="noopener noreferrer">MTNA Rich Data Service</a></li>
-<li><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau API</a></li>
+<li>Support the vision of FAIR (Findable, Accessible, Interoperable, and Reusable) data</li>
+<li>Lead the way into a machine-actionable, data-driven future</li>
+<li>Bridge communities across sectors and disciplines</li>
+<li>Gain visibility as a leader in data innovation and stewardship</li>
+<li>Influence standards, best practices, and policy development</li>
+<li>Collaborate on impactful projects and initiatives</li>
+</ul>
+<h2 class="mt-4" id="data">Data Partners</h2>
+<p>Data partners are high-value data custodians who share our vision and are committed to modernizing their infrastructure and making their data FAIR (Findable, Accessible, Interoperable, and Reusable). These partners include data producers, data archives, government agencies, and international organizations.</p>
+<p>Out Data partner play a crucial role by providing access to valuable data and documentation, and often serve as early adopters of our open source tools, recommended technologies, and best practices.</p>
+<div class="partner-logos-row mb-4">
+    <a href="https://www.icpsr.umich.edu/web/pages/NACJD/index.html" target="_blank" rel="noopener">
+        <img src="/img/nacjd_logo_bordered.png" alt="NACJD" height="60">
+    </a>
+    <a href="https://www.europeansocialsurvey.org" target="_blank" rel="noopener">
+        <img src="/img/ess_logo_white.png" alt="European Social Survey" height="65">
+    </a>
+</div>
+<p>Partner benefits:</p>
+<ul>
+<li>Make your datasets FAIR by providing API access and leveraging machine-actionable, standards-based metadata</li>
+<li>Increase the visibility and discoverability of your datasets</li>
+<li>Meet the needs of data scientists, AI communities, developers, and other stakeholders</li>
+<li>Access guidance on standards, best practices, and technologies to modernize your data infrastructure</li>
+<li>Collaborate on innovative projects and become early adopters of new tools and solutions</li>
+</ul>
+<h2 class="mt-4" id="technology">Technology Partners</h2>
+<p>Technology partners are private sector companies or open source initiatives that contribute technologies, platforms, or infrastructure essential to advancing our project. Their support enables innovation, scalability, and the integration of cutting-edge solutions.</p>
+<div class="partner-logos-row mb-4">
+    <a href="https://www.dathere.us" target="_blank" rel="noopener">
+        <img src="/img/dathere_logo.png" alt="datHere" height="60" style="margin-right: 2rem;">
+    </a>
+    <a href="https://www.mtna.us" target="_blank" rel="noopener">
+        <img src="/img/mtna_logo.png" alt="MTNA" height="60" style="margin-right: 2rem;">
+    </a>
+    <a href="https://www.dreamfactory.com/" target="_blank" rel="noopener">
+        <img src="/img/dreamfactory_logo_orange.png" alt="Dreamfactory" width="250">
+    </a>
+</div>
+<p>Partner benefits:</p>
+<ul>
+<li>Support the vision of FAIR open data APIs and machine-actionable metadata</li>
+<li>Showcase your technologies, products, and services to a broad audience</li>
+<li>Connect with data, research, and AI communities</li>
+<li>Gain early access to new standards, tools, and best practices</li>
+<li>Strengthen your platform by adopting high-value data standards and modern integration approaches</li>
+<li>Collaborate on innovative solutions and pilot projects</li>
+</ul>
+<h2 class="mt-4" id="communities">Communities</h2>
+<p>We are proud to engage with a vibrant ecosystem of communities, including data users, scientists, researchers, and developers. Our network also extends to data communities, IT professionals and open source advocates, as well as those advancing artificial intelligence. These communities are at the forefront of innovation, driving collaboration, sharing expertise, and shaping the future of data-driven solutions.</p>
+<p>We actively collaborate with the following groups and initiatives:</p>
+<ul>
+<li><a href="https://cdif.codata.org/">CODATA Cross Domain Interoperability Framework (CDIF)</a></li>
+<li><a href="https://cdif.codata.org/">CODATA Digital Representation of Units of Measurement (DRUM)</a></li>
+<li><a href="https://groups.google.com/g/ddi-developers">DDI Developers Group</a></li>
+<li><a href="https://mlcommons.org/working-groups/data/croissant/">MLCommons Croissant</a></li>
 </ul>
 
     </main>
