@@ -3,8 +3,10 @@
 #
 - name: Fundamental Physical Constants
   description: >
-    A semantic gateway to the physical fundamental constants. 
-    Collaborative effort with the CODATA [Digital Representation of Units of Measurement (DRUM)](https://codata.org/initiatives/task-groups/drum/){target="_blank" rel="noopener"} Task Group.
+    A semantic gateway to the latest and historical physical fundamental constants published 
+    by [NIST](https://physics.nist.gov/cuu){target="_blank" rel="noopener"} 
+    and [CODATA](https://codata.org/initiatives/data-science-and-stewardship/fundamental-physical-constants/){target="_blank" rel="noopener"}.
+    A collaborative effort supported by the CODATA [Digital Representation of Units of Measurement (DRUM)](https://codata.org/initiatives/task-groups/drum/){target="_blank" rel="noopener"} Task Group.
   tags:
     - CODATA
     - DRUM
@@ -28,8 +30,10 @@
 
 - name: FAIR Proxy API
   description: >
-    API services to proxy and transform popular public platforms metadata into FAIR compliant standards.
-    Initial support focuses on Socrata (a.k.a. Data Insights), used by many city and state governments in North America.
+    API services to proxy and transform popular public platforms metadata into FAIR standard formats.
+    Initial support focuses on [Socrata](https://www.socrata.com){target="_blank" rel="noopener"}
+    (a.k.a. [Data Insights](https://www.tylertech.com/solutions/transformative-technology/data-insights){target="_blank" rel="noopener"}), 
+    used by many city/state agencies and other data stewards in North America and beyond.
   tags:
     - API
     - FAIRification
@@ -43,7 +47,7 @@
 - name: Rich Data Services
   description: >
     A public instance of [Rich Data Services](https://www.richdataservices.com){target="_blank" rel="noopener"} hosted by the HVDN.
-    Provides access to public high-value datasets for showcasing or demo purposes.
+    Provides access to popular public high-value datasets for showcasing or demo purposes.
     Sponsored by [Metadata Technology North America](https://metadatatechnology.com){target="_blank" rel="noopener"}.
   tags:
     - API
