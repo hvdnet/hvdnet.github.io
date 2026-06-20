@@ -3,7 +3,8 @@
 #
 - name: Fundamental Physical Constants
   description: >
-    A semantic gateway to the physical fundamental constants. Collaborative effort with the CODATA Digital Representation of Units of Measurement (DRUM) Task Group.
+    A semantic gateway to the physical fundamental constants. 
+    Collaborative effort with the CODATA [Digital Representation of Units of Measurement (DRUM)](https://codata.org/initiatives/task-groups/drum/){target="_blank" rel="noopener"} Task Group.
   tags:
     - CODATA
     - DRUM
@@ -17,7 +18,7 @@
   description: >
     Web based application and API to manage your project files in the High-Value Data Network environment.
     To be used with our APIs and other FAIRification services.
-    Contact support@highvaluedata.net to get a free account.
+    Contact support@highvaluedata.net for a free account.
   tags:
     - Application
     - Storage
@@ -37,14 +38,13 @@
     - DDI
     - Croissant
   coming_soon: true
-  icon: bi-cloud-arrow-down-fill
+  icon: bi-arrow-left-right
 
 - name: Rich Data Services
   description: >
-    A public instance of Rich Data Services hosted by the HVDN.
-    Provides access to public high-value datasets and their metadata.
-    For showcasing or demo purposes.
-    Sponsored by Metadata Technology North America.
+    A public instance of [Rich Data Services](https://www.richdataservices.com){target="_blank" rel="noopener"} hosted by the HVDN.
+    Provides access to public high-value datasets for showcasing or demo purposes.
+    Sponsored by [Metadata Technology North America](https://metadatatechnology.com){target="_blank" rel="noopener"}.
   tags:
     - API
     - Data

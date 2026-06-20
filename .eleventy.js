@@ -66,6 +66,10 @@ export default function (eleventyConfig) {
   const md = markdownIt(options).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", md);
 
+  eleventyConfig.addFilter("markdown", (content) => {
+    return md.renderInline(content || "");
+  });
+
   
   return {
     dir: {

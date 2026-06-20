@@ -10,7 +10,7 @@ title: HVDNet Services
 <div class="row g-3">
   {% for item in services %}
   <div class="col-md-4">
-    <div {% if item.coming_soon %}class="app-card app-card-coming-soon"{% else %}onclick="if(!event.target.closest('.app-card-action-link')){ window.open('{{ item.url }}', '_blank'); }" class="app-card" style="cursor: pointer;"{% endif %}>
+    <div {% if item.coming_soon %}class="app-card app-card-coming-soon"{% else %}onclick="if(!event.target.closest('a')){ window.open('{{ item.url }}', '_blank'); }" class="app-card" style="cursor: pointer;"{% endif %}>
       <div class="app-card-header">
         <div class="d-flex align-items-center gap-3">
           <div class="app-card-icon">
@@ -35,7 +35,7 @@ title: HVDNet Services
           {% endif %}
         </div>
       </div>
-      <div class="app-card-desc">{{ item.description }}</div>
+      <div class="app-card-desc">{{ item.description | markdown | safe }}</div>
       <div class="app-card-tags">
         {% for tag in item.tags %}
           <span class="app-card-tag">{{ tag }}</span>
