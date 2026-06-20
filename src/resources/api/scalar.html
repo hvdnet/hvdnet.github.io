@@ -1,0 +1,45 @@
+---
+permalink: /resources/api/scalar/index.html
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HVDNet API Reference (Scalar) | High-Value Data Network</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Explore and test the HVDNet API endpoints for standardized metadata and FAIR data access, generated dynamically using Scalar." />
+    <meta name="keywords" content="HVDNet API, OpenAPI, Scalar, API reference, FAIR metadata" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.highvaluedata.net/resources/api/scalar/" />
+    <meta property="og:title" content="HVDNet API Reference (Scalar) | High-Value Data Network" />
+    <meta property="og:description" content="Explore and test the HVDNet API endpoints for standardized metadata and FAIR data access, generated dynamically using Scalar." />
+    <meta property="og:image" content="https://www.highvaluedata.net/assets/img/hvdnet_hero_bg.jpg" />
+    <meta property="og:site_name" content="High-Value Data Network (HVDNet)" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.highvaluedata.net/resources/api/scalar/" />
+    <meta name="twitter:title" content="HVDNet API Reference (Scalar) | High-Value Data Network" />
+    <meta name="twitter:description" content="Explore and test the HVDNet API endpoints for standardized metadata and FAIR data access, generated dynamically using Scalar." />
+    <meta name="twitter:image" content="https://www.highvaluedata.net/assets/img/hvdnet_hero_bg.jpg" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <!-- Load the Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+
+    <!-- Initialize the Scalar API Reference -->
+    <script>
+      Scalar.createApiReference('#app', {
+        // The URL of the OpenAPI/Swagger document
+        url: 'https://api.highvaluedata.net/openapi.yaml',
+        // Avoid CORS issues
+        proxyUrl: 'https://proxy.scalar.com',
+      })
+    </script>
+  </body>
+</html>

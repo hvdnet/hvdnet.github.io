@@ -1,7 +1,16 @@
 ---
 layout: layout.njk
-title: Terms of Service
-description: Terms of Service for the High-Value Data Network (HVDNet).
+title: Terms of Service | HVDNet
+description: Read the Terms of Service for using the High-Value Data Network (HVDNet) website, API services, and open-source data tools.
+keywords: terms of service, HVDNet terms, user agreement
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Terms of Service | HVDNet",
+    "description": "Read the Terms of Service for using the High-Value Data Network (HVDNet) website, API services, and open-source data tools.",
+    "url": "https://www.highvaluedata.net/terms/"
+  }
 ---
 
 # Terms of Service

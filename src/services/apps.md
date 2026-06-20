@@ -1,6 +1,16 @@
 ---
 layout: layout.njk
-title: HVDNet Services
+title: HVDNet Applications | Playgrounds & Catalogs
+description: Try the HVDNet Playground and browse our data-centric Postman collection catalog to discover, test, and integrate high-value datasets.
+keywords: HVDNet Playground, Postman collections, data catalog, API explorer, open source apps
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "HVDNet Applications | Playgrounds & Catalogs",
+    "description": "Try the HVDNet Playground and browse our data-centric Postman collection catalog to discover, test, and integrate high-value datasets.",
+    "url": "https://www.highvaluedata.net/services/apps/"
+  }
 ---
 
 <h1>Applications</h1>

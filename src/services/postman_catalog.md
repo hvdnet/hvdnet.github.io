@@ -1,6 +1,16 @@
 ---
 layout: layout.njk
-title: HVDNet API
+title: Postman Workspaces for Open Data Portals | HVDNet
+description: Browse data-centric Postman collections and workspaces generated for Socrata and MTNA RDS platforms. Easily integrate datasets into your workflows.
+keywords: Postman workspaces, data collections, Socrata workspace, RDS collections, API workflows
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Postman Workspaces for Open Data Portals | HVDNet",
+    "description": "Browse data-centric Postman collections and workspaces generated for Socrata and MTNA RDS platforms. Easily integrate datasets into your workflows.",
+    "url": "https://www.highvaluedata.net/services/postman_catalog/"
+  }
 ---
 
 # Postman Workspaces

@@ -1,7 +1,16 @@
 ---
 layout: layout.njk
-title: Privacy Policy
-description: Privacy Policy for the High-Value Data Network (HVDNet).
+title: Privacy Policy | HVDNet
+description: Read the Privacy Policy for the High-Value Data Network (HVDNet). Learn how we handle your personal data and protect your privacy.
+keywords: privacy policy, HVDNet privacy, data protection
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy | HVDNet",
+    "description": "Read the Privacy Policy for the High-Value Data Network (HVDNet). Learn how we handle your personal data and protect your privacy.",
+    "url": "https://www.highvaluedata.net/privacy/"
+  }
 ---
 
 # Privacy Policy

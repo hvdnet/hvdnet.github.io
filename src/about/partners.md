@@ -1,6 +1,16 @@
 ---
 layout: layout.njk
-title: HVDNet Partners
+title: Our Partners & Collaborators | HVDNet Initiative
+description: Meet the strategic, data, and technology partners of HVDNet, including CODATA, DDI Alliance, datHere, and MTNA. Learn how to become a collaborator.
+keywords: HVDNet partners, data collaborators, CODATA, DDI Alliance, MTNA, datHere, open data partnership
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Our Partners & Collaborators | HVDNet Initiative",
+    "description": "Meet the strategic, data, and technology partners of HVDNet, including CODATA, DDI Alliance, datHere, and MTNA. Learn how to become a collaborator.",
+    "url": "https://www.highvaluedata.net/about/partners/"
+  }
 ---
 
 # Partners

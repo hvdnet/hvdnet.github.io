@@ -1,7 +1,39 @@
 ---
 layout: layout.njk
-title: HVDNet Home
-description: Welcome to the High-Value Data Network. We unify data and metadata through open standards and FAIR principles for humans and machines.
+title: High-Value Data Network (HVDNet) | FAIR Data & Open Standards
+description: Unifying high-value data and metadata through open standards and FAIR principles. Discover, access, and utilize machine-actionable open data and APIs.
+keywords: high-value data, FAIR principles, open standards, metadata management, data APIs, machine-actionable data, CODATA, DCAT
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.highvaluedata.net/#website",
+        "url": "https://www.highvaluedata.net",
+        "name": "High-Value Data Network",
+        "alternateName": "HVDNet",
+        "description": "Making high-value data equally discoverable, accessible, and usable by humans and machines through FAIR principles and open standards.",
+        "publisher": {
+          "@id": "https://www.highvaluedata.net/#organization"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.highvaluedata.net/#organization",
+        "name": "High-Value Data Network",
+        "alternateName": "HVDNet",
+        "url": "https://www.highvaluedata.net",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.highvaluedata.net/assets/img/hvdnet_hero_bg.jpg"
+        },
+        "sameAs": [
+          "https://github.com/dataartifex"
+        ]
+      }
+    ]
+  }
 ---
 
 <!-- HERO -->

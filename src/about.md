@@ -1,7 +1,18 @@
 ---
 layout: layout.njk
-title: About HVDNet
-description: Learn more about the High-Value Data Network initiative and our mission to advance FAIR data standards.
+title: About HVDNet | Advancing FAIR Data and Open APIs
+description: Learn about the High-Value Data Network initiative. We bridge data custodians, technology partners, and researchers to make data discoverable and usable.
+keywords: HVDNet mission, FAIR data ecosystem, data stewardship, data interoperability, Pascal Heus, CODATA partnership
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "High-Value Data Network",
+      "url": "https://www.highvaluedata.net"
+    }
+  }
 ---
 
 <h1>About</h1>

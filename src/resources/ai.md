@@ -1,6 +1,16 @@
 ---
 layout: layout.njk
-title: HVDNet AI
+title: AI & Machine-Actionable Metadata | HVDNet
+description: Discover how HVDNet prepares high-value data for AI agents and LLMs. Learn about AI-readiness, MCP servers, and responsible metadata-driven AI.
+keywords: AI data, machine-actionable data, AI readiness, Model Context Protocol, MCP, responsible AI, metadata for LLMs
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AI & Machine-Actionable Metadata | HVDNet",
+    "description": "Discover how HVDNet prepares high-value data for AI agents and LLMs. Learn about AI-readiness, MCP servers, and responsible metadata-driven AI.",
+    "url": "https://www.highvaluedata.net/resources/ai/"
+  }
 ---
 
 # A future with AI

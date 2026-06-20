@@ -1,6 +1,16 @@
 ---
 layout: layout.njk
-title: HVDNet API
+title: HVDNet API | Standardized FAIR Data Access
+description: Build on the HVDNet API to access standardized metadata across Socrata, MTNA RDS, and US Census platforms. Make your data machine-actionable.
+keywords: HVDNet API, open data API, metadata API, Socrata API, MTNA RDS, US Census API, FAIR API
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "HVDNet API | Standardized FAIR Data Access",
+    "description": "Build on the HVDNet API to access standardized metadata across Socrata, MTNA RDS, and US Census platforms. Make your data machine-actionable.",
+    "url": "https://www.highvaluedata.net/services/api/"
+  }
 ---
 
 # HVDNet API

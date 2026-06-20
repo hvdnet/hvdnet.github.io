@@ -1,6 +1,16 @@
 ---
 layout: layout.njk
-title: HVDNet Technologies
+title: Data API Technologies & Platforms | HVDNet
+description: Learn about the data API solutions and technology platforms underlying HVDNet's open-source metadata tools and hosted services.
+keywords: data technologies, API platforms, metadata tools, RDS, Socrata integration, Census API
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Data API Technologies & Platforms | HVDNet",
+    "description": "Learn about the data API solutions and technology platforms underlying HVDNet's open-source metadata tools and hosted services.",
+    "url": "https://www.highvaluedata.net/resources/platforms/"
+  }
 ---
 
 # Technologies

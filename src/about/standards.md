@@ -1,6 +1,16 @@
 ---
 layout: layout.njk
-title: HVDNet Standards
+title: FAIR Data Standards & Best Practices | HVDNet
+description: Explore the core metadata standards and frameworks guiding HVDNet, including DCAT, DDI-CDI, Frictionless Data, Croissant, schema.org, and RO-Crate.
+keywords: data standards, metadata specifications, DCAT, DDI-CDI, Frictionless Data Package, Croissant metadata, RO-Crate, SKOS
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "FAIR Data Standards & Best Practices | HVDNet",
+    "description": "Explore the core metadata standards and frameworks guiding HVDNet, including DCAT, DDI-CDI, Frictionless Data, Croissant, schema.org, and RO-Crate.",
+    "url": "https://www.highvaluedata.net/about/standards/"
+  }
 ---
 # Standards and Best Practices{.mb-4}
 
