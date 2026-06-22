@@ -51,7 +51,7 @@ schema: |
   <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
-        <h4 class="card-title">Our Vision</h5>
+        <h4 class="card-title"><i class="bi bi-compass me-2 text-accent"></i>Our Vision</h4>
         <ul>
           <li>Unleash machine actionable high-value data</li>
           <li>Build an open tools ecosystem that unifies data and metadata</li>
@@ -72,7 +72,7 @@ schema: |
   <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
-        <h4 class="card-title">What is High-Value Data?</h5>
+        <h4 class="card-title"><i class="bi bi-database-fill me-2 text-accent"></i>What is High-Value Data?</h4>
         <p class="card-text">High-value data refers to datasets that, when made openly accessible and reusable, generate significant benefits for society, the economy, and the environment. They have a high potential to drive innovation, improve public services, increase transparency, inform evidence-based decision-making, and empower citizens. </p>
         <p>Subjects include demographics, economic indicators, infrastructure, public services, environment, and government operations. Thousands of organizations and millions of individuals across sectors and borders rely on high-value data for decision-making, research, analysis, and numerous other purposes.</p>
         <p>High-value datasets are often complex and require comprehensive documentation for discovery and use. Therefore, the availability of machine-actionable digital documentation (a.k.a.metadata) is critical.</p>
@@ -145,7 +145,7 @@ Our strategy is built upon the following pillars:
   <div class="col-md-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
-        <h5 class="card-title">Data Artifex</h5>
+        <h5 class="card-title"><i class="bi bi-code-slash me-2 text-accent"></i>Data Artifex</h5>
         <p class="card-text">An ecosystem of Python-based packages to ensure datasets can be accessed through FAIR open data APIs and is accompanied by relevant metadata.</p>
       </div>
       <div class="card-footer bg-transparent text-center">
@@ -161,7 +161,7 @@ Our strategy is built upon the following pillars:
   <div class="col-md-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
-        <h5 class="card-title">Data & Machine Intelligence</h5>
+        <h5 class="card-title"><i class="bi bi-cpu me-2 text-accent"></i>Data & Machine Intelligence</h5>
         <p class="card-text">A strategic approach bringing together machine actionable data, artificial intelligence, open tools, and open standards, in coordination with technology and data professionals.</p>
       </div>
       <div class="card-footer bg-transparent text-center">
@@ -177,7 +177,7 @@ Our strategy is built upon the following pillars:
   <div class="col-md-4 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
-        <h5 class="card-title">High-Value Data Network</h5>
+        <h5 class="card-title"><i class="bi bi-diagram-3 me-2 text-accent"></i>High-Value Data Network</h5>
         <p class="card-text">Hosted public services and tools to complement public data APIs with standards-based metadata, facilitate data users' common tasks, or integrate with AI.</p>
       </div>
       <div class="card-footer bg-transparent text-center">
@@ -197,7 +197,7 @@ Our strategy is built upon the following pillars:
   <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
-        <h5 class="card-title">Standards & Best Practices</h5>
+        <h5 class="card-title"><i class="bi bi-patch-check me-2 text-accent"></i>Standards & Best Practices</h5>
         <p class="card-text">
           Our work is guided by the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> and the <a href="https://cdif.codata.org" target="_blank" rel="noopener noreferrer">Cross-Domain Interoperability Framework (CDIF)</a> and leverages related domains standards, including:
           <ul>
@@ -223,7 +223,7 @@ Our strategy is built upon the following pillars:
   <div class="col-md-6 d-flex">
     <div class="card text-white bg-primary mb-3 w-100 h-100 d-flex flex-column">
       <div class="card-body flex-grow-1">
-        <h5 class="card-title">Partnerships</h5>
+        <h5 class="card-title"><i class="bi bi-people me-2 text-accent"></i>Partnerships</h5>
         <p class="card-text">
           This project is made possible with the support of our key strategic, technology, and data partners, including:
           <ul>

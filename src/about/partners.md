@@ -26,7 +26,7 @@ We welcome a wide range of partners, each playing a unique role:
 
 Partnerships are vital to the success of this project. If you are interested in becoming a partner, please contact us. The process is straightforward and informal, and comes with perks and benefits.
 
-## Strategic Partners{.mt-4 strategic}
+<h2 class="mt-4" id="strategic"><i class="bi bi-award me-2 text-accent"></i>Strategic Partners</h2>
 
 Strategic partners are large public or private sector organizations, or standard-setting agencies and initiatives, that play a pivotal role in advancing our mission. They provide in-kind or financial support, assist with outreach and advocacy, help organize events, and collaborate on joint projects to drive meaningful impact.
 
@@ -47,7 +47,7 @@ Partner benefits:
 - Influence standards, best practices, and policy development
 - Collaborate on impactful projects and initiatives
 
-## Data Partners{.mt-4 #data}
+<h2 class="mt-4" id="data"><i class="bi bi-database-fill me-2 text-accent"></i>Data Partners</h2>
 
 Data partners are high-value data custodians who share our vision and are committed to modernizing their infrastructure and making their data FAIR (Findable, Accessible, Interoperable, and Reusable). These partners include data producers, data archives, government agencies, and international organizations. 
 
@@ -69,7 +69,7 @@ Partner benefits:
 - Access guidance on standards, best practices, and technologies to modernize your data infrastructure
 - Collaborate on innovative projects and become early adopters of new tools and solutions
 
-## Technology Partners{.mt-4 #technology}
+<h2 class="mt-4" id="technology"><i class="bi bi-gear-fill me-2 text-accent"></i>Technology Partners</h2>
 
 Technology partners are private sector companies or open source initiatives that contribute technologies, platforms, or infrastructure essential to advancing our project. Their support enables innovation, scalability, and the integration of cutting-edge solutions.
 
@@ -93,7 +93,7 @@ Partner benefits:
 - Strengthen your platform by adopting high-value data standards and modern integration approaches
 - Collaborate on innovative solutions and pilot projects
 
-## Communities{.mt-4 #communities}
+<h2 class="mt-4" id="communities"><i class="bi bi-people-fill me-2 text-accent"></i>Communities</h2>
 
 We are proud to engage with a vibrant ecosystem of communities, including data users, scientists, researchers, and developers. Our network also extends to data communities, IT professionals and open source advocates, as well as those advancing artificial intelligence. These communities are at the forefront of innovation, driving collaboration, sharing expertise, and shaping the future of data-driven solutions.
 

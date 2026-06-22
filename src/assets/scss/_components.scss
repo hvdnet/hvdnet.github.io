@@ -70,7 +70,6 @@
         }
 
         &:hover {
-            transform: translateY(-2px);
             background: rgba(255, 255, 255, 0.12);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 
@@ -205,7 +204,6 @@
             color: white !important;
             background: rgba(255, 255, 255, 0.2);
             border-color: rgba(255, 255, 255, 0.3);
-            transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
             .nav-text::after {
@@ -345,7 +343,6 @@
     transition: all var(--transition-base);
 
     &:hover {
-        transform: translateY(-6px);
         box-shadow: var(--card-shadow-hover);
         border: var(--card-border-hover);
     }
@@ -411,20 +408,18 @@
     overflow: hidden;
 
     &-primary {
-        background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
+        background: var(--color-accent-primary);
         color: black !important;
         box-shadow: 0 4px 12px rgba(var(--color-accent-primary-rgb), 0.3);
 
         &:hover {
             box-shadow: 0 8px 24px rgba(var(--color-accent-primary-rgb), 0.5);
-            transform: translateY(-3px);
             filter: brightness(1.1);
             color: black !important;
             text-shadow: none;
         }
 
         &:active {
-            transform: translateY(-1px);
             filter: brightness(0.95);
         }
     }
@@ -468,7 +463,7 @@
         font-family: var(--font-heading);
         font-weight: var(--font-bold);
         text-shadow: none;
-        @include gradient-text(var(--color-accent-primary), var(--color-accent-secondary));
+        color: var(--color-accent-primary);
         margin-bottom: var(--space-4);
     }
 }
@@ -496,7 +491,6 @@
         min-width: 180px;
 
         &:hover {
-            transform: translateY(-4px);
             box-shadow: var(--shadow-lg);
             border-color: var(--color-border-medium);
             background: var(--color-surface-hover);
@@ -548,7 +542,6 @@
         }
 
         &:hover {
-            transform: translateY(-8px) scale(1.02);
             box-shadow: var(--shadow-xl), 0 0 30px rgba(var(--color-accent-primary-rgb), 0.2);
             border-color: var(--color-accent-primary);
             background: var(--color-surface-hover);
@@ -688,7 +681,7 @@ footer,
             top: 0;
             bottom: 0;
             width: 3px;
-            background: linear-gradient(to bottom, var(--color-accent-primary), var(--color-accent-secondary));
+            background: var(--color-accent-primary);
             transform: scaleY(0);
             transition: transform var(--transition-base);
         }
@@ -853,7 +846,6 @@ img {
 
     &:hover {
         border-color: rgba(var(--color-accent-primary-rgb), 0.4);
-        transform: translateY(-3px);
         box-shadow: var(--card-shadow-hover);
 
         &::before {
@@ -923,7 +915,7 @@ img {
     &:hover {
         opacity: 1 !important;
         color: var(--color-accent-primary) !important;
-        transform: translateY(-1px) scale(1.1);
+        transform: scale(1.1);
     }
 }
 
@@ -965,4 +957,62 @@ img {
     background: rgba(var(--color-accent-primary-rgb), 0.06);
     white-space: nowrap;
     text-transform: uppercase;
+}
+
+// ============================================
+// Tables - Modern & Elegant (Technoverve Style)
+// ============================================
+table {
+    width: 100%;
+    margin-bottom: var(--space-6);
+    color: var(--color-text-primary);
+    border-collapse: collapse;
+    background: var(--color-surface);
+    border: var(--card-border);
+    border-radius: var(--radius-card);
+    overflow: hidden;
+
+    th, td {
+        padding: var(--space-4) var(--space-5);
+        text-align: left;
+        border-bottom: 1px solid var(--color-border-subtle);
+    }
+
+    th {
+        background: rgba(0, 0, 0, 0.25); // Distinct darker background for the header
+        font-family: var(--font-heading);
+        font-weight: var(--font-semibold);
+        text-transform: uppercase;
+        font-size: var(--text-xs);
+        letter-spacing: 0.05em;
+        color: var(--color-accent-primary); // Highlight headers with the theme accent color
+        border-bottom: 2px solid rgba(var(--color-accent-primary-rgb), 0.25); // Distinct accent border line
+    }
+
+    tr:last-child td {
+        border-bottom: none;
+    }
+
+    tr {
+        transition: background-color var(--transition-fast);
+
+        &:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.015); // Discrete alternating row background
+        }
+
+        &:hover {
+            background-color: var(--color-surface-hover) !important; // Override alternating backgrounds on hover
+        }
+    }
+
+    td {
+        color: var(--color-text-secondary);
+        font-size: var(--text-sm);
+        line-height: var(--leading-normal);
+        vertical-align: middle;
+
+        strong {
+            color: var(--color-text-primary);
+        }
+    }
 }
