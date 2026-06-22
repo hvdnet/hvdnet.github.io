@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap");
 :root {
   --color-bg-primary: #0a100d;
   --color-bg-secondary: #121815;
@@ -61,26 +61,28 @@
 }
 
 [data-theme=cobalt-wave] {
-  --color-bg-primary: #060911;
-  --color-bg-secondary: #0c101e;
-  --color-bg-tertiary: #151a2d;
-  --color-accent-primary: #06b6d4;
-  --color-accent-secondary: #3b82f6;
-  --color-accent-tertiary: #22d3ee;
-  --color-accent-primary-rgb: 6, 182, 212;
-  --color-bg-primary-rgb: 6, 9, 17;
-  --nav-bg: rgba(6, 9, 17, 0.9);
-  --radius-card: 20px;
-  --radius-hero: 32px;
-  --radius-navbar: 24px;
-  --radius-btn: 12px;
-  --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  --card-shadow-hover: 0 15px 45px rgba(0, 0, 0, 0.6), 0 0 25px rgba(6, 182, 212, 0.25);
-  --nav-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(6, 182, 212, 0.15);
-  --card-border: 1px solid rgba(6, 182, 212, 0.08);
-  --card-border-hover: 1px solid rgba(6, 182, 212, 0.35);
-  --body-bg: radial-gradient(circle 800px at 50% -100px, rgba(6, 182, 212, 0.45), transparent 70%), radial-gradient(circle 600px at 90% 40%, rgba(59, 130, 246, 0.25), transparent 60%), linear-gradient(rgba(6, 182, 212, 0.09) 1px, transparent 1px), linear-gradient(90deg, rgba(6, 182, 212, 0.09) 1px, transparent 1px), linear-gradient(180deg, #050f24 0%, #010306 100%);
-  --body-bg-size: 100% 100%, 100% 100%, 50px 50px, 50px 50px, 100% 100%;
+  --color-bg-primary: #10141a;
+  --color-bg-secondary: #0d1b2a;
+  --color-bg-tertiary: #1b263b;
+  --color-surface: rgba(13, 27, 42, 0.55);
+  --color-surface-hover: rgba(27, 38, 59, 0.75);
+  --color-accent-primary: #00e5ff;
+  --color-accent-secondary: #ffb300;
+  --color-accent-tertiary: #64ffda;
+  --color-accent-primary-rgb: 0, 229, 255;
+  --color-bg-primary-rgb: 16, 20, 26;
+  --nav-bg: rgba(16, 20, 26, 0.85);
+  --radius-card: 8px;
+  --radius-hero: 12px;
+  --radius-navbar: 8px;
+  --radius-btn: 4px;
+  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --card-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.55), 0 0 20px rgba(0, 229, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --nav-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  --card-border: 1px solid rgba(255, 255, 255, 0.1);
+  --card-border-hover: 1px solid rgba(0, 229, 255, 0.35);
+  --body-bg: radial-gradient(circle 800px at 50% -100px, rgba(0, 229, 255, 0.22), transparent 70%), radial-gradient(circle 600px at 90% 40%, rgba(100, 255, 218, 0.08), transparent 60%), linear-gradient(rgba(0, 229, 255, 0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 229, 255, 0.04) 1px, transparent 1px), linear-gradient(180deg, #10141a 0%, #0a0e14 100%);
+  --body-bg-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px, 100% 100%;
 }
 
 [data-theme=carbon-steel] {
@@ -139,7 +141,8 @@
 
 :root {
   --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-heading: 'Space Grotesk', var(--font-primary);
+  --font-heading: 'IBM Plex Sans', var(--font-primary);
+  --font-mono: 'JetBrains Mono', monospace;
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
@@ -231,10 +234,19 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-  font-weight: var(--font-bold);
   line-height: var(--leading-tight);
   color: var(--color-text-primary);
   margin-bottom: var(--space-4);
+  letter-spacing: -0.01em;
+}
+
+h1, h2 {
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.02em;
+}
+
+h3, h4, h5, h6 {
+  font-weight: var(--font-medium);
 }
 
 h1 {
@@ -295,7 +307,7 @@ ol li {
 }
 
 code {
-  font-family: "Monaco", "Courier New", monospace;
+  font-family: var(--font-mono), "Monaco", "Courier New", monospace;
   font-size: 0.9em;
   padding: 0.125rem 0.375rem;
   background: var(--color-surface);
@@ -361,7 +373,6 @@ code {
   border-radius: var(--radius-lg);
 }
 .navbar-brand:hover {
-  transform: translateY(-2px);
   background: rgba(255, 255, 255, 0.12);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
@@ -480,7 +491,6 @@ code {
   color: white !important;
   background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3);
-  transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .navbar .nav-link:hover .nav-text::after {
@@ -589,7 +599,6 @@ code {
   transition: all var(--transition-base);
 }
 .card:hover {
-  transform: translateY(-6px);
   box-shadow: var(--card-shadow-hover);
   border: var(--card-border-hover);
 }
@@ -644,19 +653,17 @@ code {
   overflow: hidden;
 }
 .btn-primary {
-  background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
+  background: var(--color-accent-primary);
   color: black !important;
   box-shadow: 0 4px 12px rgba(var(--color-accent-primary-rgb), 0.3);
 }
 .btn-primary:hover {
   box-shadow: 0 8px 24px rgba(var(--color-accent-primary-rgb), 0.5);
-  transform: translateY(-3px);
   filter: brightness(1.1);
   color: black !important;
   text-shadow: none;
 }
 .btn-primary:active {
-  transform: translateY(-1px);
   filter: brightness(0.95);
 }
 .btn-sm {
@@ -689,10 +696,7 @@ code {
   font-family: var(--font-heading);
   font-weight: var(--font-bold);
   text-shadow: none;
-  background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-accent-primary);
   margin-bottom: var(--space-4);
 }
 
@@ -715,7 +719,6 @@ code {
   min-width: 180px;
 }
 .partner-logos-row a:hover {
-  transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
   border-color: var(--color-border-medium);
   background: var(--color-surface-hover);
@@ -760,7 +763,6 @@ code {
   transition: opacity var(--transition-base);
 }
 .partner-logos a:hover {
-  transform: translateY(-8px) scale(1.02);
   box-shadow: var(--shadow-xl), 0 0 30px rgba(var(--color-accent-primary-rgb), 0.2);
   border-color: var(--color-accent-primary);
   background: var(--color-surface-hover);
@@ -879,7 +881,7 @@ footer a:hover,
   top: 0;
   bottom: 0;
   width: 3px;
-  background: linear-gradient(to bottom, var(--color-accent-primary), var(--color-accent-secondary));
+  background: var(--color-accent-primary);
   transform: scaleY(0);
   transition: transform var(--transition-base);
 }
@@ -1008,7 +1010,6 @@ img {
 }
 .app-card:hover {
   border-color: rgba(var(--color-accent-primary-rgb), 0.4);
-  transform: translateY(-3px);
   box-shadow: var(--card-shadow-hover);
 }
 .app-card:hover::before {
@@ -1071,7 +1072,7 @@ img {
 .app-card-action-link:hover {
   opacity: 1 !important;
   color: var(--color-accent-primary) !important;
-  transform: translateY(-1px) scale(1.1);
+  transform: scale(1.1);
 }
 
 .app-card-name {
@@ -1111,6 +1112,53 @@ img {
   background: rgba(var(--color-accent-primary-rgb), 0.06);
   white-space: nowrap;
   text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+  margin-bottom: var(--space-6);
+  color: var(--color-text-primary);
+  border-collapse: collapse;
+  background: var(--color-surface);
+  border: var(--card-border);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+table th, table td {
+  padding: var(--space-4) var(--space-5);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+table th {
+  background: rgba(0, 0, 0, 0.25);
+  font-family: var(--font-heading);
+  font-weight: var(--font-semibold);
+  text-transform: uppercase;
+  font-size: var(--text-xs);
+  letter-spacing: 0.05em;
+  color: var(--color-accent-primary);
+  border-bottom: 2px solid rgba(var(--color-accent-primary-rgb), 0.25);
+}
+table tr:last-child td {
+  border-bottom: none;
+}
+table tr {
+  transition: background-color var(--transition-fast);
+}
+table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.015);
+}
+table tr:hover {
+  background-color: var(--color-surface-hover) !important;
+}
+table td {
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  vertical-align: middle;
+}
+table td strong {
+  color: var(--color-text-primary);
 }
 
 .container {
@@ -1278,6 +1326,10 @@ img {
 
 .text-muted {
   color: var(--color-text-muted) !important;
+}
+
+.text-accent {
+  color: var(--color-accent-primary) !important;
 }
 
 .small {
