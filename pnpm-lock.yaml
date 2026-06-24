@@ -11,7 +11,7 @@ overrides:
   liquidjs: ^10.25.7
   brace-expansion: ^1.1.13
   ws: ^8.21.0
-  markdown-it: ^14.1.2
+  markdown-it: ^14.2.0
   anymatch>picomatch: ^2.3.2
   picomatch: ^4.0.4
 
@@ -20,7 +20,7 @@ importers:
   .:
     dependencies:
       markdown-it:
-        specifier: ^14.1.2
+        specifier: ^14.2.0
         version: 14.2.0
       markdown-it-attrs:
         specifier: ^4.3.1
@@ -464,7 +464,7 @@ packages:
     resolution: {integrity: sha512-/ko6cba+H6gdZ0DOw7BbNMZtfuJTRp9g/IrGIuz8lYc/EfnmWRpaR3CFPnNbVz0LDvF8Gf1hFGPqrQqq7De0rg==}
     engines: {node: '>=6'}
     peerDependencies:
-      markdown-it: ^14.1.2
+      markdown-it: ^14.2.0
 
   markdown-it@14.2.0:
     resolution: {integrity: sha512-1TGiQiJVRQ3NPmZH6sx5Cfnmg6GQm9jvC1ch4TK511NjSJvjzKLzn5pPfZRNZkRPZP0HqCioSndqH8v2nRaWVQ==}
