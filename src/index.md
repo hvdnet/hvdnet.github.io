@@ -40,9 +40,18 @@ schema: |
 <div class="p-5 mb-4 bg-primary rounded-5 text-white" style="background-image: url('/assets/img/hvdnet_hero_bg.jpg');">
   <div class="container-fluid py-5">
     <h1 class="display-5 fw-bold">Welcome to the High-Value Data Network</h1>
-    <p class="col-md-8 fs-4">
-    We’re building a future where <b>high-value data</b> is equally discoverable, accessible, and usable by both humans and machines. To make this possible, we bring together data management platforms, modern APIs, and open source tools—unified by metadata standards and best practices grounded in the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> and related initiatives.
-    </p>
+    <div class="row align-items-end">
+      <div class="col-md-8">
+        <p class="fs-4 mb-0">
+        We’re building a future where <b>high-value data</b> is equally discoverable, accessible, and usable by both humans and machines. To make this possible, we bring together data management platforms, modern APIs, and open source tools—unified by metadata standards and best practices grounded in the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> and related initiatives.
+        </p>
+      </div>
+      <div class="col-md-4 text-md-end mt-4 mt-md-0">
+        <a href="/about/sponsorship/" class="btn btn-warning btn-lg fw-semibold shadow-sm">
+          <i class="bi bi-heart-fill me-2 text-danger"></i>Sponsor HVDNet
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -235,11 +244,16 @@ Our strategy is built upon the following pillars:
           </ul>
         </p>
       </div>
-      <div class="card-footer bg-transparent text-center">
+      <div class="card-footer bg-transparent text-center d-flex justify-content-center gap-2">
         <a href="/about/partners/"
           rel="noopener noreferrer"
           class="btn btn-primary btn-sm">
           Explore Partnership
+        </a>
+        <a href="/about/sponsorship/"
+          rel="noopener noreferrer"
+          class="btn btn-outline-light btn-sm">
+          <i class="bi bi-heart-fill me-1 text-danger"></i>Sponsor Us
         </a>
       </div>
     </div>
