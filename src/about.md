@@ -21,12 +21,14 @@ schema: |
 
 <h2><i class="bi bi-person-badge me-2 text-accent"></i>Leadership</h2>
 <p>This initiative is led by <a href="https://www.pascalheus.com" target="_blank" rel="noopener noreferrer">Pascal Heus</a>, freelancer, open‑source developer, and member of the CODATA <a href="https://cdif.codata.org/" target="_blank" rel="noopener noreferrer">Cross Domain Interoperability Framework (CDIF)</a> and <a href="https://codata.org/initiatives/task-groups/drum/" target="_blank" rel="noopener noreferrer">Digital Representation of Units of Measurement (DRUM)</a> working groups.</p>
-<p>
-</>
 
 <h2><i class="bi bi-people me-2 text-accent"></i>Support & Partnerships</h2>
 <p>The project is supported by <a href="https://codata.org" target="_blank" rel="noopener noreferrer">CODATA</a> and a growing network of technology, strategic, and data partners.</p>
 <p>You can learn more about our collaborators on the <a href="/about/partners/">Partners</a> page.</p>
+
+<h2><i class="bi bi-heart-fill me-2 text-accent"></i>Sponsorship</h2>
+<p>HVDNet is developed in close collaboration with our sister project <a href="https://www.dataartifex.org" target="_blank" rel="noopener noreferrer">Data Artifex</a>. You can support the HVDNet initiative directly by sponsoring Data Artifex on GitHub.</p>
+<p>Learn more about our sponsorship options, advisory benefits, and terms on the <a href="/about/sponsorship/">Sponsorship</a> page.</p>
 
 <h2><i class="bi bi-globe me-2 text-accent"></i>Community & Standards</h2>
 <p>Our work is grounded in the FAIR ecosystem and related initiatives, including CODATA’s CDIF and DRUM efforts. We champion interoperable, machine‑actionable metadata and well‑documented, data‑centric APIs. See our overview of <a href="/about/standards/">Standards & Best Practices</a>.</p>
