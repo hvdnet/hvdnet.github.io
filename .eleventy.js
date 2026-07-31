@@ -49,6 +49,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/img");
 
+  // Global build date
+  eleventyConfig.addGlobalData("buildDate", () => new Date());
+
   // toISODate filter
   // example: {{ page.date | toISODate }}
   const toISODate = (dateString) => {
