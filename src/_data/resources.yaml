@@ -3,8 +3,8 @@
 #
 - name: FAIR Data Schema
   description: >
-    A JSON meta-schema for representing high-value datasets.
-    Facilitates the use and adoption FIAR and CDIF data documentation best practices by information technologists 
+    A JSON meta-schema for describing high-value datasets.
+    Facilitates the use and adoption of FAIR and CDIF data documentation best practices by information technologists 
     by using industry standard JSON technology stack.
   tags:
     - JSON-Schema
@@ -56,6 +56,7 @@
     - DDI
     - Croissant
   coming_soon: true
+  url: https://api.highvaluedata.net/fairproxy
   icon: bi-arrow-left-right
 
 - name: Rich Data Services
