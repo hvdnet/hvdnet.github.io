@@ -3,28 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HVDNet API | Standardized FAIR Data Access</title>
-    <meta name="description" content="Build on the HVDNet API to access standardized metadata across Socrata, MTNA RDS, and US Census platforms. Make your data machine-actionable." />
+    <title>High-Value Data Hosting &amp; RDS Server | HVDNet</title>
+    <meta name="description" content="Access our hosted Rich Data Services (RDS) server for pilot datasets and proof of concepts. Host your datasets for the greater good of user communities." />
     <meta name="author" content="Pascal Heus" />
-    <meta name="keywords" content="HVDNet API, open data API, metadata API, Socrata API, MTNA RDS, US Census API, FAIR API" />
+    <meta name="keywords" content="data hosting, RDS server, Rich Data Services, pilot datasets, hosting proof of concept" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.highvaluedata.net/services/api/" />
-    <meta property="og:title" content="HVDNet API | Standardized FAIR Data Access" />
-    <meta property="og:description" content="Build on the HVDNet API to access standardized metadata across Socrata, MTNA RDS, and US Census platforms. Make your data machine-actionable." />
+    <meta property="og:url" content="https://www.highvaluedata.net/resources/hosting/" />
+    <meta property="og:title" content="High-Value Data Hosting &amp; RDS Server | HVDNet" />
+    <meta property="og:description" content="Access our hosted Rich Data Services (RDS) server for pilot datasets and proof of concepts. Host your datasets for the greater good of user communities." />
     <meta property="og:image" content="https://www.highvaluedata.net/assets/img/hvdnet_hero_bg.jpg" />
     <meta property="og:site_name" content="High-Value Data Network (HVDNet)" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://www.highvaluedata.net/services/api/" />
-    <meta name="twitter:title" content="HVDNet API | Standardized FAIR Data Access" />
-    <meta name="twitter:description" content="Build on the HVDNet API to access standardized metadata across Socrata, MTNA RDS, and US Census platforms. Make your data machine-actionable." />
+    <meta name="twitter:url" content="https://www.highvaluedata.net/resources/hosting/" />
+    <meta name="twitter:title" content="High-Value Data Hosting &amp; RDS Server | HVDNet" />
+    <meta name="twitter:description" content="Access our hosted Rich Data Services (RDS) server for pilot datasets and proof of concepts. Host your datasets for the greater good of user communities." />
     <meta name="twitter:image" content="https://www.highvaluedata.net/assets/img/hvdnet_hero_bg.jpg" />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.highvaluedata.net/services/api/" />
+    <link rel="canonical" href="https://www.highvaluedata.net/resources/hosting/" />
 
     <!-- Structured Data (JSON-LD Schema) -->
     
@@ -32,9 +32,9 @@
       {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "HVDNet API | Standardized FAIR Data Access",
-  "description": "Build on the HVDNet API to access standardized metadata across Socrata, MTNA RDS, and US Census platforms. Make your data machine-actionable.",
-  "url": "https://www.highvaluedata.net/services/api/"
+  "name": "High-Value Data Hosting & RDS Server | HVDNet",
+  "description": "Access our hosted Rich Data Services (RDS) server for pilot datasets and proof of concepts. Host your datasets for the greater good of user communities.",
+  "url": "https://www.highvaluedata.net/resources/hosting/"
 }
 
     </script>
@@ -110,7 +110,7 @@
   </head>
   <body>
     <div class="bg-warning text-dark text-center py-1 small fw-semibold">
-  ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20(/services/api/)" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
+  ⚠️ This site and its services are in early development. Expect partial content, changes, and preview features. <a href="https://docs.google.com/forms/d/e/1FAIpQLScEANtMdgcI67PRfUJe1SO_BrZROlFDnP79E4IIhvunhk8Oew/viewform?usp=pp_url&entry.273919772=HVDNet%20Website%20(/resources/hosting/)" target="_blank" rel="noopener noreferrer">Feedback</a> appreciated! ⚠️ 
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
@@ -128,11 +128,11 @@
             <span class="nav-text">Home</span>
           </a>
         </li>
-        <!-- Services section temporarily disabled -->
+        <!-- Resources section temporarily disabled -->
         
         <li class="nav-item">
-          <a class="nav-link active" href="/services/">
-            <span class="nav-text">Services</span>
+          <a class="nav-link active" href="/resources/">
+            <span class="nav-text">Resources</span>
           </a>
         </li>
         <li class="nav-item dropdown">
@@ -184,56 +184,9 @@
 </nav>
 
     <main class="container mt-4 main-content-area">
-      <h1>HVDNet API</h1>
-<p>Our API serves as the foundation for our vision and services, focusing on simplifying dataset discovery, access, and utilization through standards-based metadata. By enforcing a robust standardization layer over diverse APIs from multiple platforms and public data services, it ensures alignment on FAIR principles and related best practices.</p>
-<p>We are also developing a suite of utility services to facilitate the creation and use of machine-actionable data and metadata.</p>
-<p>Explore and experiment with the API using our <a href="https://www.highvaluedata.net/playground" target="_blank" rel="noopener noreferrer">Playground</a> web application.</p>
-<p>Consult the documentation below for more information:</p>
-<ul>
-<li><a href="/resources/api/redoc">Redoc</a></li>
-<li><a href="/resources/api/scalar">Scalar</a></li>
-<li><a href="/resources/api/swagger">Swagger</a></li>
-</ul>
-<h2 class="mt-4">Resource Identifiers</h2>
-<p>Uniquely identifying resources is always a challenge. While these may in some cases exists (e.g. DOI), this is not generally available for most high-value datasets and related entities.</p>
-<p>For the HVDNet API, we are using the following platform/service dependent schemes to identify servers, catalogs, and datasets:</p>
-<table class="table table-sm">
-<thead>
-<tr>
-<th>Platform</th>
-<th>Scheme</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MTNA RDS</td>
-<td><code>mtnards:&lt;server_id&gt;:&lt;catalog_id&gt;:&lt;dataset_id&gt;</code></td>
-<td><code>mtnards:rds.highvaluedata.net:us_anes:anes1948</code></td>
-</tr>
-<tr>
-<td>Socrata</td>
-<td><code>socrata:&lt;server_id&gt;:&lt;dataset_id&gt;</code></td>
-<td><code>socrata:data.calgary.ca:iahh-g8bj</code></td>
-</tr>
-<tr>
-<td>U.S. Census Bureau</td>
-<td><code>uscensus:api.census.gov:&lt;dataset_id&gt;</code></td>
-<td><code>uscensus:api.census.gov:&lt;dataset_id&gt;</code></td>
-</tr>
-</tbody>
-</table>
-<div class="mt-4"/>
-<h2 class="mt-4">Datasets services</h2>
-<p>The <code>/datasets</code> endpoints generates standardized metadata based on the information available from the back-end platforms. This is not always ideal as metadata exposed by the is typically proprietary and sparse. Future versions will add knowledge inference services that will generate new metadata from the data and available documentation. The current implementation is experimental, particularly for new or emerging specifications such as DDI-CDI and Croissant.</p>
-<p>In addition, the dataset services include a data-centric Postman Collection generator, which is used to populate public workspaces for various data publishers.</p>
-<p>A markdown generator is also included to produce both human and AI friendly documentation.</p>
-<p>At this time, these features are being implemented for the following platforms and public API:</p>
-<ul>
-<li><a href="https://www.tylertech.com/solutions/transformative-technology/data-insights" target="_blank" rel="noopener noreferrer">Socrata / Data Insights</a></li>
-<li><a href="https://www.richdataservices.com" target="_blank" rel="noopener noreferrer">MTNA Rich Data Service</a></li>
-<li><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau API</a></li>
-</ul>
+      <h1>HVDNet Data Hosting</h1>
+<p>Thanks to our partner <a href="https://www.mtna.us" target="_blank" rel="noopener noreferrer">Metadata Technology North America (MTNA)</a>, we host our own <a href="https://www.richdataservices.com" target="_blank" rel="noopener noreferrer">Rich Data Services</a> server which you can access at <a href="https://rds.highvaluedata.net/rds" target="_blank" rel="noopener noreferrer">https://rds.highvaluedata.net/rds</a>. We use this server with pilot datasets to demonstrate the benefits of delivering high-value data over APIs as well as a public services.</p>
+<p>While we generally encourage data publishers to deploy API driven data and metadata services on their own infrastructure, we are happy to host datasets for evaluation / proof of concept purposes or for the greater good of user communities. Contact us with your use case for more information.</p>
 
     </main>
     <footer class="footer">
@@ -244,7 +197,7 @@
       <span class="text-muted" style="margin: 0 var(--space-2);">&middot;</span>
       <a href="/terms/">Terms of Service</a>
     </div>
-    <p class="text-muted">Last updated: 2026-06-24</p>
+    <p class="text-muted">Last updated: 2026-07-31</p>
   </div>
 </footer>
 
