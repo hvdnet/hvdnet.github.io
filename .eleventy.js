@@ -42,6 +42,9 @@ export default function (eleventyConfig) {
   // YAML Data Support
   eleventyConfig.addDataExtension("yaml,yml", (contents) => yaml.load(contents));
 
+  // Watch Targets
+  eleventyConfig.addWatchTarget("./src/_data/");
+
   // Static assets
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/img");

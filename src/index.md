@@ -90,9 +90,9 @@ schema: |
         <h5 class="card-title">What to do here?</h5>
         <p class="card-text">
         <ul>
-        <li><a href="/services/api">Use our APIs</a> to access standards based metadata for popular high-value datasets</li>
+        <li><a href="/resources/api">Use our APIs</a> to access standards based metadata for popular high-value datasets</li>
         <li>... or visit our <a href="https://www.highvaluedata.net/playground" target="_blank" rel="noopener noreferrer">Playground</a> webapp to explore in your browser</li>
-        <li>Browse our <a href="/services/api">catalog</a> of data-centric Postman workspaces</li>
+        <li>Browse our <a href="/resources/api">catalog</a> of data-centric Postman workspaces</li>
         <li>Share your thoughts, feedback, suggestion, or contact us for <a href="/about/partners/">collaboration</a></li>
         </ul>
         </p>
@@ -181,9 +181,9 @@ Our strategy is built upon the following pillars:
         <p class="card-text">Hosted public services and tools to complement public data APIs with standards-based metadata, facilitate data users' common tasks, or integrate with AI.</p>
       </div>
       <div class="card-footer bg-transparent text-center">
-        <a href="/services/"
+        <a href="/resources/"
           class="btn btn-primary btn-sm">
-          View Services
+          View Resources
         </a>
       </div>
     </div>

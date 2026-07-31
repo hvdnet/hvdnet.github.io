@@ -1,6 +1,20 @@
-# HVDNet Services
+# HVDNet Resources
 # Bootstrap icons: https://icons.getbootstrap.com/
 #
+- name: FAIR Data Schema
+  description: >
+    A JSON meta-schema for representing high-value datasets.
+    Facilitates the use and adoption FIAR and CDIF data documentation best practices by information technologists 
+    by using industry standard JSON technology stack.
+  tags:
+    - JSON-Schema
+    - FAIR
+    - CDIF
+    - Interoperability
+  url: https://www.highvaluedata.net/fair-data-schema/
+  github: https://github.com/hvdnet/fair-data-schema
+  icon: bi-diagram-3
+
 - name: Fundamental Physical Constants
   description: >
     A semantic gateway to the latest and historical physical fundamental constants published 
@@ -19,7 +33,7 @@
 - name: HVDNet File Manager
   description: >
     Web based application and API to manage your project files in the High-Value Data Network environment.
-    To be used with our APIs and other FAIRification services.
+    To be used with our APIs and other FAIRification resources.
     Contact support@highvaluedata.net for a free account.
   tags:
     - Application

@@ -9,7 +9,7 @@ schema: |
     "@type": "WebPage",
     "name": "HVDNet API | Standardized FAIR Data Access",
     "description": "Build on the HVDNet API to access standardized metadata across Socrata, MTNA RDS, and US Census platforms. Make your data machine-actionable.",
-    "url": "https://www.highvaluedata.net/services/api/"
+    "url": "https://www.highvaluedata.net/resources/api/"
   }
 ---
 
@@ -20,12 +20,6 @@ Our API serves as the foundation for our vision and services, focusing on simpli
 We are also developing a suite of utility services to facilitate the creation and use of machine-actionable data and metadata.
 
 Explore and experiment with the API using our [Playground](https://www.highvaluedata.net/playground){target="_blank" rel="noopener noreferrer"} web application.
-
-Consult the documentation below for more information:
-
-- [Redoc](/resources/api/redoc)
-- [Scalar](/resources/api/scalar)
-- [Swagger](/resources/api/swagger)
 
 
 ## Resource Identifiers{.mt-4}

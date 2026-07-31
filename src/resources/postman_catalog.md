@@ -9,7 +9,7 @@ schema: |
     "@type": "WebPage",
     "name": "Postman Workspaces for Open Data Portals | HVDNet",
     "description": "Browse data-centric Postman collections and workspaces generated for Socrata and MTNA RDS platforms. Easily integrate datasets into your workflows.",
-    "url": "https://www.highvaluedata.net/services/postman_catalog/"
+    "url": "https://www.highvaluedata.net/resources/postman_catalog/"
   }
 ---
 

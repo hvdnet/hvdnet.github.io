@@ -9,7 +9,7 @@ schema: |
     "@type": "WebPage",
     "name": "High-Value Data Hosting & RDS Server | HVDNet",
     "description": "Access our hosted Rich Data Services (RDS) server for pilot datasets and proof of concepts. Host your datasets for the greater good of user communities.",
-    "url": "https://www.highvaluedata.net/services/hosting/"
+    "url": "https://www.highvaluedata.net/resources/hosting/"
   }
 ---
 

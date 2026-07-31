@@ -9,7 +9,7 @@ schema: |
     "@type": "WebPage",
     "name": "HVDNet Applications | Playgrounds & Catalogs",
     "description": "Try the HVDNet Playground and browse our data-centric Postman collection catalog to discover, test, and integrate high-value datasets.",
-    "url": "https://www.highvaluedata.net/services/apps/"
+    "url": "https://www.highvaluedata.net/resources/apps/"
   }
 ---
 
@@ -36,7 +36,7 @@ schema: |
         <p class="card-text">Search catalog of HVDnet data-centric collections available in Postman public workspaces.</p>
       </div>
       <div class="card-footer bg-primary text-center">
-        <a href="/services/postman_catalog" class="btn btn-primary btn-sm">
+        <a href="/resources/postman_catalog" class="btn btn-primary btn-sm">
           Browse
         </a>
       </div>

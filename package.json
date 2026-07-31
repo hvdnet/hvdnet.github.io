@@ -12,6 +12,7 @@
     "sass": "^1.93.3"
   },
   "dependencies": {
+    "js-yaml": "^4.1.0",
     "markdown-it": "^14.2.0",
     "markdown-it-attrs": "^4.3.1"
   }
