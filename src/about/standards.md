@@ -12,6 +12,7 @@ schema: |
     "url": "https://www.highvaluedata.net/about/standards/"
   }
 ---
+
 # Standards and Best Practices{.mb-4}
 
 <h2 class="mt-4"><i class="bi bi-compass me-2 text-accent"></i>Guiding Principles</h2>
@@ -20,9 +21,28 @@ Machine-actionable metadata is essential for enabling data scientists, developer
 
 Our project is guided by the [FAIR data principles](https://www.go-fair.org/fair-principles/) - emphasizing Findability, Accessibility, Interoperability, and Reusability — which provide a framework for making data and metadata more useful and actionable across diverse platforms and communities. In addition, we align with the [CODATA cross-domain integration framework (CDIF)](https://cdif.codata.org) recommendations, which emphasize the harmonization of metadata standards and practices to facilitate seamless data exchange and integration across scientific and technical domains. By adopting these principles, we aim to foster a robust data ecosystem that supports innovation, collaboration, and reproducibility.
 
+<h2 class="mt-4"><i class="bi bi-diagram-3 me-2 text-accent"></i>FAIR Data Schema</h2>
+
+Developed under the umbrella of the High-Value Data Network, the [FAIR Data Schema](https://hvdnet.github.io/fair-data-schema/){target="_blank" rel="noopener noreferrer"} is an open JSON meta-schema specification designed to bring FAIR data principles directly into modern software engineering workflows.
+
+### Bridging Domain Standards and Modern Software
+
+A persistent challenge in data management has been the gap between two distinct universes:
+- **The Dataverse**: Data practitioners and researchers who rely on rich domain standards (such as DCAT, DDI-CDI, SDMX, and Croissant) often expressed in RDF, XML, or specialized semantic formats.
+- **The Technoverve**: Software engineers, cloud architects, and API developers who build applications using mainstream IT technology stacks like JSON, YAML, OpenAPI, Pydantic, TypeScript, and Rust.
+
+The FAIR Data Schema serves as a **pragmatic, bi-directional bridge** between these worlds. It translates rich domain standards into developer-friendly representations, allowing information technologists and data practitioners to collaborate seamlessly without sacrificing semantic rigor.
+
+### Grounded in Simplicity & Developer Ergonomics
+
+By prioritizing simplicity, developer ergonomics, and native JSON Schema validation, the FAIR Data Schema lowers the barrier to adopting FAIR and CDIF best practices:
+- **Native Tooling**: Uses standard JSON/YAML syntax compatible with standard IDE autocompletion, linters, and schema validators.
+- **Multi-Language SDKs**: Supported by native SDKs (Python/Pydantic, TypeScript/Zod, Rust/Serde) for effortless API and application integration.
+- **Seamless Alignment**: Maps cleanly to established domain frameworks (DCAT, DDI-CDI, CDIF profiles, SDMX, and schema.org) to ensure metadata remains fully interoperable across ecosystems.
+
 <h2 class="mt-4"><i class="bi bi-diagram-2 me-2 text-accent"></i>Domain Standards</h2>
 
-Our project leverages the FAIR and CDIF standards as foundational frameworks for metadata management and data interoperability. By implementing these standards, we ensure that our metadata is structured, discoverable, and reusable across domains.  This combination supports robust data sharing, integration, and automation within our ecosystem.
+Our project leverages the FAIR and CDIF standards as foundational frameworks for metadata management and data interoperability. By implementing these standards, we ensure that our metadata is structured, discoverable, and reusable across domains. This combination supports robust data sharing, integration, and automation within our ecosystem.
 
 A brief overview of the specifications are provided below. Consult their respective home page and related resources for more information.
 
@@ -30,18 +50,18 @@ Note that you of course do not need to use all of these standards in every proje
 
 | Standard | Description / Recommended Use |
 | :--- | :--- |
-| <i class="bi bi-collection text-accent me-2"></i> **DCAT** | Describe datasets and data catalogs for discovery, access, and interoperability, especially for open data portals and FAIR data initiatives. <br><span class="app-card-tag mt-2 d-inline-block">Discovery & Catalogs</span> |
-| <i class="bi bi-book-half text-accent me-2"></i> **DDI Codebook** | Document social science datasets in detail, focusing on study-level metadata, methodologies, and variables for research repositories. <br><span class="app-card-tag mt-2 d-inline-block">Research & Surveys</span> |
-| <i class="bi bi-intersect text-accent me-2"></i> **DDI-CDI** | Integrate and harmonize complex datasets across domains, modeling data relationships and provenance for cross-domain research and enterprise integration. <br><span class="app-card-tag mt-2 d-inline-block">Cross-Domain Integration</span> |
-| <i class="bi bi-box-seam text-accent me-2"></i> **Frictionless Data Package** | Package and describe tabular datasets in a lightweight, language-agnostic way for sharing, validation, and integration, especially with CSV files. <br><span class="app-card-tag mt-2 d-inline-block">Tabular Packaging</span> |
-| <i class="bi bi-bezier2 text-accent me-2"></i> **MLCommons Croissant** | Describe machine learning datasets with rich, standardized metadata for discoverability, interoperability, and integration with ML pipelines. <br><span class="app-card-tag mt-2 d-inline-block">Machine Learning & AI</span> |
-| <i class="bi bi-shield-lock text-accent me-2"></i> **ODRL** | Specify and automate policies for rights, permissions, and obligations regarding digital resources, supporting licensing and compliance. <br><span class="app-card-tag mt-2 d-inline-block">Rights & Policy</span> |
-| <i class="bi bi-clock-history text-accent me-2"></i> **PROV-O** | Capture and represent provenance of data and processes for transparency, reproducibility, and auditability in data workflows. <br><span class="app-card-tag mt-2 d-inline-block">Provenance & Lineage</span> |
-| <i class="bi bi-archive text-accent me-2"></i> **RO-Crate** | Package research data, software, workflows, and metadata into a portable archive to support reproducibility, sharing, and FAIR research outputs. <br><span class="app-card-tag mt-2 d-inline-block">Research Packaging</span> |
-| <i class="bi bi-tags text-accent me-2"></i> **schema-org** | Annotate datasets for improved discoverability and interoperability on the web, enhancing indexing and integration with search engines. <br><span class="app-card-tag mt-2 d-inline-block">Web Discovery</span> |
-| <i class="bi bi-bar-chart-line text-accent me-2"></i> **SDMX** | Exchange and integrate statistical data and metadata between organizations, especially for official statistics and international reporting. <br><span class="app-card-tag mt-2 d-inline-block">Official Statistics</span> |
-| <i class="bi bi-tree text-accent me-2"></i> **SKOS** | Represent and share controlled vocabularies, taxonomies, and classification schemes in a machine-readable way for semantic search and integration. <br><span class="app-card-tag mt-2 d-inline-block">Semantic & Vocabularies</span> |
-| <i class="bi bi-diagram-3 text-accent me-2"></i> **XKOS** | Model complex statistical classifications and mappings between classification systems, supporting detailed analysis and integration in statistics and social sciences. <br><span class="app-card-tag mt-2 d-inline-block">Statistical Classifications</span> |
+| <i class="bi bi-collection text-accent me-2"></i> **<a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank" rel="noopener noreferrer">DCAT</a>** | Describe datasets and data catalogs for discovery, access, and interoperability, especially for open data portals and FAIR data initiatives. <br><span class="app-card-tag mt-2 d-inline-block">Discovery & Catalogs</span> |
+| <i class="bi bi-book-half text-accent me-2"></i> **<a href="https://ddialliance.org/ddi-codebook" target="_blank" rel="noopener noreferrer">DDI Codebook</a>** | Document social science datasets in detail, focusing on study-level metadata, methodologies, and variables for research repositories. <br><span class="app-card-tag mt-2 d-inline-block">Research & Surveys</span> |
+| <i class="bi bi-intersect text-accent me-2"></i> **<a href="https://ddialliance.org/ddi-cdi" target="_blank" rel="noopener noreferrer">DDI-CDI</a>** | Integrate and harmonize complex datasets across domains, modeling data relationships and provenance for cross-domain research and enterprise integration. <br><span class="app-card-tag mt-2 d-inline-block">Cross-Domain Integration</span> |
+| <i class="bi bi-box-seam text-accent me-2"></i> **<a href="https://datapackage.org/" target="_blank" rel="noopener noreferrer">Frictionless Data Package</a>** | Package and describe tabular datasets in a lightweight, language-agnostic way for sharing, validation, and integration, especially with CSV files. <br><span class="app-card-tag mt-2 d-inline-block">Tabular Packaging</span> |
+| <i class="bi bi-bezier2 text-accent me-2"></i> **<a href="https://mlcommons.org/croissant/" target="_blank" rel="noopener noreferrer">MLCommons Croissant</a>** | Describe machine learning datasets with rich, standardized metadata for discoverability, interoperability, and integration with ML pipelines. <br><span class="app-card-tag mt-2 d-inline-block">Machine Learning & AI</span> |
+| <i class="bi bi-shield-lock text-accent me-2"></i> **<a href="https://www.w3.org/TR/odrl-model/" target="_blank" rel="noopener noreferrer">ODRL</a>** | Specify and automate policies for rights, permissions, and obligations regarding digital resources, supporting licensing and compliance. <br><span class="app-card-tag mt-2 d-inline-block">Rights & Policy</span> |
+| <i class="bi bi-clock-history text-accent me-2"></i> **<a href="https://www.w3.org/TR/prov-o/" target="_blank" rel="noopener noreferrer">PROV-O</a>** | Capture and represent provenance of data and processes for transparency, reproducibility, and auditability in data workflows. <br><span class="app-card-tag mt-2 d-inline-block">Provenance & Lineage</span> |
+| <i class="bi bi-archive text-accent me-2"></i> **<a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreferrer">RO-Crate</a>** | Package research data, software, workflows, and metadata into a portable archive to support reproducibility, sharing, and FAIR research outputs. <br><span class="app-card-tag mt-2 d-inline-block">Research Packaging</span> |
+| <i class="bi bi-tags text-accent me-2"></i> **<a href="https://schema.org/" target="_blank" rel="noopener noreferrer">schema.org</a>** | Annotate datasets for improved discoverability and interoperability on the web, enhancing indexing and integration with search engines. <br><span class="app-card-tag mt-2 d-inline-block">Web Discovery</span> |
+| <i class="bi bi-bar-chart-line text-accent me-2"></i> **<a href="https://sdmx.org/" target="_blank" rel="noopener noreferrer">SDMX</a>** | Exchange and integrate statistical data and metadata between organizations, especially for official statistics and international reporting. <br><span class="app-card-tag mt-2 d-inline-block">Official Statistics</span> |
+| <i class="bi bi-tree text-accent me-2"></i> **<a href="https://www.w3.org/2004/02/skos/" target="_blank" rel="noopener noreferrer">SKOS</a>** | Represent and share controlled vocabularies, taxonomies, and classification schemes in a machine-readable way for semantic search and integration. <br><span class="app-card-tag mt-2 d-inline-block">Semantic & Vocabularies</span> |
+| <i class="bi bi-diagram-3 text-accent me-2"></i> **<a href="https://ddialliance.org/xkos" target="_blank" rel="noopener noreferrer">XKOS</a>** | Model complex statistical classifications and mappings between classification systems, supporting detailed analysis and integration in statistics and social sciences. <br><span class="app-card-tag mt-2 d-inline-block">Statistical Classifications</span> |
 
 <h3 class="mt-4" id="dcat"><i class="bi bi-collection me-2 text-accent"></i>DCAT</h3>
 
@@ -116,4 +136,3 @@ _Use SKOS when you need to represent, share, or link controlled vocabularies, ta
 The DDI Alliance [Extended Knowledge Organization System XKOS](https://ddialliance.org/xkos) specification extends the W3C SKOS standard to better support the representation of statistical classifications and related structures. XKOS introduces additional concepts and properties for describing hierarchical relationships, classification levels, and correspondences between classifications. This enables more precise modeling and interoperability of statistical and social science classifications, supporting improved data integration, analysis, and reuse across organizations and domains.
 
 _Use XKOS when you need to represent complex statistical classifications, such as hierarchical taxonomies or mappings between classification systems, in a machine-readable format. It is particularly useful for projects that require detailed modeling of classification structures, levels, and correspondences—such as official statistics, social science research, or data integration tasks involving multiple classification schemes._
-
