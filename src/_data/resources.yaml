@@ -1,19 +1,32 @@
 # HVDNet Resources
 # Bootstrap icons: https://icons.getbootstrap.com/
 #
-- name: FAIR Data Schema
+- name: FAIR Data Schema Specifications
   description: >
     A JSON meta-schema for describing high-value datasets.
     Facilitates the use and adoption of FAIR and CDIF data documentation best practices by information technologists 
     by using industry standard JSON technology stack.
   tags:
-    - JSON-Schema
     - FAIR
     - CDIF
+    - JSON-Schema
     - Interoperability
   url: https://www.highvaluedata.net/fair-data-schema/
   github: https://github.com/hvdnet/fair-data-schema
   icon: bi-diagram-3
+
+- name: FAIR Data Schema API
+  description: >
+    A RESTful web API for validating JSON schemas against FAIR Data extension vocabularies,
+    linting semantic quality, and converting schemas to RO-Crate 1.1, CDIF 1.1, and Croissant 1.1 formats.
+  tags:
+    - FAIR
+    - CDIF
+    - JSON-Schema
+    - OpenAPI
+  url: https://api.highvaluedata.net/fair-data-schema/
+  github: https://github.com/hvdnet/fair-data-schema
+  icon: bi-server
 
 - name: Fundamental Physical Constants
   description: >
